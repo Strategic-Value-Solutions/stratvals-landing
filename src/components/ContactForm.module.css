@@ -1,0 +1,205 @@
+.mainWrapper {
+  width: 100%;
+  max-width: 1270px;
+  margin: 0 auto;
+}
+
+.secondaryTitle .h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  color: var(--white-color);
+  margin-bottom: 40px;
+}
+
+.categorySelect {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding-bottom: 80px;
+}
+
+.categoryItem {
+  position: relative;
+  margin: 0;
+}
+
+.categoryItem input[type="checkbox"] {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.categoryItem label {
+  cursor: pointer;
+  position: relative;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 150%;
+  color: var(--white-color);
+  padding: 0 20px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.categoryItem label::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 68px;
+  background-color: transparent;
+  border: 1px solid var(--white-color);
+  border-radius: 50px;
+  top: 50%;
+  right: 0;
+  left: 0;
+  transform: translateY(-50%);
+  transition: all 400ms ease;
+  z-index: -1;
+}
+
+.categoryItem input[type="checkbox"]:checked + label::before {
+  background: var(--btn-color);
+  border-color: var(--btn-color);
+}
+
+.contactForm {
+  width: 100%;
+}
+
+.formGroup {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.halfInputRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.formGroup.halfInput {
+  width: 100%;
+  max-width: 48%;
+}
+
+.formLabel {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 125%;
+  color: var(--white-color);
+  position: absolute;
+  top: 0px;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.formGroup.focused .formLabel {
+  font-size: 20px;
+  top: -30px;
+  color: var(--banner-span-color);
+}
+
+.formGroup input,
+.formGroup textarea,
+.formGroup select {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--white-color);
+  box-shadow: none;
+  outline: none;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 125%;
+  color: var(--white-color);
+  border-radius: 0;
+  padding-bottom: 16px;
+  transition: border-color 0.3s;
+}
+
+.formGroup textarea {
+  font-size: 36px;
+  resize: none;
+  overflow: hidden;
+}
+
+.formGroup select {
+  appearance: none;
+  padding-right: 30px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.formGroup select option {
+  background-color: #0a0429;
+  font-size: 24px;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus,
+.formGroup select:focus {
+  border-bottom-color: var(--btn-color);
+}
+
+.btnWrap {
+  margin-top: 40px;
+}
+
+@media(max-width: 1024px) {
+  .categoryItem label {
+    font-size: 20px;
+    height: 60px;
+  }
+  .categoryItem label::before {
+    height: 58px;
+  }
+}
+
+@media(max-width: 768px) {
+  .halfInputRow {
+    flex-direction: column;
+  }
+  
+  .formGroup.halfInput {
+    max-width: 100%;
+  }
+
+  .formGroup input,
+  .formGroup textarea,
+  .formGroup select {
+    font-size: 22px;
+  }
+
+  .formLabel {
+    font-size: 22px;
+  }
+  
+  .formGroup.focused .formLabel {
+    font-size: 18px;
+  }
+}
+
+@media(max-width: 575px) {
+  .categorySelect {
+    gap: 18px;
+  }
+  
+  .categoryItem label {
+    font-size: 16px;
+    height: 50px;
+  }
+  
+  .categoryItem label::before {
+    height: 48px;
+  }
+}

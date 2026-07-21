@@ -1,34 +1,16 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  --background: #0f1115;
+  --foreground: #ffffff;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  --primary: #2B7FFF;
+  --secondary: #EDB120;
+  --accent: #8AC29D;
+  --gradient-1: linear-gradient(95deg, #2B7FFF 8.8%, #8AC29D 50.03%, #FFB400 84.98%);
+  
+  --card-bg: rgba(30, 35, 46, 0.6);
+  --card-border: rgba(255, 255, 255, 0.1);
 
-html {
-  height: 100%;
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --font-sans: var(--font-outfit), system-ui, sans-serif;
 }
 
 * {
@@ -37,13 +19,72 @@ body {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: clip;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+}
+
 a {
   color: inherit;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+.gradient-text {
+  background: var(--gradient-1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-spacing {
+  padding: 100px 0;
+}
+
+@media (max-width: 768px) {
+  .section-spacing {
+    padding: 60px 0;
   }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.circular-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.circular-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Utilities for flex */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

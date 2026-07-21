@@ -1,0 +1,198 @@
+.scrollContainer {
+  height: 300vh;
+  position: relative;
+}
+
+.stickyContent {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: var(--background);
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.content {
+  flex: 1;
+  max-width: 400px;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.dotList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.tabBtn {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.25rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+  transition: color 0.3s ease;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.tabBtn::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+  border-radius: 50%;
+  margin-right: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.tabBtn:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.tabBtn.active {
+  color: var(--secondary);
+}
+
+.tabBtn.active::before {
+  background-color: var(--secondary);
+}
+
+.imageContainer {
+  flex: 2;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageBox {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  aspect-ratio: 16 / 10;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.workImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.imagePlaceholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(43, 127, 255, 0.2), rgba(237, 177, 32, 0.2));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.placeholderText {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+}
+
+.caseStudyBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  background: rgba(15, 17, 21, 0.8);
+  backdrop-filter: blur(5px);
+  color: white;
+}
+
+.caseStudyBtn:hover {
+  background: var(--primary);
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+.circleTextWrapper {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  animation: rotate 10s linear infinite;
+}
+
+.circleTextWrapper svg {
+  width: 100%;
+  height: 100%;
+  fill: white;
+}
+
+.arrowIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content {
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+    flex: none;
+  }
+  .imageContainer {
+    flex: none;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .dotList {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .tabBtn::before {
+    display: none;
+  }
+  .tabBtn {
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 30px;
+  }
+  .tabBtn.active {
+    background: var(--secondary);
+    color: var(--background);
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "a-complete-guide-to-enterprise-application-development-9": {
+    "title": "A Complete Guide to Enterprise Application Development",
+    "content": [
+      "Sep 22, 2023  3 Min Read",
+      "Hyva Theme is the latest and fastest theme ever available for Magento frontend. More than 1,500 live websites are using Hyva Theme across 21+ countries. Hyva uses the latest technologies like Alpine.js, Tailwind CSS, and GraphQL, which replace RequireJS and Knockout.js from the front end, making Magento attractive, optimized, user-friendly, and faster loading, which helps in Google Page Speed.",
+      "Traditional Magento Themes Inherit Luma or Blank themes use jQuery and Less, whereas Hyva uses the latest technologies like Alpine JS and Tailwind CSS. These are much lighter and faster than traditional technologies. As a consequence, Hyva loads pages faster compared to the traditional Hyva theme.",
+      "Hyva theme removes all the XML structures used by Luma and Blank themes and starts as a fresh theme. Hyva removes all JQuery files and replaces them with Alpine.js. Additionally, all CSS/Less is removed and Tailwind CSS is used. For those who do not know, Tailwind is a CSS Framework that has HTML class-based structures to apply CSS that can reduce CSS output by 70%+ compared to traditional Less and CSS files. For content, it’s using Alpine.js which is compatible with GraphQL APIs, that is faster than other APIs.",
+      "Hyva Theme removed the use of RequireJS, old JS libraries and traditional Less files, and Knockout from the storefront and added Alpine.js, the lightest JS framework ever available. It is HTML-centric, so developers can write Alpine.js inside HTML tags, which reduces unusual content loading time and other processing time of RequireJS, other JS libraries, Less/CSS which come with traditional Luma-based themes. With Tailwind CSS, Hyva gets faster CSS loading in the storefront than other traditional methods.",
+      "PWA (Progressive Web App) is mostly preferred for its performance. When you use PWA on mobile, it offers the same experience as a native app, however, it takes a lot of time to develop. It requires development from scratch and takes more time to fix SEO-related issues. When we look at Hyva Theme performance, it’s comparable with less development time and resources.",
+      "Hyva has a large developer community with Hyva core team members, you can expect a faster response from this community. Nowadays, most extension developers like Amasty, Aheadworks, Webkul, Mageworx, Mirasvit, Magecomp, and Snowdog offer Hyva-compatible extensions for their customers.",
+      "Hyva provides 16 UI components free with their theme which includes multiple designs for header, footer, banner, categories, cookie-notice, notification, popup, product-card, slider, testimonial, USP section etc. You can choose and modify these UI components as per your requirements in different projects. Moreover, Hyva has many components in the pipeline like tabbing, accordion, and collapsable which will make development easier in the future.",
+      "Once one of your clients purchases a Hyva Theme, they will ask your development company for an email. Moreover, they will add you to GitLab and Slack. Therefore, it is possible for the company to have access to GitLab and Slack. Getting questions answered by the Hyva team or other members of the community is the quickest way.",
+      "Purchase the Hyva theme at https://www.hyva.io/ and place your order there.",
+      "The Hyva team emailed to register an email to make a payment for an order.",
+      "Once the Hyva team has confirmed payment, these credentials will be emailed to the email address you provided during registration. They will also create support accounts for clients.",
+      "Have an idea and wish to get in touch with our Magento Ecommerce developers? Contact us now.",
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    ]
+  },
+  "casestudy1": {
+    "title": "Granthalaya : Document Management System (DMS)",
+    "content": [
+      "Case Study",
+      "Good thing we also intuitively know how to build game-changing things. We paired our rockstar development team with the futuristic designers at BQE to develop a fully responsive site that integrated with their CMS of choice (and our personal favorite) HubSpot. Equipped with all the bells and whistles like full-service chat, downloadable demos and a dynamic resource hub, BQE was free to do what they do best — streamline their customers’ processes so THEY can do what they do best.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences.\nIn the midst of ever-increasing traffic, it has become a top priority for the client to find the right Magento eCommerce development company that can take over the AMC services and responsibility. It was high time for the owner to make sure of the 24 x 7 performance.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences."
+    ]
+  },
+  "casestudy2": {
+    "title": "Granthalaya : Document Management System (DMS)",
+    "content": [
+      "Case Study",
+      "Good thing we also intuitively know how to build game-changing things. We paired our rockstar development team with the futuristic designers at BQE to develop a fully responsive site that integrated with their CMS of choice (and our personal favorite) HubSpot. Equipped with all the bells and whistles like full-service chat, downloadable demos and a dynamic resource hub, BQE was free to do what they do best — streamline their customers’ processes so THEY can do what they do best.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences.\nIn the midst of ever-increasing traffic, it has become a top priority for the client to find the right Magento eCommerce development company that can take over the AMC services and responsibility. It was high time for the owner to make sure of the 24 x 7 performance.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences."
+    ]
+  },
+  "casestudy3": {
+    "title": "Granthalaya : Document Management System (DMS)",
+    "content": [
+      "Case Study",
+      "Good thing we also intuitively know how to build game-changing things. We paired our rockstar development team with the futuristic designers at BQE to develop a fully responsive site that integrated with their CMS of choice (and our personal favorite) HubSpot. Equipped with all the bells and whistles like full-service chat, downloadable demos and a dynamic resource hub, BQE was free to do what they do best — streamline their customers’ processes so THEY can do what they do best.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences.\nIn the midst of ever-increasing traffic, it has become a top priority for the client to find the right Magento eCommerce development company that can take over the AMC services and responsibility. It was high time for the owner to make sure of the 24 x 7 performance.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences."
+    ]
+  },
+  "casestudy4": {
+    "title": "Granthalaya : Document Management System (DMS)",
+    "content": [
+      "Case Study",
+      "Good thing we also intuitively know how to build game-changing things. We paired our rockstar development team with the futuristic designers at BQE to develop a fully responsive site that integrated with their CMS of choice (and our personal favorite) HubSpot. Equipped with all the bells and whistles like full-service chat, downloadable demos and a dynamic resource hub, BQE was free to do what they do best — streamline their customers’ processes so THEY can do what they do best.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences.\nIn the midst of ever-increasing traffic, it has become a top priority for the client to find the right Magento eCommerce development company that can take over the AMC services and responsibility. It was high time for the owner to make sure of the 24 x 7 performance.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences."
+    ]
+  },
+  "casestudy5": {
+    "title": "Granthalaya : Document Management System (DMS)",
+    "content": [
+      "Case Study",
+      "Good thing we also intuitively know how to build game-changing things. We paired our rockstar development team with the futuristic designers at BQE to develop a fully responsive site that integrated with their CMS of choice (and our personal favorite) HubSpot. Equipped with all the bells and whistles like full-service chat, downloadable demos and a dynamic resource hub, BQE was free to do what they do best — streamline their customers’ processes so THEY can do what they do best.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences.\nIn the midst of ever-increasing traffic, it has become a top priority for the client to find the right Magento eCommerce development company that can take over the AMC services and responsibility. It was high time for the owner to make sure of the 24 x 7 performance.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences."
+    ]
+  },
+  "casestudy6": {
+    "title": "Granthalaya : Document Management System (DMS)",
+    "content": [
+      "Case Study",
+      "Good thing we also intuitively know how to build game-changing things. We paired our rockstar development team with the futuristic designers at BQE to develop a fully responsive site that integrated with their CMS of choice (and our personal favorite) HubSpot. Equipped with all the bells and whistles like full-service chat, downloadable demos and a dynamic resource hub, BQE was free to do what they do best — streamline their customers’ processes so THEY can do what they do best.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences.\nIn the midst of ever-increasing traffic, it has become a top priority for the client to find the right Magento eCommerce development company that can take over the AMC services and responsibility. It was high time for the owner to make sure of the 24 x 7 performance.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences."
+    ]
+  },
+  "casestudy7": {
+    "title": "Granthalaya : Document Management System (DMS)",
+    "content": [
+      "Case Study",
+      "Good thing we also intuitively know how to build game-changing things. We paired our rockstar development team with the futuristic designers at BQE to develop a fully responsive site that integrated with their CMS of choice (and our personal favorite) HubSpot. Equipped with all the bells and whistles like full-service chat, downloadable demos and a dynamic resource hub, BQE was free to do what they do best — streamline their customers’ processes so THEY can do what they do best.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences.\nIn the midst of ever-increasing traffic, it has become a top priority for the client to find the right Magento eCommerce development company that can take over the AMC services and responsibility. It was high time for the owner to make sure of the 24 x 7 performance.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences."
+    ]
+  },
+  "casestudy8": {
+    "title": "Granthalaya : Document Management System (DMS)",
+    "content": [
+      "Case Study",
+      "Good thing we also intuitively know how to build game-changing things. We paired our rockstar development team with the futuristic designers at BQE to develop a fully responsive site that integrated with their CMS of choice (and our personal favorite) HubSpot. Equipped with all the bells and whistles like full-service chat, downloadable demos and a dynamic resource hub, BQE was free to do what they do best — streamline their customers’ processes so THEY can do what they do best.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences.\nIn the midst of ever-increasing traffic, it has become a top priority for the client to find the right Magento eCommerce development company that can take over the AMC services and responsibility. It was high time for the owner to make sure of the 24 x 7 performance.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences."
+    ]
+  },
+  "product-road-mapping-engineering": {
+    "title": "From Legacy Systems to Digital Excellence: The Tech Transformation Journey",
+    "content": [
+      "service/Product Road Mapping  & Engineering",
+      "We are an executives' consulting and professional services firm with experience in e-Commerce, Logistics (3PL/4PL), Healthcare, Construction, Manufacturing, and Real Estate. We support executives in achieving strategic objectives and driving business outcome.",
+      "To get a clear understanding of the project, market, audience and the strategic drivers.",
+      "To get a clear understanding of the project, market, audience and the strategic drivers.",
+      "To get a clear understanding of the project, market, audience and the strategic drivers.",
+      "To get a clear understanding of the project, market, audience and the strategic drivers.",
+      "To get a clear understanding of the project, market, audience and the strategic drivers.",
+      "To get a clear understanding of the project, market, audience and the strategic drivers.",
+      "It is in our DNA. We always deliver what we promise in terms of delivering projects with quality within the given time frame.",
+      "Brands trust us because of our greater attention to detail and human-touch approach to build business solutions.",
+      "Our clients always are aware of what we do. We maintain 24×7 integrity in communicating, working, and reporting.",
+      "Our team’s flexibility in adapting to project demands helps us to enhance support services to clients from all over the world.",
+      "I couldn't be happier with my experience. The product quality exceeded my expectations, and the customer service was exceptional. I highly recommend this company!\"",
+      "\"The website was easy to navigate, and I found exactly what I was looking for. The delivery was quick, and the item arrived in perfect condition. I'll definitely be shopping here again.\"",
+      "\"I've made several purchases from this website, and I've never been disappointed. The variety of products is impressive, and the prices are competitive.”",
+      "I couldn't be happier with my experience. The product quality exceeded my expectations, and the customer service was exceptional. I highly recommend this company!\"",
+      "\"The website was easy to navigate, and I found exactly what I was looking for. The delivery was quick, and the item arrived in perfect condition. I'll definitely be shopping here again.\"",
+      "\"I've made several purchases from this website, and I've never been disappointed. The variety of products is impressive, and the prices are competitive.”",
+      "Enterprise Application Development is a strategic approach for designing, developing, deploying,..."
+    ]
+  },
+  "strategic-program-management": {
+    "title": "From Legacy Systems to Digital Excellence: The Tech Transformation Journey",
+    "content": [
+      "service/Strategic Program Management",
+      "We are an executives' consulting and professional services firm with experience in e-Commerce, Logistics (3PL/4PL), Healthcare, Construction, Manufacturing, and Real Estate. We support executives in achieving strategic objectives and driving business outcome.",
+      "To get a clear understanding of the project, market, audience and the strategic drivers.",
+      "To get a clear understanding of the project, market, audience and the strategic drivers.",
+      "To get a clear understanding of the project, market, audience and the strategic drivers.",
+      "To get a clear understanding of the project, market, audience and the strategic drivers.",
+      "To get a clear understanding of the project, market, audience and the strategic drivers.",
+      "To get a clear understanding of the project, market, audience and the strategic drivers.",
+      "It is in our DNA. We always deliver what we promise in terms of delivering projects with quality within the given time frame.",
+      "Brands trust us because of our greater attention to detail and human-touch approach to build business solutions.",
+      "Our clients always are aware of what we do. We maintain 24×7 integrity in communicating, working, and reporting.",
+      "Our team’s flexibility in adapting to project demands helps us to enhance support services to clients from all over the world.",
+      "I couldn't be happier with my experience. The product quality exceeded my expectations, and the customer service was exceptional. I highly recommend this company!\"",
+      "\"The website was easy to navigate, and I found exactly what I was looking for. The delivery was quick, and the item arrived in perfect condition. I'll definitely be shopping here again.\"",
+      "\"I've made several purchases from this website, and I've never been disappointed. The variety of products is impressive, and the prices are competitive.”",
+      "I couldn't be happier with my experience. The product quality exceeded my expectations, and the customer service was exceptional. I highly recommend this company!\"",
+      "I couldn't be happier with my experience. The product quality exceeded my expectations, and the customer service was exceptional. I highly recommend this company!\"",
+      "\"The website was easy to navigate, and I found exactly what I was looking for. The delivery was quick, and the item arrived in perfect condition. I'll definitely be shopping here again.\"",
+      "\"I've made several purchases from this website, and I've never been disappointed. The variety of products is impressive, and the prices are competitive.”",
+      "I couldn't be happier with my experience. The product quality exceeded my expectations, and the customer service was exceptional. I highly recommend this company!\"",
+      "Enterprise Application Development is a strategic approach for designing, developing, deploying,..."
+    ]
+  },
+  "technology-transformation": {
+    "title": "From Legacy Systems to Digital Excellence: The Tech Transformation Journey",
+    "content": [
+      "service/Technology Transformation",
+      "We are an executives' consulting and professional services firm with experience in e-Commerce, Logistics (3PL/4PL), Healthcare, Construction, Manufacturing, and Real Estate. We support executives in achieving strategic objectives and driving business outcome.",
+      "To get a clear understanding of the project, market, audience and the strategic drivers.",
+      "To get a clear understanding of the project, market, audience and the strategic drivers.",
+      "To get a clear understanding of the project, market, audience and the strategic drivers.",
+      "To get a clear understanding of the project, market, audience and the strategic drivers.",
+      "To get a clear understanding of the project, market, audience and the strategic drivers.",
+      "To get a clear understanding of the project, market, audience and the strategic drivers.",
+      "It is in our DNA. We always deliver what we promise in terms of delivering projects with quality within the given time frame.",
+      "Brands trust us because of our greater attention to detail and human-touch approach to build business solutions.",
+      "Our clients always are aware of what we do. We maintain 24×7 integrity in communicating, working, and reporting.",
+      "Our team’s flexibility in adapting to project demands helps us to enhance support services to clients from all over the world.",
+      "I couldn't be happier with my experience. The product quality exceeded my expectations, and the customer service was exceptional. I highly recommend this company!\"",
+      "\"The website was easy to navigate, and I found exactly what I was looking for. The delivery was quick, and the item arrived in perfect condition. I'll definitely be shopping here again.\"",
+      "\"I've made several purchases from this website, and I've never been disappointed. The variety of products is impressive, and the prices are competitive.”",
+      "I couldn't be happier with my experience. The product quality exceeded my expectations, and the customer service was exceptional. I highly recommend this company!\"",
+      "I couldn't be happier with my experience. The product quality exceeded my expectations, and the customer service was exceptional. I highly recommend this company!\"",
+      "\"The website was easy to navigate, and I found exactly what I was looking for. The delivery was quick, and the item arrived in perfect condition. I'll definitely be shopping here again.\"",
+      "\"I've made several purchases from this website, and I've never been disappointed. The variety of products is impressive, and the prices are competitive.”",
+      "I couldn't be happier with my experience. The product quality exceeded my expectations, and the customer service was exceptional. I highly recommend this company!\"",
+      "Enterprise Application Development is a strategic approach for designing, developing, deploying,..."
+    ]
+  },
+  "strategic-value-solutions-announces-strategic-partnership-with-bytes-technolab": {
+    "title": "Strategic Value Solutions Announces Strategic Partnership with Bytes Technolab",
+    "content": [
+      "The collaboration will foster a culture of innovation, enabling both companies to stay at the forefront of emerging technologies and design trends.",
+      "Together, the companies will have an extended global reach, allowing them to serve clients across industries and geographies more effectively.",
+      "Clients can expect cost-effective solutions that deliver measurable results, thanks to the synergy between consulting, technology, and design expertise."
+    ]
+  },
+  "strategic-value-solutions-psugv": {
+    "title": "Strategic Value Solutions Announces Strategic Partnership with Pennsylvania State University, Great Valley",
+    "content": [
+      "The collaboration will foster a culture of innovation, enabling both companies to stay at the forefront of emerging technologies and design trends.",
+      "Together, the companies will have an extended global reach, allowing them to serve clients across industries and geographies more effectively.",
+      "Clients can expect cost-effective solutions that deliver measurable results, thanks to the synergy between consulting, technology, and design expertise."
+    ]
+  },
+  "a-complete-guide-to-enterprise-application-development": {
+    "title": "A Complete Guide to Enterprise Application Development",
+    "content": [
+      "Sep 22, 2023  3 Min Read",
+      "Hyva Theme is the latest and fastest theme ever available for Magento frontend. More than 1,500 live websites are using Hyva Theme across 21+ countries. Hyva uses the latest technologies like Alpine.js, Tailwind CSS, and GraphQL, which replace RequireJS and Knockout.js from the front end, making Magento attractive, optimized, user-friendly, and faster loading, which helps in Google Page Speed.",
+      "Traditional Magento Themes Inherit Luma or Blank themes use jQuery and Less, whereas Hyva uses the latest technologies like Alpine JS and Tailwind CSS. These are much lighter and faster than traditional technologies. As a consequence, Hyva loads pages faster compared to the traditional Hyva theme.",
+      "Hyva theme removes all the XML structures used by Luma and Blank themes and starts as a fresh theme. Hyva removes all JQuery files and replaces them with Alpine.js. Additionally, all CSS/Less is removed and Tailwind CSS is used. For those who do not know, Tailwind is a CSS Framework that has HTML class-based structures to apply CSS that can reduce CSS output by 70%+ compared to traditional Less and CSS files. For content, it’s using Alpine.js which is compatible with GraphQL APIs, that is faster than other APIs.",
+      "Hyva Theme removed the use of RequireJS, old JS libraries and traditional Less files, and Knockout from the storefront and added Alpine.js, the lightest JS framework ever available. It is HTML-centric, so developers can write Alpine.js inside HTML tags, which reduces unusual content loading time and other processing time of RequireJS, other JS libraries, Less/CSS which come with traditional Luma-based themes. With Tailwind CSS, Hyva gets faster CSS loading in the storefront than other traditional methods.",
+      "PWA (Progressive Web App) is mostly preferred for its performance. When you use PWA on mobile, it offers the same experience as a native app, however, it takes a lot of time to develop. It requires development from scratch and takes more time to fix SEO-related issues. When we look at Hyva Theme performance, it’s comparable with less development time and resources.",
+      "Hyva has a large developer community with Hyva core team members, you can expect a faster response from this community. Nowadays, most extension developers like Amasty, Aheadworks, Webkul, Mageworx, Mirasvit, Magecomp, and Snowdog offer Hyva-compatible extensions for their customers.",
+      "Hyva provides 16 UI components free with their theme which includes multiple designs for header, footer, banner, categories, cookie-notice, notification, popup, product-card, slider, testimonial, USP section etc. You can choose and modify these UI components as per your requirements in different projects. Moreover, Hyva has many components in the pipeline like tabbing, accordion, and collapsable which will make development easier in the future.",
+      "Once one of your clients purchases a Hyva Theme, they will ask your development company for an email. Moreover, they will add you to GitLab and Slack. Therefore, it is possible for the company to have access to GitLab and Slack. Getting questions answered by the Hyva team or other members of the community is the quickest way.",
+      "Purchase the Hyva theme at https://www.hyva.io/ and place your order there.",
+      "The Hyva team emailed to register an email to make a payment for an order.",
+      "Once the Hyva team has confirmed payment, these credentials will be emailed to the email address you provided during registration. They will also create support accounts for clients.",
+      "Have an idea and wish to get in touch with our Magento Ecommerce developers? Contact us now.",
+      "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    ]
+  },
+  "strategic-value-solutions-announces-strategic-partnership-with-pennsylvania-state-university-great-valley": {
+    "title": "Strategic Value Solutions Announces Strategic Partnership with Pennsylvania State University, Great Valley",
+    "content": [
+      "The collaboration will foster a culture of innovation, enabling both companies to stay at the forefront of emerging technologies and design trends.",
+      "Together, the companies will have an extended global reach, allowing them to serve clients across industries and geographies more effectively.",
+      "Clients can expect cost-effective solutions that deliver measurable results, thanks to the synergy between consulting, technology, and design expertise."
+    ]
+  },
+  "fells-point-water-restoration": {
+    "title": "Granthalaya : Document Management System (DMS)",
+    "content": [
+      "Case Study",
+      "Good thing we also intuitively know how to build game-changing things. We paired our rockstar development team with the futuristic designers at BQE to develop a fully responsive site that integrated with their CMS of choice (and our personal favorite) HubSpot. Equipped with all the bells and whistles like full-service chat, downloadable demos and a dynamic resource hub, BQE was free to do what they do best — streamline their customers’ processes so THEY can do what they do best.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences.\nIn the midst of ever-increasing traffic, it has become a top priority for the client to find the right Magento eCommerce development company that can take over the AMC services and responsibility. It was high time for the owner to make sure of the 24 x 7 performance.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences."
+    ]
+  },
+  "abandoned-mine-reclamation": {
+    "title": "Granthalaya : Document Management System (DMS)",
+    "content": [
+      "Case Study",
+      "Good thing we also intuitively know how to build game-changing things. We paired our rockstar development team with the futuristic designers at BQE to develop a fully responsive site that integrated with their CMS of choice (and our personal favorite) HubSpot. Equipped with all the bells and whistles like full-service chat, downloadable demos and a dynamic resource hub, BQE was free to do what they do best — streamline their customers’ processes so THEY can do what they do best.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences.\nIn the midst of ever-increasing traffic, it has become a top priority for the client to find the right Magento eCommerce development company that can take over the AMC services and responsibility. It was high time for the owner to make sure of the 24 x 7 performance.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences."
+    ]
+  },
+  "clark-county-public-schools-clean": {
+    "title": "Granthalaya : Document Management System (DMS)",
+    "content": [
+      "Case Study",
+      "Good thing we also intuitively know how to build game-changing things. We paired our rockstar development team with the futuristic designers at BQE to develop a fully responsive site that integrated with their CMS of choice (and our personal favorite) HubSpot. Equipped with all the bells and whistles like full-service chat, downloadable demos and a dynamic resource hub, BQE was free to do what they do best — streamline their customers’ processes so THEY can do what they do best.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences.\nIn the midst of ever-increasing traffic, it has become a top priority for the client to find the right Magento eCommerce development company that can take over the AMC services and responsibility. It was high time for the owner to make sure of the 24 x 7 performance.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences."
+    ]
+  },
+  "blackbelt-broadband-application": {
+    "title": "Granthalaya : Document Management System (DMS)",
+    "content": [
+      "Case Study",
+      "Good thing we also intuitively know how to build game-changing things. We paired our rockstar development team with the futuristic designers at BQE to develop a fully responsive site that integrated with their CMS of choice (and our personal favorite) HubSpot. Equipped with all the bells and whistles like full-service chat, downloadable demos and a dynamic resource hub, BQE was free to do what they do best — streamline their customers’ processes so THEY can do what they do best.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences.\nIn the midst of ever-increasing traffic, it has become a top priority for the client to find the right Magento eCommerce development company that can take over the AMC services and responsibility. It was high time for the owner to make sure of the 24 x 7 performance.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences."
+    ]
+  },
+  "enft-nft-marketplace": {
+    "title": "Granthalaya : Document Management System (DMS)",
+    "content": [
+      "Case Study",
+      "Good thing we also intuitively know how to build game-changing things. We paired our rockstar development team with the futuristic designers at BQE to develop a fully responsive site that integrated with their CMS of choice (and our personal favorite) HubSpot. Equipped with all the bells and whistles like full-service chat, downloadable demos and a dynamic resource hub, BQE was free to do what they do best — streamline their customers’ processes so THEY can do what they do best.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences.\nIn the midst of ever-increasing traffic, it has become a top priority for the client to find the right Magento eCommerce development company that can take over the AMC services and responsibility. It was high time for the owner to make sure of the 24 x 7 performance.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences."
+    ]
+  },
+  "dms-granthalaya": {
+    "title": "Granthalaya : Document Management System (DMS)",
+    "content": [
+      "Case Study",
+      "Good thing we also intuitively know how to build game-changing things. We paired our rockstar development team with the futuristic designers at BQE to develop a fully responsive site that integrated with their CMS of choice (and our personal favorite) HubSpot. Equipped with all the bells and whistles like full-service chat, downloadable demos and a dynamic resource hub, BQE was free to do what they do best — streamline their customers’ processes so THEY can do what they do best.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences.\nIn the midst of ever-increasing traffic, it has become a top priority for the client to find the right Magento eCommerce development company that can take over the AMC services and responsibility. It was high time for the owner to make sure of the 24 x 7 performance.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences."
+    ]
+  },
+  "dapper-email-management-dashboard": {
+    "title": "Granthalaya : Document Management System (DMS)",
+    "content": [
+      "Case Study",
+      "Good thing we also intuitively know how to build game-changing things. We paired our rockstar development team with the futuristic designers at BQE to develop a fully responsive site that integrated with their CMS of choice (and our personal favorite) HubSpot. Equipped with all the bells and whistles like full-service chat, downloadable demos and a dynamic resource hub, BQE was free to do what they do best — streamline their customers’ processes so THEY can do what they do best.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences.\nIn the midst of ever-increasing traffic, it has become a top priority for the client to find the right Magento eCommerce development company that can take over the AMC services and responsibility. It was high time for the owner to make sure of the 24 x 7 performance.",
+      "Visitors and traffic were never a problem at all since their custom eCommerce platform was launched. The problem was the load as heavy traffic was causing a lot of issues and damaging the brand image due to troubled shopping experiences."
+    ]
+  }
+}

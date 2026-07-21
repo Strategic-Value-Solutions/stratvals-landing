@@ -1,0 +1,143 @@
+.blogTopLinks {
+  margin-bottom: 40px;
+}
+
+.blogTopUl {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blogTopUl li {
+  display: inline-block;
+}
+
+.tabBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  padding: 0 0 0 32px;
+  margin-right: 32px;
+  font-size: 20px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.tabBtn:hover {
+  color: var(--white-color);
+}
+
+.tabBtn.active {
+  color: var(--white-color);
+}
+
+.tabBtn.active::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 8px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--white-color);
+}
+
+.tabBtn.active::after {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: var(--btn-color);
+  left: 4px;
+  top: 12px;
+  border-radius: 50%;
+}
+
+.blogContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.blogCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.blogCard a {
+  text-decoration: none;
+}
+
+.blogCardImg {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+
+.blogCardImg img {
+  display: block;
+  transition: all 0.8s ease;
+  width: 100%;
+  height: 269px;
+  object-fit: cover;
+}
+
+.blogCard:hover .blogCardImg img {
+  transform: scale(1.1);
+}
+
+.blogContent {
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+}
+
+.blogContent span {
+  font-size: 20px;
+  color: var(--white-color);
+  font-weight: 600;
+}
+
+.h5 {
+  color: var(--white-color);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 140%;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+}
+
+.blogContent p {
+  color: rgba(255, 255, 255, 0.7);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 18px;
+  line-height: 150%;
+  margin: 0;
+}
+
+@media(max-width:991px) {
+  .blogContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media(max-width:575px) {
+  .blogContainer {
+    grid-template-columns: 1fr;
+  }
+}
