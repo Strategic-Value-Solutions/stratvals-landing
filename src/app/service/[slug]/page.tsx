@@ -275,7 +275,7 @@ export default async function GenericServiceDetailPage({
                   style={{
                     fontFamily: "var(--font-heading)",
                     fontSize: "1.5rem",
-                    fontWeight: 800,
+                    fontWeight: 600,
                     color: "var(--foreground)",
                     marginBottom: "28px",
                     letterSpacing: "-0.03em",
@@ -307,7 +307,7 @@ export default async function GenericServiceDetailPage({
                         style={{
                           fontFamily: "var(--font-heading)",
                           fontSize: "1.05rem",
-                          fontWeight: 700,
+                          fontWeight: 600,
                           color: "var(--foreground)",
                         }}
                       >
@@ -340,7 +340,7 @@ export default async function GenericServiceDetailPage({
                   style={{
                     fontFamily: "var(--font-heading)",
                     fontSize: "1.5rem",
-                    fontWeight: 800,
+                    fontWeight: 600,
                     color: "var(--foreground)",
                     marginBottom: "28px",
                     letterSpacing: "-0.03em",
@@ -369,7 +369,7 @@ export default async function GenericServiceDetailPage({
                         style={{
                           fontFamily: "var(--font-heading)",
                           fontSize: "2rem",
-                          fontWeight: 800,
+                          fontWeight: 600,
                           color: "var(--foreground-subtle)",
                           marginBottom: "12px",
                           lineHeight: 1,
@@ -381,7 +381,7 @@ export default async function GenericServiceDetailPage({
                         style={{
                           fontFamily: "var(--font-heading)",
                           fontSize: "1.05rem",
-                          fontWeight: 700,
+                          fontWeight: 600,
                           color: "var(--foreground)",
                           marginBottom: "8px",
                         }}

@@ -335,7 +335,7 @@ export default async function GenericCaseStudyDetailPage({
                       <span
                         style={{
                           fontSize: "0.72rem",
-                          fontWeight: 700,
+                          fontWeight: 600,
                           textTransform: "uppercase",
                           letterSpacing: "0.08em",
                           color: "var(--foreground-muted)",
@@ -343,7 +343,7 @@ export default async function GenericCaseStudyDetailPage({
                       >
                         {m.label}
                       </span>
-                      <span style={{ fontSize: "0.92rem", fontWeight: 700, color: "var(--foreground)" }}>
+                      <span style={{ fontSize: "0.92rem", fontWeight: 600, color: "var(--foreground)" }}>
                         {m.val}
                       </span>
                     </div>
@@ -413,7 +413,7 @@ export default async function GenericCaseStudyDetailPage({
                       style={{
                         fontFamily: "var(--font-heading)",
                         fontSize: "1.4rem",
-                        fontWeight: 800,
+                        fontWeight: 600,
                         color: "var(--foreground)",
                         margin: "2.5rem 0 1rem",
                         letterSpacing: "-0.02em",
@@ -478,7 +478,7 @@ export default async function GenericCaseStudyDetailPage({
                   style={{
                     fontFamily: "var(--font-heading)",
                     fontSize: "1.3rem",
-                    fontWeight: 800,
+                    fontWeight: 600,
                     color: "var(--foreground)",
                     marginBottom: "24px",
                   }}
@@ -507,7 +507,7 @@ export default async function GenericCaseStudyDetailPage({
                         style={{
                           fontFamily: "var(--font-heading)",
                           fontSize: "2rem",
-                          fontWeight: 800,
+                          fontWeight: 600,
                           color: "var(--foreground)",
                           lineHeight: "1",
                           marginBottom: "6px",
@@ -519,7 +519,7 @@ export default async function GenericCaseStudyDetailPage({
                       <div
                         style={{
                           fontSize: "0.72rem",
-                          fontWeight: 700,
+                          fontWeight: 600,
                           textTransform: "uppercase",
                           letterSpacing: "0.08em",
                           color: "var(--foreground-muted)",
@@ -558,7 +558,7 @@ export default async function GenericCaseStudyDetailPage({
                     <span
                       style={{
                         fontSize: "0.75rem",
-                        fontWeight: 700,
+                        fontWeight: 600,
                         textTransform: "uppercase",
                         letterSpacing: "0.08em",
                         color: "var(--foreground-muted)",
@@ -566,7 +566,7 @@ export default async function GenericCaseStudyDetailPage({
                     >
                       Previous Case Study
                     </span>
-                    <span style={{ fontWeight: 700, color: "var(--foreground)", fontSize: "0.95rem" }}>
+                    <span style={{ fontWeight: 600, color: "var(--foreground)", fontSize: "0.95rem" }}>
                       {data.prevTitle}
                     </span>
                   </Link>
@@ -588,7 +588,7 @@ export default async function GenericCaseStudyDetailPage({
                     <span
                       style={{
                         fontSize: "0.75rem",
-                        fontWeight: 700,
+                        fontWeight: 600,
                         textTransform: "uppercase",
                         letterSpacing: "0.08em",
                         color: "var(--foreground-muted)",
@@ -596,7 +596,7 @@ export default async function GenericCaseStudyDetailPage({
                     >
                       Next Case Study
                     </span>
-                    <span style={{ fontWeight: 700, color: "var(--foreground)", fontSize: "0.95rem" }}>
+                    <span style={{ fontWeight: 600, color: "var(--foreground)", fontSize: "0.95rem" }}>
                       {data.nextTitle}
                     </span>
                   </Link>

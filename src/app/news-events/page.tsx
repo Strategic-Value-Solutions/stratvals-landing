@@ -38,7 +38,7 @@ export default function NewsEventsPage() {
               <div
                 style={{
                   fontSize: "0.75rem",
-                  fontWeight: 700,
+                  fontWeight: 600,
                   textTransform: "uppercase",
                   letterSpacing: "0.08em",
                   color: "#0284c7",
@@ -51,7 +51,7 @@ export default function NewsEventsPage() {
                 style={{
                   fontFamily: "var(--font-heading)",
                   fontSize: "1.5rem",
-                  fontWeight: 800,
+                  fontWeight: 600,
                   color: "var(--foreground)",
                   marginBottom: "12px",
                   letterSpacing: "-0.03em",
@@ -86,7 +86,7 @@ export default function NewsEventsPage() {
                 <div style={{ fontSize: "0.8rem", fontWeight: 600, color: "var(--foreground-subtle)" }}>
                   Media Relations Email
                 </div>
-                <div style={{ fontSize: "1.05rem", fontWeight: 700, color: "var(--foreground)" }}>
+                <div style={{ fontSize: "1.05rem", fontWeight: 600, color: "var(--foreground)" }}>
                   press@stratvals.com
                 </div>
               </div>

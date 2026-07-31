@@ -37,7 +37,7 @@
 .heading {
   font-family: var(--font-heading);
   font-size: clamp(1.8rem, 3vw, 2.4rem);
-  font-weight: 800;
+  font-weight: 600;
   line-height: 1.16;
   letter-spacing: -0.035em;
   color: var(--foreground);
@@ -86,7 +86,7 @@
 .metricBadge {
   font-family: var(--font-heading);
   font-size: 0.76rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #0284c7;
   background: #e0f2fe;
   padding: 5px 12px;
@@ -102,7 +102,7 @@
 .cardTitle {
   font-family: var(--font-heading);
   font-size: 1.15rem;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--foreground);
   margin-bottom: 6px;
   letter-spacing: -0.02em;

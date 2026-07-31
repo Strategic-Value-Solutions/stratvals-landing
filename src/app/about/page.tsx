@@ -58,7 +58,7 @@ export default function AboutPage() {
               style={{
                 fontFamily: "var(--font-heading)",
                 fontSize: "1.6rem",
-                fontWeight: 800,
+                fontWeight: 600,
                 color: "var(--foreground)",
                 marginBottom: "16px",
                 letterSpacing: "-0.03em",
@@ -96,7 +96,7 @@ export default function AboutPage() {
                 }}
               >
                 <div style={{ fontSize: "1.6rem", marginBottom: "8px" }}>🎯</div>
-                <h4 style={{ fontWeight: 700, color: "var(--foreground)", marginBottom: "6px" }}>
+                <h4 style={{ fontWeight: 600, color: "var(--foreground)", marginBottom: "6px" }}>
                   Outcome Focused
                 </h4>
                 <p style={{ fontSize: "0.85rem", color: "var(--foreground-muted)" }}>
@@ -113,7 +113,7 @@ export default function AboutPage() {
                 }}
               >
                 <div style={{ fontSize: "1.6rem", marginBottom: "8px" }}>🤝</div>
-                <h4 style={{ fontWeight: 700, color: "var(--foreground)", marginBottom: "6px" }}>
+                <h4 style={{ fontWeight: 600, color: "var(--foreground)", marginBottom: "6px" }}>
                   Executive Trust
                 </h4>
                 <p style={{ fontSize: "0.85rem", color: "var(--foreground-muted)" }}>
@@ -130,7 +130,7 @@ export default function AboutPage() {
                 }}
               >
                 <div style={{ fontSize: "1.6rem", marginBottom: "8px" }}>🌐</div>
-                <h4 style={{ fontWeight: 700, color: "var(--foreground)", marginBottom: "6px" }}>
+                <h4 style={{ fontWeight: 600, color: "var(--foreground)", marginBottom: "6px" }}>
                   Global Scale
                 </h4>
                 <p style={{ fontSize: "0.85rem", color: "var(--foreground-muted)" }}>
@@ -159,7 +159,7 @@ export default function AboutPage() {
               style={{
                 fontFamily: "var(--font-heading)",
                 fontSize: "1.6rem",
-                fontWeight: 800,
+                fontWeight: 600,
                 color: "var(--foreground)",
                 marginBottom: "12px",
                 letterSpacing: "-0.03em",
@@ -198,7 +198,7 @@ export default function AboutPage() {
                     style={{
                       fontFamily: "var(--font-heading)",
                       fontSize: "1.8rem",
-                      fontWeight: 800,
+                      fontWeight: 600,
                       color: "var(--foreground-subtle)",
                       marginBottom: "12px",
                     }}
@@ -209,7 +209,7 @@ export default function AboutPage() {
                     style={{
                       fontFamily: "var(--font-heading)",
                       fontSize: "1.1rem",
-                      fontWeight: 700,
+                      fontWeight: 600,
                       color: "var(--foreground)",
                       marginBottom: "4px",
                     }}

@@ -262,7 +262,7 @@ export default async function GenericBlogDetailPage({
                       style={{
                         fontFamily: "var(--font-heading)",
                         fontSize: "1.4rem",
-                        fontWeight: 800,
+                        fontWeight: 600,
                         color: "var(--foreground)",
                         margin: "2.5rem 0 1rem",
                         letterSpacing: "-0.02em",

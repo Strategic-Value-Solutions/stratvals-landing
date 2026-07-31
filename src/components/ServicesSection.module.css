@@ -43,7 +43,7 @@
 .statement {
   font-family: var(--font-heading);
   font-size: clamp(1.5rem, 2.6vw, 2.2rem);
-  font-weight: 800;
+  font-weight: 600;
   line-height: 1.18;
   letter-spacing: -0.038em;
   color: var(--foreground);
@@ -75,7 +75,7 @@
 .itemNumber {
   font-family: var(--font-heading);
   font-size: 0.85rem;
-  font-weight: 800;
+  font-weight: 600;
   color: var(--foreground-subtle);
   letter-spacing: 0.04em;
   margin-bottom: 16px;
@@ -84,7 +84,7 @@
 .serviceTitle {
   font-family: var(--font-heading);
   font-size: 1.25rem;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: -0.03em;
   line-height: 1.25;
   color: var(--foreground);

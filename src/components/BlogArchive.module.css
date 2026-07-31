@@ -96,7 +96,7 @@
   top: 12px;
   left: 12px;
   font-size: 0.72rem;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   padding: 4px 10px;
@@ -125,7 +125,7 @@
 .title {
   font-family: var(--font-heading);
   font-size: clamp(1.4rem, 2.2vw, 1.8rem);
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: -0.03em;
   line-height: 1.25;
   color: var(--foreground);

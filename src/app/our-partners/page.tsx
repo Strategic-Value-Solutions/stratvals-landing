@@ -50,7 +50,7 @@ export default function PartnersPage() {
               style={{
                 fontFamily: "var(--font-heading)",
                 fontSize: "1.6rem",
-                fontWeight: 800,
+                fontWeight: 600,
                 color: "var(--foreground)",
                 marginBottom: "28px",
                 letterSpacing: "-0.03em",
@@ -77,7 +77,7 @@ export default function PartnersPage() {
                 <div
                   style={{
                     fontSize: "0.75rem",
-                    fontWeight: 700,
+                    fontWeight: 600,
                     textTransform: "uppercase",
                     letterSpacing: "0.08em",
                     color: "#0284c7",
@@ -90,7 +90,7 @@ export default function PartnersPage() {
                   style={{
                     fontFamily: "var(--font-heading)",
                     fontSize: "1.25rem",
-                    fontWeight: 800,
+                    fontWeight: 600,
                     color: "var(--foreground)",
                     marginBottom: "12px",
                   }}
@@ -120,7 +120,7 @@ export default function PartnersPage() {
                 <div
                   style={{
                     fontSize: "0.75rem",
-                    fontWeight: 700,
+                    fontWeight: 600,
                     textTransform: "uppercase",
                     letterSpacing: "0.08em",
                     color: "#6d28d9",
@@ -133,7 +133,7 @@ export default function PartnersPage() {
                   style={{
                     fontFamily: "var(--font-heading)",
                     fontSize: "1.25rem",
-                    fontWeight: 800,
+                    fontWeight: 600,
                     color: "var(--foreground)",
                     marginBottom: "12px",
                   }}
@@ -173,7 +173,7 @@ export default function PartnersPage() {
               style={{
                 fontFamily: "var(--font-heading)",
                 fontSize: "1.6rem",
-                fontWeight: 800,
+                fontWeight: 600,
                 color: "var(--foreground)",
                 marginBottom: "12px",
                 letterSpacing: "-0.03em",
@@ -209,7 +209,7 @@ export default function PartnersPage() {
                   }}
                 >
                   <div style={{ fontSize: "1.6rem", marginBottom: "10px" }}>{p.icon}</div>
-                  <h4 style={{ fontWeight: 700, color: "var(--foreground)", marginBottom: "6px" }}>
+                  <h4 style={{ fontWeight: 600, color: "var(--foreground)", marginBottom: "6px" }}>
                     {p.title}
                   </h4>
                   <p style={{ fontSize: "0.86rem", lineHeight: "1.6", color: "var(--foreground-muted)" }}>

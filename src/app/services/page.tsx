@@ -51,7 +51,7 @@ export default function ServicesPage() {
               style={{
                 fontFamily: "var(--font-heading)",
                 fontSize: "1.6rem",
-                fontWeight: 800,
+                fontWeight: 600,
                 color: "var(--foreground)",
                 marginBottom: "12px",
                 letterSpacing: "-0.03em",
@@ -91,7 +91,7 @@ export default function ServicesPage() {
                     style={{
                       fontFamily: "var(--font-heading)",
                       fontSize: "1.05rem",
-                      fontWeight: 700,
+                      fontWeight: 600,
                       color: "var(--foreground)",
                       marginBottom: "16px",
                     }}

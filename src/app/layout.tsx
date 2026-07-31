@@ -8,7 +8,7 @@ import { ThemeProvider } from "../context/ThemeContext";
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
   variable: "--font-jakarta",
-  weight: ["400", "500", "600", "700", "800"],
+  weight: ["400", "500", "600", "700", "600"],
 });
 
 const inter = Inter({

@@ -39,7 +39,7 @@
 .sectionHeading {
   font-family: var(--font-heading);
   font-size: clamp(1.6rem, 2.8vw, 2.4rem);
-  font-weight: 800;
+  font-weight: 600;
   line-height: 1.15;
   letter-spacing: -0.038em;
   color: var(--foreground);
@@ -151,7 +151,7 @@
 .cardTitle {
   font-family: var(--font-heading);
   font-size: clamp(1.5rem, 2.5vw, 2.2rem);
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: -0.038em;
   line-height: 1.12;
   color: var(--foreground);
@@ -184,7 +184,7 @@
 .metricValue {
   font-family: var(--font-heading);
   font-size: 1.85rem;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: -0.04em;
   color: var(--foreground);
   line-height: 1;
