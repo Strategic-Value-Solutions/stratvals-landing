@@ -1,20 +1,23 @@
 import PageHeader from "../../components/PageHeader";
-import Partners from "../../components/Partners";
+import ClientsSection from "../../components/ClientsSection";
+import ContactFormSection from "../../components/ContactFormSection";
 
 export const metadata = {
   title: "Client & Testimonials | Strategic Value Solutions",
-  description: "See what our clients have to say about working with us.",
+  description: "See what executive leaders say about working with Strategic Value Solutions.",
 };
 
 export default function ClientTestimonialsPage() {
   return (
     <>
-      <PageHeader 
-        title={<>Client & <span className="gradient-text">Testimonials</span></>} 
-        subtitle="Happy Clients, Thriving Businesses: Hear Their Testimonials, Stories of Triumph and Partnership"
+      <PageHeader
+        label="Client Success"
+        title="Client & Testimonials"
+        subtitle="Stories of executive partnership, flawless execution, and strategic outcomes delivered."
       />
-      
-      <Partners title="Words from our Clients" />
+
+      <ClientsSection />
+      <ContactFormSection />
     </>
   );
 }

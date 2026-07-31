@@ -1,0 +1,215 @@
+.wrapper {
+  padding: 16px 0 28px;
+}
+
+/* White card */
+.card {
+  background: var(--card-bg);
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* ---- Top: label + statement ---- */
+.top {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 36px;
+  align-items: start;
+  padding: 44px 52px 36px;
+}
+
+.label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.83rem;
+  font-weight: 600;
+  color: var(--foreground-muted);
+  font-family: var(--font-body);
+  padding-top: 6px;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--foreground);
+  flex-shrink: 0;
+}
+
+.statement {
+  font-family: var(--font-heading);
+  font-size: clamp(1.4rem, 2.5vw, 2.05rem);
+  font-weight: 800;
+  line-height: 1.22;
+  letter-spacing: -0.038em;
+  color: var(--foreground);
+}
+
+/* ---- Testimonials Grid ---- */
+.testimonialsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0 52px 40px;
+}
+
+.testimonialCard {
+  background: var(--surface);
+  border-radius: 18px;
+  padding: 28px 24px;
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonialCard:hover {
+  border-color: #cbd5e1;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.quoteMark {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--foreground-subtle);
+  margin-bottom: 8px;
+}
+
+.quoteText {
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  line-height: 1.68;
+  color: var(--foreground-muted);
+  margin-bottom: 24px;
+}
+
+.authorRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
+}
+
+.authorName {
+  font-family: var(--font-heading);
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--foreground);
+  line-height: 1.2;
+}
+
+.authorRole {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  color: var(--foreground-subtle);
+}
+
+/* ---- Marquee ---- */
+.marqueeWrapper {
+  border-top: 1px solid var(--border);
+  padding: 24px 0 0;
+}
+
+.marqueeLabel {
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--foreground-subtle);
+  padding: 0 52px;
+  margin-bottom: 20px;
+}
+
+.marquee {
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 32px;
+}
+
+.marqueeTrack {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  animation: marqueeScroll 24s linear infinite;
+  width: max-content;
+}
+
+.marqueeTrack:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marqueeScroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.clientItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 28px;
+  padding: 0 24px;
+}
+
+.clientLogo {
+  height: 28px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(100%) opacity(0.55);
+  transition: filter 0.25s;
+}
+
+.clientLogo:hover {
+  filter: grayscale(0%) opacity(1);
+}
+
+.clientText {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--foreground-subtle);
+  transition: color 0.25s;
+}
+
+.clientText:hover {
+  color: var(--foreground);
+}
+
+.bullet {
+  font-size: 0.6rem;
+  color: var(--border);
+  line-height: 1;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 1024px) {
+  .top {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 32px 24px 28px;
+  }
+  .testimonialsGrid {
+    grid-template-columns: 1fr;
+    padding: 0 24px 32px;
+  }
+  .marqueeLabel {
+    padding: 0 24px;
+  }
+}

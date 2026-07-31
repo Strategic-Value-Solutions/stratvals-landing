@@ -1,17 +1,23 @@
 import HeroBanner from "../components/HeroBanner";
-import Services from "../components/Services";
-import OurWork from "../components/OurWork";
-import Partners from "../components/Partners";
+import AboutSection from "../components/AboutSection";
+import SelectedWork from "../components/SelectedWork";
+import ServicesSection from "../components/ServicesSection";
+import IndustriesSection from "../components/IndustriesSection";
+import ClientsSection from "../components/ClientsSection";
 import BlogSection from "../components/BlogSection";
+import ContactFormSection from "../components/ContactFormSection";
 
 export default function Home() {
   return (
     <>
       <HeroBanner />
-      <Services />
-      <OurWork />
-      <Partners />
+      <AboutSection />
+      <SelectedWork />
+      <ServicesSection />
+      <IndustriesSection />
+      <ClientsSection />
       <BlogSection />
+      <ContactFormSection />
     </>
   );
 }

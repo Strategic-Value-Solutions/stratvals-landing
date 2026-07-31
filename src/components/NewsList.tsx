@@ -8,50 +8,60 @@ const newsItems = [
   {
     id: "1",
     date: "Sep 22, 2023",
+    category: "Academic Partnership",
     title: "Strategic Value Solutions Announces Strategic Partnership with Pennsylvania State University, Great Valley",
-    excerpt: "",
+    excerpt: "The collaboration will foster a culture of innovation, enabling both companies to stay at the forefront of emerging technologies, research, and corporate talent development.",
     image: "/images/news-partnership.jpg",
-    link: "/news-events/strategic-value-solutions-announces-strategic-partnership-with-pennsylvania-state-university-great-valley"
+    link: "/news-events/strategic-value-solutions-announces-strategic-partnership-with-pennsylvania-state-university-great-valley",
   },
   {
     id: "2",
     date: "Sep 22, 2023",
+    category: "Technology Partnership",
     title: "Strategic Value Solutions Announces Strategic Partnership with Bytes Technolab",
-    excerpt: "The collaboration between Strategic Value Solutions and Bytes Technolab comes as a response to the growing demand for comprehensive, innovative, and technology-driven solutions in today's business landscape. Both companies bring a wealth of experience and expertise to the table, and this partnership aims to leverage their combined strengths to deliver exceptional value to clients worldwide.",
+    excerpt: "The collaboration between Strategic Value Solutions and Bytes Technolab comes as a response to growing demand for comprehensive, technology-driven solutions in today's business landscape.",
     image: "/images/news-bytes.jpg",
-    link: "/news-events/strategic-value-solutions-announces-strategic-partnership-with-bytes-technolab"
-  }
+    link: "/news-events/strategic-value-solutions-announces-strategic-partnership-with-bytes-technolab",
+  },
 ];
 
 export default function NewsList() {
   return (
-    <section className="section-spacing">
+    <section className={styles.wrapper}>
       <div className="container">
-        <div className={styles.newslistWrapper}>
-          {newsItems.map((news, index) => (
-            <motion.div 
-              key={news.id}
-              className={styles.newslistContainer}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.1 }}
-            >
-              <div className={styles.newslistBox}>
-                <Link href={news.link}>
-                  <div className={styles.newslistImage}>
-                    <img src={news.image} alt={news.title} />
+        <motion.div
+          className={styles.card}
+          initial={{ opacity: 0, y: 32 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+        >
+          <div className={styles.grid}>
+            {newsItems.map((news, index) => (
+              <motion.div
+                key={news.id}
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+              >
+                <Link href={news.link} className={styles.newsCard}>
+                  <div className={styles.imageBox}>
+                    <span className={styles.badge}>{news.category}</span>
+                    <img src={news.image} alt={news.title} className={styles.image} />
                   </div>
-                  <div className={styles.newslistContent}>
-                    <span>{news.date}</span>
-                    <h2 className={styles.h3}>{news.title}</h2>
-                    <p>{news.excerpt}</p>
+                  <div className={styles.content}>
+                    <div className={styles.date}>{news.date}</div>
+                    <h3 className={styles.title}>{news.title}</h3>
+                    <p className={styles.excerpt}>{news.excerpt}</p>
+                    <span className={styles.readMore}>
+                      Read Press Release <span>→</span>
+                    </span>
                   </div>
                 </Link>
-              </div>
-            </motion.div>
-          ))}
-        </div>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
       </div>
     </section>
   );

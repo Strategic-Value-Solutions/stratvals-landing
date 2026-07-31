@@ -1,19 +1,68 @@
-:root {
-  --background: #0f1115;
-  --foreground: #ffffff;
+:root,
+[data-theme="light"] {
+  /* Light theme */
+  --background: #ffffff;
+  --page-bg: #eef0f3;
+  --card-bg: #ffffff;
+  --foreground: #0a0a0a;
+  --foreground-muted: #6b7280;
+  --foreground-subtle: #9ca3af;
 
-  --primary: #2B7FFF;
-  --secondary: #EDB120;
-  --accent: #8AC29D;
-  --gradient-1: linear-gradient(95deg, #2B7FFF 8.8%, #8AC29D 50.03%, #FFB400 84.98%);
-  
-  --card-bg: rgba(30, 35, 46, 0.6);
-  --card-border: rgba(255, 255, 255, 0.1);
+  /* Brand */
+  --primary: #0a0a0a;
+  --primary-hover: #1f1f1f;
+  --btn-text: #ffffff;
 
-  --font-sans: var(--font-outfit), system-ui, sans-serif;
+  /* Surface */
+  --surface: #f9fafb;
+  --surface-hover: #f3f4f6;
+  --border: #e5e7eb;
+  --border-subtle: rgba(0, 0, 0, 0.06);
+
+  /* Radius */
+  --radius-pill: 999px;
+  --radius-card: 24px;
+  --radius-sm: 8px;
+
+  /* Fonts */
+  --font-heading: var(--font-jakarta), system-ui, sans-serif;
+  --font-body: var(--font-inter), system-ui, sans-serif;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.07), 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --shadow-float: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
-* {
+[data-theme="dark"] {
+  /* Dark theme - High Contrast Floating Cards */
+  --background: #0d0f17;
+  --page-bg: #07080c;
+  --card-bg: #121520;
+  --foreground: #f8fafc;
+  --foreground-muted: #94a3b8;
+  --foreground-subtle: #64748b;
+
+  /* Brand */
+  --primary: #ffffff;
+  --primary-hover: #e2e8f0;
+  --btn-text: #0a0a0a;
+
+  /* Surface */
+  --surface: #1b1f2e;
+  --surface-hover: #252a3e;
+  --border: rgba(255, 255, 255, 0.12);
+  --border-subtle: rgba(255, 255, 255, 0.06);
+
+  /* Shadows - Luminous Contrast Glow */
+  --shadow-sm: 0 4px 20px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.08);
+  --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.12);
+  --shadow-float: 0 16px 48px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(255, 255, 255, 0.14);
+}
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -29,10 +78,12 @@ html,
 body {
   max-width: 100vw;
   overflow-x: clip;
-  background-color: var(--background);
+  background-color: var(--page-bg);
   color: var(--foreground);
-  font-family: var(--font-sans);
+  font-family: var(--font-body);
   scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 a {
@@ -40,11 +91,23 @@ a {
   text-decoration: none;
 }
 
-.gradient-text {
-  background: var(--gradient-1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
 }
 
 .section-spacing {
@@ -53,38 +116,44 @@ a {
 
 @media (max-width: 768px) {
   .section-spacing {
-    padding: 60px 0;
+    padding: 64px 0;
   }
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.circular-btn {
+/* Pill button utility with spring hover */
+.btn-pill {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  position: relative;
-  transition: transform 0.3s ease;
+  gap: 8px;
+  padding: 14px 28px;
+  border-radius: var(--radius-pill);
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  letter-spacing: -0.01em;
 }
 
-.circular-btn:hover {
-  transform: scale(1.05);
+.btn-pill-dark {
+  background: var(--foreground);
+  color: var(--page-bg);
 }
 
-/* Utilities for flex */
-.flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.btn-pill-dark:hover {
+  background: var(--primary-hover);
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: var(--shadow-md);
 }
 
-.flex-between {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.btn-pill-outline {
+  background: var(--card-bg);
+  color: var(--foreground);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-pill-outline:hover {
+  background: var(--surface-hover);
+  border-color: var(--foreground);
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: var(--shadow-md);
 }

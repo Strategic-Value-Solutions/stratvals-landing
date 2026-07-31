@@ -1,73 +1,76 @@
+/* ============================================
+   PAGE HEADER - Light Design System Alignment
+   ============================================ */
+
 .pageHeader {
   position: relative;
   width: 100%;
-  padding: 200px 0 100px; /* Space for the fixed header */
-  background-color: var(--background);
-  overflow: hidden;
+  padding: 130px 0 50px;
+  background: var(--page-bg);
   text-align: center;
-  z-index: 1;
-}
-
-.blurTopLeft {
-  position: absolute;
-  top: -100px;
-  left: -100px;
-  width: 400px;
-  height: 400px;
-  background: rgba(43, 127, 255, 0.3);
-  filter: blur(150px);
-  border-radius: 50%;
-  z-index: -1;
-}
-
-.blurBottomRight {
-  position: absolute;
-  bottom: -100px;
-  right: -100px;
-  width: 400px;
-  height: 400px;
-  background: rgba(237, 177, 32, 0.2);
-  filter: blur(150px);
-  border-radius: 50%;
-  z-index: -1;
 }
 
 .content {
-  position: relative;
-  z-index: 2;
-  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 860px;
   margin: 0 auto;
 }
 
+.label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-body);
+  font-size: 0.83rem;
+  font-weight: 600;
+  color: var(--foreground-muted);
+  margin-bottom: 16px;
+  letter-spacing: 0.02em;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #2563eb;
+}
+
 .title {
-  font-size: 4rem;
+  font-family: var(--font-heading);
+  font-size: clamp(2.2rem, 4.5vw, 3.6rem);
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.12;
+  letter-spacing: -0.038em;
   color: var(--foreground);
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .subtitle {
-  font-size: 1.25rem;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.7);
-  line-height: 1.6;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--foreground-muted);
+  max-width: 640px;
 }
 
 .email {
-  font-size: 2rem;
-  font-weight: 400;
-  color: var(--white-color);
-  text-decoration: none;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 16px;
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #2563eb;
+  text-decoration: underline;
 }
 
+/* Responsive */
 @media (max-width: 768px) {
-  .title {
-    font-size: 2.5rem;
-  }
   .pageHeader {
-    padding: 150px 0 80px;
+    padding: 100px 0 36px;
+  }
+  .title {
+    font-size: clamp(1.8rem, 6.5vw, 2.5rem);
   }
 }

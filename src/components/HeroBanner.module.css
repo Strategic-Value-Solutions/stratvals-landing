@@ -1,97 +1,193 @@
-.heroBanner {
+/* ============================================
+   HERO BANNER - Exact Fit & Pinned Bottom Ticker
+   ============================================ */
+
+.hero {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
+  max-height: 100vh;
+  min-height: 580px;
+  background: var(--card-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 88px;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
+
+/* Center Content */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 980px;
+  padding: 0 24px;
+  margin: auto 0;
+}
+
+/* Eyebrow Subtitle */
+.eyebrow {
+  font-family: var(--font-body);
+  font-size: clamp(0.9rem, 1.3vw, 1.05rem);
+  font-weight: 500;
+  color: var(--foreground-muted);
+  line-height: 1.5;
+  margin-bottom: 20px;
+  max-width: 640px;
+  letter-spacing: -0.01em;
+}
+
+/* Main Heading */
+.heading {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4.1vw, 3.4rem);
+  font-weight: 600;
+  line-height: 1.14;
+  letter-spacing: -0.032em;
+  color: var(--foreground);
+  margin-bottom: 28px;
+  max-width: 880px;
+}
+
+.wordSpan {
+  display: inline-block;
+  white-space: pre;
+}
+
+/* CTA Row */
+.ctaRow {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.ctaBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 15px 32px;
+  border-radius: var(--radius-pill);
+  background: var(--foreground);
+  color: var(--card-bg);
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+}
+
+.ctaBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.handWave {
+  font-size: 1.05rem;
+}
+
+/* Scroll Arrow Button */
+.scrollArrowWrapper {
+  margin-top: 4px;
+}
+
+.scrollArrow {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--foreground);
+  color: var(--card-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.scrollArrow:hover {
+  background: var(--primary-hover);
+}
+
+/* Pinned Bottom Black Ticker Marquee */
+.ticker {
+  width: 100%;
+  background: #0a0a0a;
+  color: #ffffff;
+  padding: 16px 0;
   overflow: hidden;
-  background-color: var(--background);
-  background-image: url('/images/hero-bg.png');
-  background-size: cover;
-  background-position: center;
-  z-index: 1;
-}
-
-.heroBanner::after {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(37, 26, 43, 0.7);
-  z-index: -1;
-}
-
-.blurTopLeft {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 500px;
-  height: 500px;
-  background: rgba(43, 127, 255, 0.4);
-  filter: blur(150px);
-  border-radius: 50%;
-  z-index: -1;
-}
-
-.blurBottomRight {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 500px;
-  height: 500px;
-  background: rgba(237, 177, 32, 0.3);
-  filter: blur(150px);
-  border-radius: 50%;
-  z-index: -1;
-}
-
-.content {
   position: relative;
+  flex-shrink: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   z-index: 2;
-  text-align: center;
-  max-width: 900px;
 }
 
-.subtitle {
-  font-size: 1.25rem;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 30px;
-  text-transform: capitalize;
+.tickerTrack {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  white-space: nowrap;
+  animation: marqueeScroll 24s linear infinite;
+  width: max-content;
 }
 
-.titleBox {
-  min-height: 180px;
-}
-
-.title {
-  font-size: 4rem;
+.tickerItem {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-heading);
+  font-size: 0.84rem;
   font-weight: 700;
-  line-height: 1.2;
-  color: var(--foreground);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 0 28px;
 }
 
-.cursor {
-  font-weight: 300;
-  color: var(--foreground);
-  animation: blink 1s step-end infinite;
+.tickerSlash {
+  color: #3b82f6;
+  margin-right: 28px;
+  font-weight: 900;
 }
 
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+@keyframes marqueeScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Responsive Breakdown */
+@media (max-height: 700px) {
+  .hero {
+    padding-top: 76px;
+  }
+  .heading {
+    margin-bottom: 20px;
+    font-size: clamp(1.8rem, 3.8vw, 2.8rem);
+  }
+  .eyebrow {
+    margin-bottom: 14px;
+  }
 }
 
 @media (max-width: 768px) {
-  .title {
-    font-size: 2.5rem;
+  .hero {
+    height: 100vh;
+    min-height: 560px;
+    padding-top: 80px;
   }
-  .titleBox {
-    min-height: 140px;
-  }
-  .blurTopLeft, .blurBottomRight {
-    width: 300px;
-    height: 300px;
-    filter: blur(100px);
+  .heading {
+    font-size: clamp(1.7rem, 6vw, 2.4rem);
   }
 }
