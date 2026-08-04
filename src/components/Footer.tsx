@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import styles from "./Footer.module.css";
+import { useTheme } from "../context/ThemeContext";
 
 const companyLinks = [
   { label: "About Us", href: "/about" },
@@ -26,6 +27,7 @@ const resourceLinks = [
 ];
 
 export default function Footer() {
+  const { theme } = useTheme();
   const [email, setEmail] = useState("");
   const [subscribed, setSubscribed] = useState(false);
 
@@ -165,7 +167,11 @@ export default function Footer() {
         {/* Bottom Legal Bar */}
         <div className={styles.bottomBar}>
           <div className={styles.brandInfo}>
-            <img src="/images/logo.svg" alt="SVS" className={styles.logoMark} />
+            <img
+              src={theme === "light" ? "/icon-light.png" : "/images/logo.svg"}
+              alt="SVS"
+              className={styles.logoMark}
+            />
             <span className={styles.logoText}>Strategic Value Solutions</span>
           </div>
 

@@ -306,10 +306,12 @@ export default function Header() {
       className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}
     >
       <div className={`container ${styles.inner}`}>
-        {/* Logo */}
         <Link href="/" className={styles.logo} onClick={() => setActiveDropdown(null)}>
-          <img src="/images/logo.svg" alt="SVS" className={styles.logoMark} />
-          {/* <span className={styles.logoText}>Strategic Value Solutions</span> */}
+          <img
+            src={theme === "light" ? "/icon-light.png" : "/images/logo.svg"}
+            alt="SVS"
+            className={styles.logoMark}
+          />
         </Link>
 
         {/* Desktop Navigation */}
