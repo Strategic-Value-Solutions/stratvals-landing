@@ -79,6 +79,70 @@ const newsContent: Record<
       },
     ],
   },
+  "stratvals-completes-successful-launch-of-enft-marketplace": {
+    title: "Stratvals Completes Successful Launch of eNFT Marketplace Platform on Ethereum Mainnet",
+    date: "November 10, 2023",
+    image: "/images/casestudy-nft.jpg",
+    paragraphs: [
+      {
+        type: "p",
+        content:
+          "Strategic Value Solutions is proud to announce the successful production launch of the eNFT marketplace platform on Ethereum mainnet, delivering a next-generation digital asset experience for global creators and enterprise brands.",
+      },
+      {
+        type: "p",
+        content:
+          "The platform was engineered from the ground up to solve the most significant barrier to mainstream Web3 adoption: complex onboarding. By introducing email-based custodial wallet provisioning and gasless lazy minting, new users can purchase digital collectibles in under two minutes without requiring crypto knowledge.",
+      },
+      { type: "h3", content: "Key Launch Milestones:" },
+      {
+        type: "ul",
+        content: [
+          "Over 1,000 NFTs minted within the first 48 hours of public availability.",
+          "Sub-2-minute onboarding flow cutting drop-off rates by over 70% compared to industry benchmarks.",
+          "Enterprise smart contracts audited and verified for security and ERC-721 / ERC-2981 royalty compliance.",
+          "High-throughput indexing layer syncing blockchain state in real time via WebSockets.",
+        ],
+      },
+      {
+        type: "p",
+        content:
+          "This deployment demonstrates our capability to deliver secure, scalable, and user-friendly Web3 platforms for enterprise clients navigating the digital asset frontier.",
+      },
+    ],
+  },
+  "stratvals-expands-executive-advisory-practice": {
+    title: "Strategic Value Solutions Expands Executive Advisory Practice to Serve Healthcare and Manufacturing Sectors",
+    date: "January 15, 2024",
+    image: "/images/casestudy-schools.jpg",
+    paragraphs: [
+      {
+        type: "p",
+        content:
+          "Strategic Value Solutions has formally announced the expansion of its executive technology advisory practice to provide specialized strategic consulting and technology modernization services for the Healthcare and Manufacturing sectors.",
+      },
+      {
+        type: "p",
+        content:
+          "Following successful transformation programs across e-Commerce, Logistics, and EdTech, this practice expansion responds to accelerating demand from C-suite leaders navigating regulatory compliance, Industrial IoT integration, ERP modernization, and cloud infrastructure transitions.",
+      },
+      { type: "h3", content: "Practice Expansion Highlights:" },
+      {
+        type: "ul",
+        content: [
+          "Dedicated Healthcare Advisory: HIPAA-compliant digital health architecture, EHR integrations, and patient portal security.",
+          "Smart Manufacturing Practice: Industry 4.0 IoT telemetry, predictive maintenance data pipelines, and ERP modernization.",
+          "C-Suite Program Governance: Establishing steering committees, RAID risk tracking, and milestone-driven ROI measurement.",
+          "Global Delivery Scale: Integrating onshore advisory leadership with high-capacity engineering execution squads.",
+        ],
+      },
+      {
+        type: "p",
+        content:
+          "With this expansion, Strategic Value Solutions reinforces its position as the premier executive technology consulting firm for high-stakes enterprise initiatives.",
+      },
+    ],
+  },
 };
 
 function getGenericNews(slug: string) {

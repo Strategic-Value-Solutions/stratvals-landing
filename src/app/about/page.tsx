@@ -75,7 +75,7 @@ export default function AboutPage() {
                 marginBottom: "20px",
               }}
             >
-              At Strategic Value Solutions, we examine what industry leaders are doing to stay relevant and competitive in today&apos;s fast-paced digital economy. We then strategize using smart tools and global resources to understand the implications of every decision, closing the gap between internal capability and external market success.
+              We examine what organizations are doing to stay relevant and competitive in this fast-paced world, and which ones are doing it best. We then strategize using smart tools and global resources to understand the implications of every choice our clients can make, closing the gap between internal capability and external market success.
             </p>
             <div
               style={{
@@ -100,7 +100,7 @@ export default function AboutPage() {
                   Outcome Focused
                 </h4>
                 <p style={{ fontSize: "0.85rem", color: "var(--foreground-muted)" }}>
-                  We measure success not by lines of code written, but by tangible ROI, cost reductions, and market velocity.
+                  We measure success not by deliverables shipped, but by tangible outcomes: reduced costs, faster time to market, and better decisions made by your leadership.
                 </p>
               </div>
 
@@ -117,7 +117,7 @@ export default function AboutPage() {
                   Executive Trust
                 </h4>
                 <p style={{ fontSize: "0.85rem", color: "var(--foreground-muted)" }}>
-                  We maintain 24/7 integrity in communicating, reporting, and collaborating with C-suite stakeholders.
+                  We maintain transparency in every communication, reporting, and collaboration touchpoint with C-suite stakeholders around the clock.
                 </p>
               </div>
 

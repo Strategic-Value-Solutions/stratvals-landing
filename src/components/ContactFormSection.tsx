@@ -5,12 +5,13 @@ import { motion } from "framer-motion";
 import styles from "./ContactFormSection.module.css";
 
 const serviceOptions = [
-  "Product Road Mapping",
-  "Program Management",
-  "Tech Transformation",
-  "Cloud Migration",
-  "Enterprise Apps",
-  "Consulting",
+  "Mobile Development",
+  "Web Development",
+  "Consulting Services",
+  "UI/UX Services",
+  "DevOps",
+  "Cloud / ERP / CMS",
+  "Other",
 ];
 
 const budgetOptions = ["<$10k", "10k-30k", "30k-80k", "80k+"];
@@ -55,11 +56,17 @@ export default function ContactFormSection() {
             {/* Left Side */}
             <div className={styles.leftCol}>
               <div>
-                <span className={styles.pillBadge}>Start a conversation</span>
+                <span className={styles.pillBadge}>Get in touch</span>
                 <h2 className={styles.heading}>
-                  Tell us about your <br />
-                  next stage.
+                  Say Hi! <br />
+                  We&apos;d love to hear from you.
                 </h2>
+                <p style={{ fontFamily: "var(--font-body)", fontSize: "0.92rem", lineHeight: 1.7, color: "var(--foreground-muted)", marginTop: "16px" }}>
+                  Reach us at{" "}
+                  <a href="mailto:contact@stratvals.com" style={{ color: "var(--foreground)", fontWeight: 600 }}>contact@stratvals.com</a>
+                  {" "}or call{" "}
+                  <a href="tel:+12157201710" style={{ color: "var(--foreground)", fontWeight: 600 }}>+1 (215) 720-1710</a>
+                </p>
               </div>
 
               {/* Bottom Testimonials Indicator */}
@@ -135,7 +142,7 @@ export default function ContactFormSection() {
 
                 {/* Services Selection Pills */}
                 <div className={styles.sectionBlock}>
-                  <label className={styles.sectionLabel}>I&apos;m interested in...</label>
+                  <label className={styles.sectionLabel}>What can we help you with?</label>
                   <div className={styles.pillsRow}>
                     {serviceOptions.map((s) => {
                       const isSelected = selectedServices.includes(s);

@@ -3,17 +3,18 @@ import BlogArchive from "../../components/BlogArchive";
 
 export const metadata = {
   title: "Blog | Strategic Value Solutions",
-  description: "Read our latest thoughts on strategic technology solutions.",
+  description:
+    "Insights, perspectives, and thought leadership on enterprise technology, digital transformation, and strategic program management.",
 };
 
 export default function BlogPage() {
   return (
     <>
-      <PageHeader 
-        title={<>Our <span className="gradient-text">Blogs</span></>} 
-        subtitle="Blogs"
+      <PageHeader
+        title={<>Our <span className="gradient-text">Blog</span></>}
+        subtitle="Insights and perspectives on enterprise technology, digital transformation, and the decisions that shape successful organizations."
       />
-      
+
       <BlogArchive />
     </>
   );

@@ -153,7 +153,7 @@ const worksDropdown = {
             <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
           </svg>
         ),
-        title: "DMS – Granthalaya",
+        title: "DMS: Granthalaya",
         desc: "Enterprise Document SaaS",
         href: "/case-studies/dms-granthalaya",
       },
@@ -348,7 +348,7 @@ export default function Header() {
 
         {/* Right Action Controls */}
         <div className={styles.actions}>
-          {/* Theme Switcher Toggle Pill */}
+          {/* Theme Switcher Toggle Pill (Desktop Only) */}
           <motion.button
             className={styles.themeToggleBtn}
             onClick={toggleTheme}
@@ -359,7 +359,13 @@ export default function Header() {
             {theme === "light" ? "🌙" : "☀️"}
           </motion.button>
 
-          {/* Hamburger Icon */}
+          {/* Let's chat pill button */}
+          <Link href="/contact-us" className={styles.ctaBtn} onClick={() => setActiveDropdown(null)}>
+            <span>Let&apos;s chat</span>
+            <span className={styles.emoji}>👋</span>
+          </Link>
+
+          {/* Hamburger Icon (Mobile/Tablet Only - Far Right) */}
           <button
             className={styles.menuBtn}
             aria-label="Toggle menu"
@@ -373,12 +379,6 @@ export default function Header() {
               <span />
             </span>
           </button>
-
-          {/* Let's chat pill button */}
-          <Link href="/contact-us" className={styles.ctaBtn} onClick={() => setActiveDropdown(null)}>
-            <span>Let&apos;s chat</span>
-            <span className={styles.emoji}>👋</span>
-          </Link>
         </div>
       </div>
 
@@ -466,30 +466,63 @@ export default function Header() {
         )}
       </AnimatePresence>
 
-      {/* Mobile Drawer Navigation */}
-      {menuOpen && (
-        <div className={styles.mobileMenu}>
-          <ul>
-            {navLinks.map((link) => (
-              <li key={link.id}>
-                <Link href={link.href} onClick={() => setMenuOpen(false)}>
-                  {link.label}
-                  {link.hasDropdown && <span style={{ marginLeft: "4px" }}>↓</span>}
-                </Link>
-              </li>
-            ))}
-            <li>
+      {/* Compact Popover / Mobile Navigation */}
+      <AnimatePresence>
+        {menuOpen && (
+          <motion.div
+            className={styles.mobileMenuWrapper}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            onClick={() => setMenuOpen(false)}
+          >
+            <motion.div
+              className={styles.mobileMenu}
+              initial={{ opacity: 0, y: -8, scale: 0.96 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: -8, scale: 0.96 }}
+              transition={{ duration: 0.2, ease: "easeOut" }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <ul className={styles.mobileMenuList}>
+                {navLinks.map((link) => (
+                  <li key={link.id}>
+                    <Link
+                      href={link.href}
+                      className={styles.mobileMenuLink}
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      <span>{link.label}</span>
+                      <span className={styles.mobileMenuArrow}>→</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <div className={styles.mobileDivider} />
+              <button
+                className={styles.mobileThemeToggle}
+                onClick={toggleTheme}
+                aria-label="Toggle Theme"
+              >
+                <span>Theme Mode</span>
+                <span className={styles.mobileThemeBadge}>
+                  {theme === "light" ? "🌙 Dark" : "☀️ Light"}
+                </span>
+              </button>
+              <div className={styles.mobileDivider} />
               <Link
                 href="/contact-us"
                 className={styles.mobileCta}
                 onClick={() => setMenuOpen(false)}
               >
-                Let&apos;s chat 👋
+                <span>Let&apos;s chat</span>
+                <span style={{ fontSize: "0.9rem" }}>👋</span>
               </Link>
-            </li>
-          </ul>
-        </div>
-      )}
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   );
 }

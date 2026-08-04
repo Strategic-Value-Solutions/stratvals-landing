@@ -1,31 +1,27 @@
 import ContactFormSection from "../../components/ContactFormSection";
+import Link from "next/link";
 
 export const metadata = {
   title: "Contact Us | Strategic Value Solutions",
-  description: "Get in touch with our executive advisory team to discuss your next stage of digital transformation.",
+  description:
+    "Say Hi! Reach us at contact@stratvals.com or call +1 (215) 720-1710. We are an executive technology advisory firm based in Philadelphia, PA.",
 };
 
-const offices = [
+const contacts = [
   {
-    region: "North America (HQ)",
-    city: "Philadelphia & Malvern, PA",
-    address: "Great Valley Corporate Center",
-    email: "contact@stratvals.com",
-    phone: "+1 (800) 555-STRAT",
+    label: "Email",
+    value: "contact@stratvals.com",
+    href: "mailto:contact@stratvals.com",
   },
   {
-    region: "EMEA Advisory Desk",
-    city: "London, United Kingdom",
-    address: "Canary Wharf Financial District",
-    email: "emea@stratvals.com",
-    phone: "+44 20 7946 0912",
+    label: "Phone",
+    value: "+1 (215) 720-1710",
+    href: "tel:+12157201710",
   },
   {
-    region: "APAC Engineering Hub",
-    city: "Global Delivery Center",
-    address: "Technology Park Campus",
-    email: "apac@stratvals.com",
-    phone: "+91 79 4000 8000",
+    label: "Headquarters",
+    value: "Philadelphia & Malvern, PA",
+    href: null,
   },
 ];
 
@@ -67,35 +63,35 @@ export default function ContactPage() {
                     letterSpacing: "-0.03em",
                   }}
                 >
-                  Global Offices & Advisory Desks
+                  Get in touch directly
                 </h3>
                 <p style={{ fontSize: "0.9rem", color: "var(--foreground-muted)" }}>
-                  Connecting executive leaders with local domain experts across major global markets.
+                  We typically respond within a few hours on business days.
                 </p>
               </div>
 
               <div
                 style={{
-                  background: "#e0f2fe",
-                  color: "#0284c7",
+                  background: "#dbeafe",
+                  color: "#1d4ed8",
                   fontSize: "0.82rem",
                   fontWeight: 600,
                   padding: "8px 18px",
                   borderRadius: "var(--radius-pill)",
                 }}
               >
-                4-Hour Executive Response SLA
+                Quick response guaranteed
               </div>
             </div>
 
             <div
               style={{
                 display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-                gap: "24px",
+                gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+                gap: "20px",
               }}
             >
-              {offices.map((off, i) => (
+              {contacts.map((c, i) => (
                 <div
                   key={i}
                   style={{
@@ -112,33 +108,29 @@ export default function ContactPage() {
                       textTransform: "uppercase",
                       letterSpacing: "0.08em",
                       color: "#0284c7",
-                      marginBottom: "6px",
-                    }}
-                  >
-                    {off.region}
-                  </div>
-                  <h4
-                    style={{
-                      fontFamily: "var(--font-heading)",
-                      fontSize: "1.1rem",
-                      fontWeight: 600,
-                      color: "var(--foreground)",
                       marginBottom: "8px",
                     }}
                   >
-                    {off.city}
-                  </h4>
-                  <div style={{ fontSize: "0.85rem", color: "var(--foreground-muted)", marginBottom: "14px" }}>
-                    {off.address}
+                    {c.label}
                   </div>
-                  <div style={{ borderTop: "1px solid var(--border)", paddingTop: "12px", display: "flex", flexDirection: "column", gap: "6px" }}>
-                    <a href={"mailto:" + off.email} style={{ fontSize: "0.85rem", fontWeight: 600, color: "var(--foreground)" }}>
-                      {off.email}
-                    </a>
-                    <div style={{ fontSize: "0.83rem", color: "var(--foreground-subtle)" }}>
-                      {off.phone}
+                  {c.href ? (
+                    <Link
+                      href={c.href}
+                      style={{
+                        fontSize: "1.05rem",
+                        fontWeight: 600,
+                        color: "var(--foreground)",
+                        textDecoration: "none",
+                        display: "block",
+                      }}
+                    >
+                      {c.value}
+                    </Link>
+                  ) : (
+                    <div style={{ fontSize: "1.05rem", fontWeight: 600, color: "var(--foreground)" }}>
+                      {c.value}
                     </div>
-                  </div>
+                  )}
                 </div>
               ))}
             </div>

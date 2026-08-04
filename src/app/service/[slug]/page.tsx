@@ -14,7 +14,7 @@ const services: Record<string, ServiceData> = {
     title: "Product Road Mapping & Engineering",
     subtitle: "From Vision to Market-Ready Product",
     intro:
-      "Strategic Product Road Mapping & Engineering is the backbone of turning visionary ideas into market-leading realities. Our engineering teams integrate closely with your executive stakeholders to map out the entire lifecycle of your product - from initial ideation and technical feasibility analysis through to continuous deployment and global scale.",
+      "Need help with packaging the next big technology idea or transforming traditional software development processes? We help create a product roadmap for strategic growth and industry positioning, guide your cloud migration, and introduce the latest SecDevOps and CI/CD processes. Our engineering teams integrate closely with your executive stakeholders to map out the entire product lifecycle, from initial ideation and technical feasibility through to continuous deployment and global scale.",
     whatWeProvide: [
       {
         title: "Discovery & Product Strategy",
@@ -68,7 +68,7 @@ const services: Record<string, ServiceData> = {
     title: "Strategic Program Management",
     subtitle: "Delivering Complex Initiatives With Precision",
     intro:
-      "Managing large-scale enterprise transformation requires more than traditional project management - it requires Strategic Program Governance. At Stratvals, we provide C-suite program leadership, ensuring complex multi-million dollar initiatives are delivered on schedule, within budget, and fully aligned with corporate goals.",
+      "We examine what organizations are doing to stay relevant and competitive in this fast-paced world, and which ones are doing it best. We then strategize using smart tools and global resources to understand the implications of every choice our clients can make. At Stratvals, we provide C-suite program leadership, ensuring complex multi-million dollar initiatives are delivered on schedule, within budget, and fully aligned with corporate goals.",
     whatWeProvide: [
       {
         title: "Enterprise Program Governance",
@@ -122,7 +122,7 @@ const services: Record<string, ServiceData> = {
     title: "Technology Transformation",
     subtitle: "From Legacy Monoliths to Cloud-Native Excellence",
     intro:
-      "Technology Transformation systematically modernizes your digital infrastructure - transitioning from slow legacy systems to agile, secure, cloud-powered microservices that drive competitive advantage with zero operational disruption.",
+      "Looking for digital transformation for your business but not sure where to turn? Need help with technology selection or cloud migration? Let us guide you. Any organization can move forward with small incremental changes, but building for the future in today's rapidly evolving environment means taking bold chances and making insightful decisions. We systematically modernize your digital infrastructure, transitioning from slow legacy systems to agile, secure, cloud-powered solutions that drive competitive advantage with zero operational disruption.",
     whatWeProvide: [
       {
         title: "Cloud Infrastructure Migration",

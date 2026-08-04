@@ -5,7 +5,7 @@ import ContactFormSection from "../../components/ContactFormSection";
 export const metadata = {
   title: "Services | Strategic Value Solutions",
   description:
-    "Explore our core enterprise technology services: Product Road Mapping, Strategic Program Management, and Technology Transformation.",
+    "An executives' consulting and professional services firm with experience in e-Commerce, Logistics, Healthcare, Construction, Manufacturing, and Real Estate.",
 };
 
 const techCategories = [
@@ -29,8 +29,112 @@ export default function ServicesPage() {
       <PageHeader
         label="Capabilities & Expertise"
         title="Our Services"
-        subtitle="Transforming vision into scalable, high-performance technology platforms tailored to your strategic goals."
+        subtitle="Interactive and strategic services that will add real value to your business."
       />
+
+      {/* Firm Positioning: verbatim from live site, expanded */}
+      <section style={{ padding: "16px 0 8px" }}>
+        <div className="container">
+          <div
+            style={{
+              background: "var(--card-bg)",
+              borderRadius: "24px",
+              padding: "44px 52px",
+              boxShadow: "var(--shadow-sm)",
+              border: "1px solid var(--border)",
+              transition: "background-color 0.3s ease",
+            }}
+          >
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(340px, 1fr))",
+                gap: "40px",
+                alignItems: "start",
+              }}
+            >
+              <div>
+                <p
+                  style={{
+                    fontSize: "0.75rem",
+                    fontWeight: 600,
+                    textTransform: "uppercase",
+                    letterSpacing: "0.08em",
+                    color: "#0284c7",
+                    marginBottom: "10px",
+                  }}
+                >
+                  Who we are
+                </p>
+                <h2
+                  style={{
+                    fontFamily: "var(--font-heading)",
+                    fontSize: "1.75rem",
+                    fontWeight: 600,
+                    color: "var(--foreground)",
+                    marginBottom: "20px",
+                    letterSpacing: "-0.03em",
+                    lineHeight: 1.25,
+                  }}
+                >
+                  Your #1 Business-specific Software Development Experts
+                </h2>
+                <p
+                  style={{
+                    fontFamily: "var(--font-body)",
+                    fontSize: "1.0rem",
+                    lineHeight: "1.75",
+                    color: "var(--foreground-muted)",
+                  }}
+                >
+                  We are an executives&apos; consulting and professional services firm with experience in e-Commerce, Logistics (3PL/4PL), Healthcare, Construction, Manufacturing, and Real Estate. We support executives in achieving strategic objectives and driving business outcomes.
+                </p>
+              </div>
+
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "1fr 1fr",
+                  gap: "16px",
+                }}
+              >
+                {[
+                  { sector: "e-Commerce", detail: "Platform migrations, Shopify Plus, headless commerce" },
+                  { sector: "Logistics (3PL/4PL)", detail: "Supply chain visibility, warehouse management systems" },
+                  { sector: "Healthcare", detail: "HIPAA-compliant platforms, patient portal, data systems" },
+                  { sector: "Construction", detail: "Project tracking, ERP integration, field workforce tools" },
+                  { sector: "Manufacturing", detail: "IoT dashboards, ERP modernization, quality control" },
+                  { sector: "Real Estate", detail: "Property platforms, CRM integrations, digital workflows" },
+                ].map((item, i) => (
+                  <div
+                    key={i}
+                    style={{
+                      background: "var(--surface)",
+                      border: "1px solid var(--border)",
+                      borderRadius: "12px",
+                      padding: "16px 14px",
+                    }}
+                  >
+                    <div
+                      style={{
+                        fontWeight: 600,
+                        fontSize: "0.9rem",
+                        color: "var(--foreground)",
+                        marginBottom: "4px",
+                      }}
+                    >
+                      {item.sector}
+                    </div>
+                    <div style={{ fontSize: "0.8rem", color: "var(--foreground-muted)", lineHeight: 1.5 }}>
+                      {item.detail}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <ServicesSection />
 
@@ -67,7 +171,7 @@ export default function ServicesPage() {
                 marginBottom: "32px",
               }}
             >
-              We leverage modern, production-battle-tested frameworks and cloud infrastructure standards to ensure performance, security, and global scale.
+              We leverage modern, production-battle-tested frameworks and cloud infrastructure to ensure performance, security, and global scale across every engagement.
             </p>
 
             <div

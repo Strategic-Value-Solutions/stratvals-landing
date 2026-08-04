@@ -96,7 +96,7 @@ const allWorks = [
     category: "product-road-mapping",
     label: "Enterprise SaaS, US",
     badge: "Product Road Mapping",
-    title: "DMS – Granthalaya",
+    title: "DMS: Granthalaya",
     description:
       "A comprehensive Document Management System built for enterprise clients to manage, version-control, classify, and collaborate on thousands of documents with automated ML classification and audit trails.",
     metrics: [

@@ -53,7 +53,7 @@ const caseStudies = [
   },
   {
     id: "6",
-    title: "DMS – Granthalaya",
+    title: "DMS: Granthalaya",
     category: "product-road-mapping",
     badge: "Product Road Mapping",
     desc: "Enterprise Document Management System with ML auto-classification and audit trails.",

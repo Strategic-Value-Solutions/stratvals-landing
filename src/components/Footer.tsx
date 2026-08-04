@@ -131,13 +131,31 @@ export default function Footer() {
                   in
                 </a>
                 <a
-                  href="https://x.com"
+                  href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer"
                   className={styles.socialCircle}
-                  title="X"
+                  title="X / Twitter"
                 >
                   X
+                </a>
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className={styles.socialCircle}
+                  title="Facebook"
+                >
+                  f
+                </a>
+                <a
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className={styles.socialCircle}
+                  title="Instagram"
+                >
+                  IG
                 </a>
               </div>
             </div>
@@ -152,14 +170,20 @@ export default function Footer() {
           </div>
 
           <div className={styles.copyrightText}>
-            © 2026 Strategic Value Solutions LLC. All rights reserved •{" "}
+            <a href="mailto:contact@stratvals.com" style={{ color: "inherit", textDecoration: "none" }}>contact@stratvals.com</a>
+            {" "}&bull;{" "}
+            <a href="tel:+12157201710" style={{ color: "inherit", textDecoration: "none" }}>+1 (215) 720-1710</a>
+          </div>
+
+          <div className={styles.copyrightText}>
+            &copy; 2024 StratVals LLC &bull;{" "}
             <Link href="/contact-us" className={styles.privacyLink}>
               Privacy Policy
             </Link>
           </div>
 
           <button onClick={scrollToTop} className={styles.scrollTopBtn} aria-label="Scroll to top">
-            ↑
+            &uarr;
           </button>
         </div>
       </div>

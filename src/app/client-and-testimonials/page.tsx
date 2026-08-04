@@ -13,7 +13,7 @@ export default function ClientTestimonialsPage() {
       <PageHeader
         label="Client Success"
         title="Client & Testimonials"
-        subtitle="Stories of executive partnership, flawless execution, and strategic outcomes delivered."
+        subtitle="What our clients and partners say about working with Strategic Value Solutions."
       />
 
       <ClientsSection />

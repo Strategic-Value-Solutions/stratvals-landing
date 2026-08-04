@@ -17,19 +17,19 @@ const testimonials = [
   {
     name: "Cameron Williamson",
     role: "Strategic Partner",
-    text: "“I couldn't be happier with my experience. The product quality exceeded my expectations, and the customer service was exceptional. I highly recommend Strategic Value Solutions!”",
+    text: "“I couldn't be happier with the engagement. The team's strategic depth exceeded expectations, and every deliverable arrived on time. Their consulting approach is genuinely different from anyone we've worked with.”",
     avatar: "/images/cameron.webp",
   },
   {
     name: "Jenny Wilson",
     role: "Executive Client",
-    text: "“The engagement was smooth and easy to navigate. The delivery was quick, and every milestone arrived in perfect condition. I'll definitely be working with them again.”",
+    text: "“The experience was easy to navigate from day one. The work was delivered quickly, and every milestone arrived in perfect condition. I'll definitely be partnering with Strategic Value Solutions again.”",
     avatar: "/images/jenny.webp",
   },
   {
     name: "Bessie Cooper",
     role: "Enterprise Client",
-    text: "“I've completed several projects with Strategic Value Solutions, and I've never been disappointed. Their strategic expertise and quality execution are exceptional.”",
+    text: "“I've engaged Strategic Value Solutions on several initiatives and have never been disappointed. Their strategic expertise and quality execution are exceptional. A firm you can genuinely trust.”",
     avatar: "/images/bessie.webp",
   },
 ];
@@ -54,8 +54,7 @@ export default function ClientsSection() {
               Who we work with
             </p>
             <h2 className={styles.statement}>
-              We work with ambitious B2B tech companies whose ambition is ahead
-              of how the market reads them - where that gap is becoming commercial.
+              Our Esteemed Clients
             </h2>
           </div>
 

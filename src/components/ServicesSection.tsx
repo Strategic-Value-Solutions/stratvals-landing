@@ -9,12 +9,12 @@ const services = [
     slug: "product-road-mapping-engineering",
     title: "Product Road Mapping & Engineering",
     description:
-      "Need help packaging the next big technology idea or transforming traditional software development processes? We create strategic product roadmaps for growth, market positioning, cloud migration, and SecDevOps/CI/CD pipelines.",
+      "Need help with packaging the next big technology idea or transforming traditional software development processes? We help create a product roadmap for strategic growth and industry positioning, guide your cloud migration, and introduce the latest SecDevOps and CI/CD processes. We give your team the structure to build faster and ship smarter.",
     features: [
       "Strategic Product Architecture",
       "Cloud Migration & Infrastructure",
       "SecDevOps & CI/CD Processes",
-      "Agile Software Process Transformation",
+      "Agile Software Transformation",
     ],
     link: "/service/product-road-mapping-engineering",
   },
@@ -22,7 +22,7 @@ const services = [
     slug: "strategic-program-management",
     title: "Strategic Program Management",
     description:
-      "We examine what market leaders are doing to stay relevant and competitive. We then strategize using smart tools and global governance resources to understand the implications of every executive choice.",
+      "We examine what organizations are doing to stay relevant and competitive in this fast-paced world, and which ones are doing it best. We then strategize using smart tools and global resources to understand the implications of every choice our clients can make, so decisions are made with confidence, not guesswork.",
     features: [
       "Executive Portfolio & Program Governance",
       "Smart Tools & Resource Strategy",
@@ -35,7 +35,7 @@ const services = [
     slug: "technology-transformation",
     title: "Technology Transformation",
     description:
-      "Looking for digital transformation, tech selection, or cloud migration? Incremental changes aren't enough - building for the future means taking bold, insightful decisions guided by experienced advisors.",
+      "Looking for digital transformation but not sure where to turn? Need help with technology selection or cloud migration? Let us guide you. Any organization can move forward with small incremental changes, but building for the future in today's rapidly evolving environment means taking bold chances and making insightful decisions.",
     features: [
       "Digital Transformation Strategy",
       "Technology Selection & Evaluation",
@@ -77,10 +77,10 @@ export default function ServicesSection() {
           <div className={styles.top}>
             <p className={styles.label}>
               <span className={styles.dot} />
-              What we do
+              Strategic Value Solutions Services
             </p>
             <h2 className={styles.statement}>
-              Fueling corporate success with futuristic solutions and strategy-led execution.
+              Your #1 business-specific software development experts across e-Commerce, Logistics, Healthcare, Construction, Manufacturing, and Real Estate.
             </h2>
           </div>
 
