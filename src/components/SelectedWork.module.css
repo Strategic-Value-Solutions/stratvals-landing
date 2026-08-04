@@ -57,9 +57,9 @@
   padding: 8px 18px;
   border-radius: var(--radius-pill);
   font-size: 0.83rem;
-  font-weight: 600;
+  font-weight: 500;
   font-family: var(--font-body);
-  background: #ffffff;
+  background: var(--surface);
   color: var(--foreground-muted);
   border: 1px solid var(--border);
   cursor: pointer;
@@ -68,13 +68,13 @@
 
 .tabBtn:hover {
   color: var(--foreground);
-  background: var(--surface);
-  border-color: #cbd5e1;
+  background: var(--surface-hover);
+  border-color: var(--foreground-muted);
 }
 
 .activeTab {
   background: var(--foreground) !important;
-  color: #ffffff !important;
+  color: var(--card-bg) !important;
   border-color: var(--foreground) !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
 }
@@ -104,11 +104,12 @@
 }
 
 /* Flip variant - image on left, text on right */
-.card.flip {
-  direction: rtl;
+.card.flip .textSide {
+  order: 2;
 }
-.card.flip > * {
-  direction: ltr;
+
+.card.flip .imageSide {
+  order: 1;
 }
 
 /* ---- Text side ---- */
@@ -232,6 +233,8 @@
   align-items: center;
   justify-content: center;
   padding: 24px;
+  background: var(--surface);
+  transition: background-color 0.3s ease;
 }
 
 .workImage {
@@ -241,7 +244,8 @@
   border-radius: 14px;
   display: block;
   transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border);
 }
 
 .card:hover .workImage {

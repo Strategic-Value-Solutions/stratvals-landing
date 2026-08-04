@@ -236,10 +236,7 @@ export default function SelectedWork() {
                 </div>
 
                 {/* Image side */}
-                <div
-                  className={styles.imageSide}
-                  style={{ background: work.imageBg }}
-                >
+                <div className={styles.imageSide}>
                   <img
                     src={work.image}
                     alt={work.title}
