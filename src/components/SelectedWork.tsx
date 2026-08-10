@@ -23,7 +23,7 @@ const allWorks = [
     metrics: [
       { value: "Self-Service", label: "Case creation & purchasing" },
       { value: "Live Registry", label: "Provider onboarding & pickup" },
-      { value: "Audit-Ready", label: "Secure, searchable legal records" },
+      { value: "Audit-Ready Records", label: "Secure, searchable legal records" },
     ],
     image: "/images/case-legal-marketplace.svg",
     imageBg: "#141127",
