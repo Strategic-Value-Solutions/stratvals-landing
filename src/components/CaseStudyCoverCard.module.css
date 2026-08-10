@@ -1,0 +1,336 @@
+/* ============================================
+   CASE STUDY COVER CARD - Pure CSS & React Graphic
+   ============================================ */
+
+.card {
+  position: relative;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: linear-gradient(135deg, #0c0e17 0%, #121024 50%, #1a1430 100%);
+  box-shadow: var(--shadow-sm);
+  padding: 40px 48px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 36px;
+  align-items: center;
+  user-select: none;
+}
+
+.card.compact {
+  padding: 28px 32px;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 24px;
+  min-height: 280px;
+}
+
+/* Background Grid Overlay */
+.gridOverlay {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Glowing Ambient Background Glow */
+.glowEffect {
+  position: absolute;
+  top: -40%;
+  right: -20%;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--card-accent-glow, rgba(139, 92, 246, 0.18)) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Left Content Area */
+.leftCol {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 260px;
+}
+
+.card.compact .leftCol {
+  min-height: 220px;
+}
+
+.headerMeta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--card-accent-color, #a855f7);
+}
+
+.card.compact .eyebrow {
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+}
+
+.watermarkNumber {
+  font-family: var(--font-heading);
+  font-size: 4.5rem;
+  font-weight: 900;
+  line-height: 1;
+  color: var(--card-accent-color, #8b5cf6);
+  opacity: 0.22;
+  margin-bottom: 12px;
+}
+
+.card.compact .watermarkNumber {
+  font-size: 3.2rem;
+  margin-bottom: 6px;
+}
+
+.titleArea {
+  margin-bottom: 24px;
+}
+
+.cardTitle {
+  font-family: var(--font-heading);
+  font-size: clamp(1.6rem, 2.8vw, 2.4rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: #f8fafc;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+
+.card.compact .cardTitle {
+  font-size: clamp(1.2rem, 1.8vw, 1.6rem);
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #a5b4fc;
+}
+
+.card.compact .subtitle {
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+}
+
+.bottomChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(4px);
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: #c4b5fd;
+  text-transform: uppercase;
+  margin-top: auto;
+}
+
+.card.compact .bottomChip {
+  padding: 6px 12px;
+  font-size: 0.68rem;
+}
+
+/* Right Diagram Area */
+.rightCol {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Diagram 1: Marketplace Nodes */
+.marketplaceDiagram {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+.arrowLine {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 120px;
+}
+
+.dotsLine {
+  width: 100%;
+  height: 2px;
+  background-image: linear-gradient(to right, var(--card-accent-color, #8b5cf6) 50%, transparent 50%);
+  background-size: 10px 2px;
+}
+
+.arrowHead {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid var(--card-accent-color, #8b5cf6);
+  margin-left: -2px;
+}
+
+.nodesContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.verticalLine {
+  position: absolute;
+  top: 24px;
+  bottom: 24px;
+  left: 50%;
+  width: 2px;
+  background-image: linear-gradient(to bottom, var(--card-accent-color, #8b5cf6) 50%, transparent 50%);
+  background-size: 2px 10px;
+  transform: translateX(-50%);
+}
+
+.nodePill {
+  position: relative;
+  z-index: 2;
+  padding: 10px 24px;
+  border-radius: 10px;
+  border: 1.5px solid var(--node-border, #8b5cf6);
+  background: rgba(20, 17, 39, 0.85);
+  backdrop-filter: blur(8px);
+  color: #e2e8f0;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.nodeDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--node-dot, #8b5cf6);
+  box-shadow: 0 0 8px var(--node-dot, #8b5cf6);
+}
+
+/* Diagram 2: Robotics Radar */
+.roboticsDiagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.radarCircle {
+  position: relative;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: 2px solid var(--card-accent-color, #ff6a39);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 30px rgba(255, 106, 57, 0.15);
+}
+
+.radarInner {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 1px dashed rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radarCenterDot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--card-accent-color, #ff6a39);
+  box-shadow: 0 0 12px var(--card-accent-color, #ff6a39);
+}
+
+.badgeRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.badgeFilled {
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: var(--card-accent-color, #ff6a39);
+  color: #0d0f17;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.badgeOutline {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid var(--card-accent-color, #ff6a39);
+  color: #fdba74;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+/* Responsive Breakdown */
+@media (max-width: 900px) {
+  .card {
+    grid-template-columns: 1fr;
+    padding: 32px 28px;
+    gap: 28px;
+  }
+  .card.compact {
+    grid-template-columns: 1fr;
+    padding: 24px 20px;
+  }
+  .rightCol {
+    display: none;
+  }
+}

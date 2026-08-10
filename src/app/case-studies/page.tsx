@@ -11,7 +11,7 @@ export default function CaseStudiesPage() {
     <>
       <PageHeader 
         title={<>Case <span className="gradient-text">Study</span></>} 
-        subtitle="Creating digital products your clients will fall in love with our recent Projects."
+        subtitle="Three flagship engagements: from LegalTech marketplaces to manufacturing-ready robotics and peak-proof eCommerce."
       />
       
       <CaseStudyArchive />

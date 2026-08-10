@@ -92,46 +92,7 @@ const servicesDropdown = {
 /* Works Dropdown */
 const worksDropdown = {
   column1: {
-    badge: "GovTech & Environmental",
-    badgeBg: "#e0f2fe",
-    badgeColor: "#0284c7",
-    link: "/case-studies",
-    items: [
-      {
-        icon: (
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
-          </svg>
-        ),
-        title: "Fells Point Water Restoration",
-        desc: "Environmental IoT Monitoring",
-        href: "/case-studies/fells-point-water-restoration",
-      },
-      {
-        icon: (
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-            <circle cx="12" cy="10" r="3" />
-          </svg>
-        ),
-        title: "Abandoned Mine Reclamation",
-        desc: "GIS Decision Platform",
-        href: "/case-studies/abandoned-mine-reclamation",
-      },
-      {
-        icon: (
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
-          </svg>
-        ),
-        title: "Clark County Public Schools",
-        desc: "Unified EdTech District Platform",
-        href: "/case-studies/clark-county-public-schools-clean",
-      },
-    ],
-  },
-  column2: {
-    badge: "Telecom & Enterprise SaaS",
+    badge: "LegalTech & Platforms",
     badgeBg: "#ede9fe",
     badgeColor: "#6d28d9",
     link: "/case-studies",
@@ -139,23 +100,45 @@ const worksDropdown = {
       {
         icon: (
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M5 12.55a11 11 0 0 1 14.08 0" />
-            <path d="M1.42 9a16 16 0 0 1 21.16 0" />
+            <rect x="3" y="3" width="18" height="18" rx="2" />
+            <path d="M3 9h18M9 21V9" />
           </svg>
         ),
-        title: "Blackbelt Broadband",
-        desc: "Rural Telecom Platform",
-        href: "/case-studies/blackbelt-broadband-application",
+        title: "Legal Services Marketplace",
+        desc: "LegalTech Digital Transformation",
+        href: "/case-studies/legal-services-marketplace",
       },
       {
         icon: (
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+            <circle cx="12" cy="12" r="10" />
+            <circle cx="12" cy="12" r="4" />
+            <circle cx="12" cy="12" r="1" />
           </svg>
         ),
-        title: "DMS: Granthalaya",
-        desc: "Enterprise Document SaaS",
-        href: "/case-studies/dms-granthalaya",
+        title: "Robotic Automation",
+        desc: "Food Manufacturing · Engineering Leadership",
+        href: "/case-studies/robotic-automation-food-manufacturing",
+      },
+    ],
+  },
+  column2: {
+    badge: "Commerce & AI",
+    badgeBg: "#dcfce7",
+    badgeColor: "#15803d",
+    link: "/case-studies",
+    items: [
+      {
+        icon: (
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <path d="M16 10a4 4 0 0 1-8 0" />
+          </svg>
+        ),
+        title: "Norrbrook Apparel Co.",
+        desc: "eCommerce · MuleSoft · AI Demand & Shipping",
+        href: "/case-studies/norrbrook-apparel-ecommerce",
       },
     ],
   },

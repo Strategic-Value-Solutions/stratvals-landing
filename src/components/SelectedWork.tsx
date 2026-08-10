@@ -4,134 +4,82 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import styles from "./SelectedWork.module.css";
 import Link from "next/link";
+import CaseStudyCoverCard from "./CaseStudyCoverCard";
 
 const allWorks = [
   {
-    id: "fells-point-water-restoration",
-    category: "program-management",
-    label: "Environmental Tech, US",
-    badge: "Program Management",
-    title: "Fells Point Water Restoration",
+    id: "legal-services-marketplace",
+    category: "digital-platforms",
+    label: "LegalTech",
+    badge: "Digital Transformation",
+    num: "01",
+    code: "STRATVALS-2026-01",
+    subtitle: "DIGITAL TRANSFORMATION · LEGALTECH",
+    accent: "#8b5cf6",
+    type: "legal" as const,
+    title: "Legal Services Marketplace",
     description:
-      "A cloud-native IoT monitoring platform tracking real-time water quality across hundreds of sensors deployed along Baltimore's waterfront - turning manual field work into automated, always-on environmental intelligence.",
+      "Fragmented legal intake, provider onboarding and document handling converted into one secure, self-service marketplace: customers create cases and buy services; smaller firms and pro-bono lawyers discover and accept eligible matters.",
     metrics: [
-      { value: "85%", label: "Manual Effort Saved" },
-      { value: "10×", label: "Faster Alert Detection" },
-      { value: "<30s", label: "Sensor Data Latency" },
+      { value: "Self-Service", label: "Case creation & purchasing" },
+      { value: "Live Registry", label: "Provider onboarding & pickup" },
+      { value: "Audit-Ready", label: "Secure, searchable legal records" },
     ],
-    image: "/images/casestudy-water.jpg",
-    imageBg: "#e3f2fd",
-    link: "/case-studies/fells-point-water-restoration",
+    image: "/images/case-legal-marketplace.svg",
+    imageBg: "#141127",
+    link: "/case-studies/legal-services-marketplace",
   },
   {
-    id: "abandoned-mine-reclamation",
-    category: "program-management",
-    label: "GovTech, US",
-    badge: "Program Management",
-    title: "Abandoned Mine Reclamation",
+    id: "robotic-automation-food-manufacturing",
+    category: "automation-industry",
+    label: "Food Manufacturing",
+    badge: "Robotic Automation",
+    num: "02",
+    code: "STRATVALS-2026-02",
+    subtitle: "FOOD MANUFACTURING · ENGINEERING LEADERSHIP",
+    accent: "#ff6a39",
+    type: "robotics" as const,
+    title: "From Automation Vision to Manufacturing-Ready Robot",
     description:
-      "A GIS-powered platform for the Pennsylvania State Environmental Agency to track, score, and prioritize remediation of 3,000+ abandoned mine sites - replacing fragmented spreadsheets with a live decision-support system.",
+      "Strategic planning, engineering orchestration and program leadership for robotic automation: connecting business intent with engineering execution to deliver a manufacturing-ready MVP, on time and within budget.",
     metrics: [
-      { value: "3,000+", label: "Sites Tracked" },
-      { value: "60%", label: "Field Efficiency Gained" },
-      { value: "12mo", label: "Delivery Timeline" },
+      { value: "MVP", label: "Manufacturing-ready, on time" },
+      { value: "On Budget", label: "Single program direction" },
+      { value: "Scale", label: "Operationalization & multi-site" },
     ],
-    image: "/images/casestudy-mine.jpg",
-    imageBg: "#111827",
-    link: "/case-studies/abandoned-mine-reclamation",
+    image: "/images/case-robotic-automation.svg",
+    imageBg: "#241807",
+    link: "/case-studies/robotic-automation-food-manufacturing",
   },
   {
-    id: "clark-county-public-schools-clean",
-    category: "it-transformation",
-    label: "EdTech, US",
-    badge: "IT Transformation",
-    title: "Clark County Public Schools",
+    id: "norrbrook-apparel-ecommerce",
+    category: "commerce-ai",
+    label: "Apparel & Fashion",
+    badge: "Commerce · MuleSoft · AI",
+    num: "03",
+    code: "STRATVALS-2026-03",
+    subtitle: "COMMERCE · MULESOFT · AI DEMAND & SHIPPING",
+    accent: "#10b981",
+    type: "commerce" as const,
+    title: "Norrbrook Apparel Co.",
     description:
-      "A unified district management platform consolidating 7 disconnected legacy systems into a single source of truth for 300,000+ students across 350+ schools - with real-time enrollment and predictive maintenance.",
+      "A peak-proof apparel business. Custom storefront with variant-level availability, MuleSoft ERP-to-warehouse integration cutting sync from 48 hours to seconds, and AI demand and shipping engines that turn End-of-Season Sale week into a routine.",
     metrics: [
-      { value: "7→1", label: "Systems Consolidated" },
-      { value: "−70%", label: "Reporting Time" },
-      { value: "94%", label: "User Satisfaction" },
+      { value: "96.4%", label: "DIFOT, including peak weeks" },
+      { value: "3.1×", label: "Peak throughput, same headcount" },
+      { value: "−42%", label: "Peak stockout rate" },
     ],
-    image: "/images/casestudy-schools.jpg",
-    imageBg: "#fef3c7",
-    link: "/case-studies/clark-county-public-schools-clean",
-  },
-  {
-    id: "blackbelt-broadband-application",
-    category: "it-transformation",
-    label: "Telecom, US",
-    badge: "IT Transformation",
-    title: "Blackbelt Broadband Application",
-    description:
-      "A full self-service mobile and web platform for a rural broadband provider - giving customers real-time usage dashboards, one-tap outage reporting, and live network health maps.",
-    metrics: [
-      { value: "−52%", label: "Support Call Volume" },
-      { value: "4.8★", label: "App Store Rating" },
-      { value: "78%", label: "Self-Service Adoption" },
-    ],
-    image: "/images/casestudy-broadband.jpg",
-    imageBg: "#0f172a",
-    link: "/case-studies/blackbelt-broadband-application",
-  },
-  {
-    id: "enft-nft-marketplace",
-    category: "product-road-mapping",
-    label: "Web3, US",
-    badge: "Product Road Mapping",
-    title: "eNFT : NFT Marketplace",
-    description:
-      "A full-stack NFT marketplace platform enabling artists, collectors, and brands to mint, buy, sell, and auction digital assets on Ethereum - built with gasless lazy minting and seamless onboarding.",
-    metrics: [
-      { value: "10k+", label: "NFTs Minted" },
-      { value: "$2M+", label: "Trading Volume" },
-      { value: "<2min", label: "User Onboarding" },
-    ],
-    image: "/images/casestudy-nft.jpg",
-    imageBg: "#fae8ff",
-    link: "/case-studies/enft-nft-marketplace",
-  },
-  {
-    id: "dms-granthalaya",
-    category: "product-road-mapping",
-    label: "Enterprise SaaS, US",
-    badge: "Product Road Mapping",
-    title: "DMS: Granthalaya",
-    description:
-      "A comprehensive Document Management System built for enterprise clients to manage, version-control, classify, and collaborate on thousands of documents with automated ML classification and audit trails.",
-    metrics: [
-      { value: "100k+", label: "Docs Managed" },
-      { value: "−80%", label: "Search Time" },
-      { value: "100%", label: "Compliance Score" },
-    ],
-    image: "/images/casestudy-dms.jpg",
-    imageBg: "#f1f5f9",
-    link: "/case-studies/dms-granthalaya",
-  },
-  {
-    id: "dapper-email-management-dashboard",
-    category: "it-transformation",
-    label: "Productivity SaaS, US",
-    badge: "IT Transformation",
-    title: "Dapper: Email Management Dashboard",
-    description:
-      "An intelligent email analytics and workflow automation dashboard connecting Gmail and Outlook APIs for enterprise sales teams to track response latency, customer sentiment, and deal health.",
-    metrics: [
-      { value: "3.5×", label: "Response Speed" },
-      { value: "+42%", label: "Deal Velocity" },
-      { value: "99.9%", label: "Uptime SLA" },
-    ],
-    image: "/images/casestudy-email.jpg",
-    imageBg: "#e0f2fe",
-    link: "/case-studies/dapper-email-management-dashboard",
+    image: "/images/case-ecommerce-apparel.svg",
+    imageBg: "#0a1f1a",
+    link: "/case-studies/norrbrook-apparel-ecommerce",
   },
 ];
 
 const tabs = [
   { id: "all", label: "Selected Work" },
-  { id: "program-management", label: "Program Management" },
-  { id: "it-transformation", label: "IT Transformation" },
-  { id: "product-road-mapping", label: "Product Road Mapping" },
+  { id: "digital-platforms", label: "LegalTech & Platforms" },
+  { id: "automation-industry", label: "Automation & Industry" },
+  { id: "commerce-ai", label: "Commerce & AI" },
 ];
 
 export default function SelectedWork() {
@@ -159,7 +107,7 @@ export default function SelectedWork() {
               Selected Work
             </p>
             <h2 className={styles.sectionHeading}>
-              Companies that closed the perception gap and what changed.
+              Companies that closed the gap between strategy and execution.
             </h2>
           </div>
 
@@ -235,12 +183,16 @@ export default function SelectedWork() {
                   </Link>
                 </div>
 
-                {/* Image side */}
+                {/* Dynamic Pure React Cover Side */}
                 <div className={styles.imageSide}>
-                  <img
-                    src={work.image}
-                    alt={work.title}
-                    className={styles.workImage}
+                  <CaseStudyCoverCard
+                    number={work.num}
+                    code={work.code}
+                    title={work.title}
+                    subtitle={work.subtitle}
+                    accent={work.accent}
+                    type={work.type}
+                    compact
                   />
                 </div>
               </motion.div>

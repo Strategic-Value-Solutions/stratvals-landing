@@ -43,7 +43,7 @@
 .tabBtn {
   background: none;
   border: none;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--foreground-muted);
   font-size: 1.25rem;
   font-weight: 500;
   cursor: pointer;
@@ -67,15 +67,16 @@
 }
 
 .tabBtn:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--foreground);
 }
 
 .tabBtn.active {
-  color: var(--secondary);
+  color: #3b82f6;
+  font-weight: 600;
 }
 
 .tabBtn.active::before {
-  background-color: var(--secondary);
+  background-color: #3b82f6;
 }
 
 .imageContainer {
@@ -187,12 +188,14 @@
     display: none;
   }
   .tabBtn {
-    padding: 10px 20px;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 30px;
+    padding: 8px 18px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-pill);
+    font-size: 0.88rem;
   }
   .tabBtn.active {
-    background: var(--secondary);
-    color: var(--background);
+    background: var(--foreground);
+    color: var(--card-bg);
   }
 }

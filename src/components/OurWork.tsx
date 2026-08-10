@@ -8,21 +8,21 @@ import { ArrowUpRight } from "lucide-react";
 
 const works = [
   {
-    id: "program-management",
-    title: "Program Management",
-    image: "/images/casestudy-water.jpg",
+    id: "digital-platforms",
+    title: "Digital Platforms",
+    image: "/images/case-legal-marketplace.svg",
     link: "/case-studies",
   },
   {
-    id: "it-transformation",
-    title: "IT Transformation",
-    image: "/images/casestudy-broadband.jpg",
+    id: "automation-industry",
+    title: "Automation & Industry",
+    image: "/images/case-robotic-automation.svg",
     link: "/case-studies",
   },
   {
-    id: "product-road-mapping",
-    title: "Product Road Mapping",
-    image: "/images/casestudy-nft.jpg",
+    id: "commerce-ai",
+    title: "Commerce & AI",
+    image: "/images/case-ecommerce-apparel.svg",
     link: "/case-studies",
   },
 ];
