@@ -333,6 +333,13 @@ export default function Header() {
 
         {/* Right Action Controls */}
         <div className={styles.actions}>
+          <a
+            href="https://uat-intranet.stratvals.com/intranet-login"
+            className={styles.loginBtn}
+          >
+            Login to Intranet
+          </a>
+
           {/* Theme Switcher Toggle Pill (Desktop Only) */}
           <motion.button
             className={styles.themeToggleBtn}
@@ -483,6 +490,16 @@ export default function Header() {
                     </Link>
                   </li>
                 ))}
+                <li>
+                  <a
+                    href="https://uat-intranet.stratvals.com/intranet-login"
+                    className={styles.mobileMenuLink}
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    <span>Login to Intranet</span>
+                    <span className={styles.mobileMenuArrow}>→</span>
+                  </a>
+                </li>
               </ul>
               <div className={styles.mobileDivider} />
               <button
