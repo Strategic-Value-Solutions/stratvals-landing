@@ -31,7 +31,8 @@ export default function Header() {
             <li><Link href="/contact-us" onClick={() => setIsOpen(false)}>Contact Us</Link></li>
             <li>
               <a 
-                href="http://localhost:8017/intranet-login" 
+                // href="http://localhost:8017/intranet-login" 
+                href = "https://uat-intranet.stratvals.com/intranet-login"
                 className={styles.loginBtn}
                 onClick={() => setIsOpen(false)}
               >
