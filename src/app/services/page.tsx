@@ -5,7 +5,7 @@ import ContactFormSection from "../../components/ContactFormSection";
 export const metadata = {
   title: "Services | Strategic Value Solutions",
   description:
-    "An executives' consulting and professional services firm with experience in e-Commerce, Logistics, Healthcare, Construction, Manufacturing, and Real Estate.",
+    "An executives' consulting and professional services firm with experience in e-Commerce, Logistics, Healthcare, Construction Technology (ConTech), Smart Manufacturing, and Real Estate.",
 };
 
 const techCategories = [
@@ -87,7 +87,7 @@ export default function ServicesPage() {
                     color: "var(--foreground-muted)",
                   }}
                 >
-                  We are an executives&apos; consulting and professional services firm with experience in e-Commerce, Logistics (3PL/4PL), Healthcare, Construction, Manufacturing, and Real Estate. We support executives in achieving strategic objectives and driving business outcomes.
+                  We are an executives&apos; consulting and professional services firm with experience in e-Commerce, Logistics (3PL/4PL), Healthcare, Construction Technology (ConTech), Smart Manufacturing, and Real Estate. We support executives in achieving strategic objectives and driving business outcomes.
                 </p>
               </div>
 
@@ -102,7 +102,7 @@ export default function ServicesPage() {
                   { sector: "e-Commerce", detail: "Platform migrations, Shopify Plus, headless commerce" },
                   { sector: "Logistics (3PL/4PL)", detail: "Supply chain visibility, warehouse management systems" },
                   { sector: "Healthcare", detail: "HIPAA-compliant platforms, patient portal, data systems" },
-                  { sector: "Construction", detail: "Project tracking, ERP integration, field workforce tools" },
+                  { sector: "Construction Tech", detail: "Field workforce apps, cloud ERP integration, mobile project tracking" },
                   { sector: "Manufacturing", detail: "IoT dashboards, ERP modernization, quality control" },
                   { sector: "Real Estate", detail: "Property platforms, CRM integrations, digital workflows" },
                 ].map((item, i) => (

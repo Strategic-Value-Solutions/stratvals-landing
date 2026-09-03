@@ -36,7 +36,7 @@ export default function AboutPage() {
       <PageHeader
         label="Strategic Value Solutions - Who We Are"
         title="Executive Tech Advisory & Digital Transformation"
-        subtitle="Empowering corporate leaders across e-Commerce, Logistics, Healthcare, Construction, Manufacturing, and Real Estate to build future-proof technology foundations."
+        subtitle="Empowering corporate leaders across e-Commerce, Logistics, Healthcare, Construction Technology, Smart Manufacturing, and Real Estate to build future-proof software and technology foundations."
       />
 
       <AboutSection />

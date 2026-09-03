@@ -34,7 +34,7 @@ const blogContent: Record<
       {
         type: "p",
         content:
-          "As organizations across e-Commerce, Logistics, Healthcare, Manufacturing, Construction, and Real Estate accelerate their modernization journeys, executive leadership teams face a dual challenge: maintaining the operational stability of current core systems while systematically building agile, cloud-native capabilities that unlock future revenue streams. This strategic briefing provides a comprehensive engineering and governance blueprint for enterprise application modernization.",
+          "As organizations across e-Commerce, Logistics, Healthcare, Smart Manufacturing, Construction Technology, and Real Estate accelerate their modernization journeys, executive leadership teams face a dual challenge: maintaining the operational stability of current core systems while systematically building agile, cloud-native capabilities that unlock future revenue streams. This strategic briefing provides a comprehensive engineering and governance blueprint for enterprise application modernization.",
       },
       { type: "h3", content: "1. The Defining Characteristics of Modern Enterprise Platforms" },
       {
@@ -475,7 +475,7 @@ const blogContent: Record<
       {
         type: "p",
         content:
-          "Building enterprise software products in regulated industries (such as Healthcare, Financial Services, Telecommunications, Government, Construction, and Energy) requires a fundamentally different product management philosophy than standard commercial SaaS. In consumer tech, teams operate under the mantra of moving fast and breaking things. In regulated domains, breaking things leads to catastrophic regulatory fines, operational shutdowns, civil liability, and permanent brand damage.",
+          "Building enterprise software products in regulated industries (such as Healthcare, Financial Services, Telecommunications, Government, Construction Technology, and Energy) requires a fundamentally different product management philosophy than standard commercial SaaS. In consumer tech, teams operate under the mantra of moving fast and breaking things. In regulated domains, breaking things leads to catastrophic regulatory fines, operational shutdowns, civil liability, and permanent brand damage.",
       },
       {
         type: "p",

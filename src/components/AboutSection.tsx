@@ -105,7 +105,7 @@ export default function AboutSection() {
           </motion.p>
 
           <div className={styles.grid}>
-            {/* Left - showreel / media */}
+            {/* Left - media showcase */}
             <motion.div className={styles.mediaCol} variants={childVariants}>
               <div className={styles.videoCard}>
                 <div className={styles.videoThumb}>
@@ -114,27 +114,9 @@ export default function AboutSection() {
                     alt="Strategic Value Solutions Overview"
                     className={styles.thumbImg}
                   />
-                  <motion.button
-                    className={styles.playBtn}
-                    aria-label="Play showreel"
-                    whileHover={{ scale: 1.14 }}
-                    whileTap={{ scale: 0.94 }}
-                  >
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                      <path d="M7 5L15 10L7 15V5Z" fill="white" />
-                    </svg>
-                  </motion.button>
                 </div>
                 <div className={styles.videoMeta}>
                   <span className={styles.videoTitle}>SVS Corporate Overview</span>
-                  <svg width="32" height="16" viewBox="0 0 32 16" fill="none">
-                    <rect x="0" y="7" width="3" height="2" rx="1" fill="#a0a8b8" />
-                    <rect x="5" y="4" width="3" height="8" rx="1.5" fill="#a0a8b8" />
-                    <rect x="10" y="1" width="3" height="14" rx="1.5" fill="#0a0a0a" />
-                    <rect x="15" y="4" width="3" height="8" rx="1.5" fill="#a0a8b8" />
-                    <rect x="20" y="6" width="3" height="4" rx="1.5" fill="#a0a8b8" />
-                    <rect x="25" y="7" width="3" height="2" rx="1" fill="#a0a8b8" />
-                  </svg>
                 </div>
               </div>
             </motion.div>
@@ -160,7 +142,7 @@ export default function AboutSection() {
               </motion.h2>
 
               <motion.p className={styles.body} variants={childVariants}>
-                Strategic Value Solutions supports corporate leaders across e-Commerce, Logistics (3PL/4PL), Healthcare, Construction, Manufacturing, and Real Estate in achieving strategic objectives and building future-proof technology foundations.
+                Strategic Value Solutions supports corporate leaders across e-Commerce, Logistics (3PL/4PL), Healthcare, Construction Technology (ConTech), Smart Manufacturing, and Real Estate in achieving strategic objectives and building future-proof technology foundations.
               </motion.p>
               <motion.p className={styles.body} variants={childVariants}>
                 We examine what market leaders are doing to stay relevant and competitive in today&apos;s fast-paced world. We then strategize using smart tools and global resources to understand the implications of every decision, closing the gap between internal capability and external market success.

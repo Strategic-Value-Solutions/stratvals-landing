@@ -86,7 +86,7 @@ const services: Record<string, ServiceData> = {
       { sector: "Logistics & 3PL", detail: "Real-time tracking portals, driver dispatch apps, and automated warehouse alerts." },
       { sector: "Healthcare", detail: "HIPAA-compliant patient portals, telehealth platforms, and HL7/FHIR record sync." },
       { sector: "Manufacturing", detail: "IoT telemetry dashboards, predictive maintenance alerts, and supply chain portals." },
-      { sector: "Construction", detail: "Field workforce apps, mobile project reporting, and sub-contractor management." },
+      { sector: "Construction Tech", detail: "Field workforce software, mobile project reporting apps, and sub-contractor ERP management." },
       { sector: "Real Estate", detail: "Property management platforms, tenant portals, and CRM integration workflows." },
     ],
     caseHighlight: {
@@ -158,7 +158,7 @@ const services: Record<string, ServiceData> = {
     ],
     industries: [
       { sector: "Manufacturing", detail: "Robotic automation MVP orchestration and multi-site factory rollout governance." },
-      { sector: "Construction", detail: "Capital project tracking, ERP rollout governance, and contractor portal controls." },
+      { sector: "Construction Tech", detail: "Capital project software tracking, ERP rollout governance, and contractor portal controls." },
       { sector: "Logistics", detail: "3PL system consolidation, warehouse management system (WMS) cutover leadership." },
       { sector: "Healthcare", detail: "Enterprise EHR migration program leadership and multi-hospital system integration." },
       { sector: "e-Commerce", detail: "Peak retail readiness, warehouse integration, and multi-channel ERP synchronization." },
@@ -236,7 +236,7 @@ const services: Record<string, ServiceData> = {
       { sector: "Logistics", detail: "Legacy EDI modernization, automated order routing, and real-time cargo visibility." },
       { sector: "Healthcare", detail: "Cloud data warehouse modernization, HIPAA compliance automation, and patient APIs." },
       { sector: "Manufacturing", detail: "Industrial IoT streaming data, legacy ERP connector layers, and quality analytics." },
-      { sector: "Construction", detail: "Legacy accounting software integrations and cloud field mobile sync." },
+      { sector: "Construction Tech", detail: "Legacy accounting software modernization and cloud field mobile sync." },
       { sector: "Real Estate", detail: "Centralized property data hub and automated lease workflow processing." },
     ],
     caseHighlight: {
@@ -258,7 +258,7 @@ function getGenericService(slug: string): ServiceData {
     subtitle: "Enterprise Technology & Executive Advisory",
     category: "Strategic Capability",
     intro:
-      "Strategic Value Solutions partners with executive leaders across e-Commerce, Logistics, Healthcare, Construction, Manufacturing, and Real Estate to architect scalable, high-performance technology solutions.",
+      "Strategic Value Solutions partners with executive leaders across e-Commerce, Logistics, Healthcare, Construction Technology, Smart Manufacturing, and Real Estate to architect scalable, high-performance software and cloud solutions.",
     stats: [
       { label: "Focus", value: "Executive Technology Advisory" },
       { label: "Delivery", value: "Agile & Cloud-Native" },

@@ -26,7 +26,7 @@ export default function ServiceDevelopment() {
             transition={{ duration: 0.6 }}
           >
             <p>
-              We are an executives' consulting and professional services firm with experience in e-Commerce, Logistics (3PL/4PL), Healthcare, Construction, Manufacturing, and Real Estate. We support executives in achieving strategic objectives and driving business outcome.
+              We are an executives' consulting and professional services firm with experience in e-Commerce, Logistics (3PL/4PL), Healthcare, Construction Technology (ConTech), Smart Manufacturing, and Real Estate. We support executives in achieving strategic objectives and driving business outcomes.
             </p>
           </motion.div>
         </div>

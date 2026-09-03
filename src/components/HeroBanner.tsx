@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion, Variants } from "framer-motion";
 import styles from "./HeroBanner.module.css";
 import Link from "next/link";
@@ -55,6 +56,19 @@ export default function HeroBanner() {
 
   return (
     <section className={styles.hero}>
+      {/* Background Image Container - Strategy Desk */}
+      <div className={styles.bgWrapper}>
+        <Image
+          src="/hero-bg.jpeg"
+          alt="Strategy Desk with lightbulb and blueprints"
+          fill
+          priority
+          quality={85}
+          className={styles.bgImage}
+        />
+        <div className={styles.bgOverlay} />
+      </div>
+
       <div className={styles.content}>
         {/* Eyebrow Subtitle */}
         <motion.p

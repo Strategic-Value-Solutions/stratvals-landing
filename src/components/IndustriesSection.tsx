@@ -31,11 +31,11 @@ const industries = [
   },
   {
     id: "construction",
-    title: "Construction & Infrastructure",
-    tagline: "Site Operations & Resource Planning Systems",
-    description: "Digitizing job-site reporting, safety compliance tracking, heavy equipment telemetry, and contractor billing into a single cloud dashboard.",
-    icon: "🏗️",
-    metrics: "60% Faster Reporting",
+    title: "Construction Tech (ConTech)",
+    tagline: "Custom Enterprise Software & Field Operations Platforms",
+    description: "Building custom cloud applications, mobile field-reporting tools, sub-contractor ERP workflows, and real-time project telemetry dashboards for construction and field engineering firms.",
+    icon: "💻",
+    metrics: "60% Faster Field Reporting",
   },
   {
     id: "manufacturing",

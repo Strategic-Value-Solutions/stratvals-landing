@@ -12,7 +12,7 @@ const services = [
       "Need help with packaging the next big technology idea or transforming traditional software development processes? We help create a product roadmap for strategic growth and industry positioning, guide your cloud migration, and introduce the latest SecDevOps and CI/CD processes. We give your team the structure to build faster and ship smarter.",
     features: [
       "Strategic Product Architecture",
-      "Cloud Migration & Infrastructure",
+      "Cloud & DevOps Infrastructure",
       "SecDevOps & CI/CD Processes",
       "Agile Software Transformation",
     ],
@@ -80,7 +80,7 @@ export default function ServicesSection() {
               Strategic Value Solutions Services
             </p>
             <h2 className={styles.statement}>
-              Your #1 business-specific software development experts across e-Commerce, Logistics, Healthcare, Construction, Manufacturing, and Real Estate.
+              Your #1 business-specific software development experts across e-Commerce, Logistics, Healthcare, Construction Technology (ConTech), Smart Manufacturing, and Real Estate.
             </h2>
           </div>
 
