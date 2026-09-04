@@ -61,7 +61,7 @@ const allWorks = [
     subtitle: "COMMERCE · MULESOFT · AI DEMAND & SHIPPING",
     accent: "#10b981",
     type: "commerce" as const,
-    title: "Norrbrook Apparel Co.",
+    title: "Leading Apparel Brand",
     description:
       "A peak-proof apparel business. Custom storefront with variant-level availability, MuleSoft ERP-to-warehouse integration cutting sync from 48 hours to seconds, and AI demand and shipping engines that turn End-of-Season Sale week into a routine.",
     metrics: [

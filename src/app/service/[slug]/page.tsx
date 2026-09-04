@@ -82,12 +82,9 @@ const services: Record<string, ServiceData> = {
       },
     ],
     industries: [
-      { sector: "e-Commerce", detail: "Headless catalog engines, variant-level ATP, and instant search integration." },
-      { sector: "Logistics & 3PL", detail: "Real-time tracking portals, driver dispatch apps, and automated warehouse alerts." },
-      { sector: "Healthcare", detail: "HIPAA-compliant patient portals, telehealth platforms, and HL7/FHIR record sync." },
-      { sector: "Manufacturing", detail: "IoT telemetry dashboards, predictive maintenance alerts, and supply chain portals." },
-      { sector: "Construction Tech", detail: "Field workforce software, mobile project reporting apps, and sub-contractor ERP management." },
-      { sector: "Real Estate", detail: "Property management platforms, tenant portals, and CRM integration workflows." },
+      { sector: "e-Commerce & Retail", detail: "Headless catalog engines, variant-level ATP, and instant search integration." },
+      { sector: "Logistics & Supply Chain (3PL/4PL)", detail: "Real-time tracking portals, driver dispatch apps, and automated warehouse alerts." },
+      { sector: "Healthcare & Digital Health", detail: "HIPAA-compliant patient portals, telehealth platforms, and HL7/FHIR record sync." },
     ],
     caseHighlight: {
       label: "Flagship Case Study",
@@ -157,12 +154,9 @@ const services: Record<string, ServiceData> = {
       },
     ],
     industries: [
-      { sector: "Manufacturing", detail: "Robotic automation MVP orchestration and multi-site factory rollout governance." },
-      { sector: "Construction Tech", detail: "Capital project software tracking, ERP rollout governance, and contractor portal controls." },
-      { sector: "Logistics", detail: "3PL system consolidation, warehouse management system (WMS) cutover leadership." },
-      { sector: "Healthcare", detail: "Enterprise EHR migration program leadership and multi-hospital system integration." },
-      { sector: "e-Commerce", detail: "Peak retail readiness, warehouse integration, and multi-channel ERP synchronization." },
-      { sector: "Real Estate", detail: "Portfolio system transformation and corporate digital workspace rollouts." },
+      { sector: "e-Commerce & Retail", detail: "Peak retail readiness, warehouse integration, and multi-channel ERP synchronization." },
+      { sector: "Logistics & Supply Chain", detail: "3PL system consolidation, warehouse management system (WMS) cutover leadership." },
+      { sector: "Healthcare & Digital Health", detail: "Enterprise EHR migration program leadership and digital platform integration." },
     ],
     caseHighlight: {
       label: "Flagship Case Study",
@@ -232,16 +226,13 @@ const services: Record<string, ServiceData> = {
       },
     ],
     industries: [
-      { sector: "Apparel & Retail", detail: "ERP to warehouse MuleSoft integration, live variant ATP, and AI demand engines." },
-      { sector: "Logistics", detail: "Legacy EDI modernization, automated order routing, and real-time cargo visibility." },
-      { sector: "Healthcare", detail: "Cloud data warehouse modernization, HIPAA compliance automation, and patient APIs." },
-      { sector: "Manufacturing", detail: "Industrial IoT streaming data, legacy ERP connector layers, and quality analytics." },
-      { sector: "Construction Tech", detail: "Legacy accounting software modernization and cloud field mobile sync." },
-      { sector: "Real Estate", detail: "Centralized property data hub and automated lease workflow processing." },
+      { sector: "Apparel & Retail Tech", detail: "ERP to warehouse MuleSoft integration, live variant ATP, and AI demand engines." },
+      { sector: "Supply Chain & Logistics", detail: "Legacy EDI modernization, automated order routing, and real-time cargo visibility." },
+      { sector: "Healthcare & Digital Health", detail: "Cloud data warehouse modernization, HIPAA compliance automation, and patient APIs." },
     ],
     caseHighlight: {
       label: "Flagship Case Study",
-      title: "Norrbrook Apparel Co.: Rebuilding the Commerce Stack on MuleSoft & AI",
+      title: "Leading Apparel Brand: Rebuilding the Commerce Stack on MuleSoft & AI",
       link: "/case-studies/norrbrook-apparel-ecommerce",
     },
   },
@@ -258,7 +249,7 @@ function getGenericService(slug: string): ServiceData {
     subtitle: "Enterprise Technology & Executive Advisory",
     category: "Strategic Capability",
     intro:
-      "Strategic Value Solutions partners with executive leaders across e-Commerce, Logistics, Healthcare, Construction Technology, Smart Manufacturing, and Real Estate to architect scalable, high-performance software and cloud solutions.",
+      "Strategic Value Solutions partners with executive leaders across e-Commerce, Logistics (3PL/4PL), and Healthcare to architect scalable, high-performance software and cloud solutions.",
     stats: [
       { label: "Focus", value: "Executive Technology Advisory" },
       { label: "Delivery", value: "Agile & Cloud-Native" },

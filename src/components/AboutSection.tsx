@@ -110,8 +110,8 @@ export default function AboutSection() {
               <div className={styles.videoCard}>
                 <div className={styles.videoThumb}>
                   <img
-                    src="/images/dashboard.webp"
-                    alt="Strategic Value Solutions Overview"
+                    src="/images/svs-overview.jpg"
+                    alt="Strategic Value Solutions Corporate Overview"
                     className={styles.thumbImg}
                   />
                 </div>
@@ -142,7 +142,7 @@ export default function AboutSection() {
               </motion.h2>
 
               <motion.p className={styles.body} variants={childVariants}>
-                Strategic Value Solutions supports corporate leaders across e-Commerce, Logistics (3PL/4PL), Healthcare, Construction Technology (ConTech), Smart Manufacturing, and Real Estate in achieving strategic objectives and building future-proof technology foundations.
+                Strategic Value Solutions supports corporate leaders across e-Commerce, Logistics (3PL/4PL), and Healthcare in achieving strategic objectives and building future-proof technology foundations.
               </motion.p>
               <motion.p className={styles.body} variants={childVariants}>
                 We examine what market leaders are doing to stay relevant and competitive in today&apos;s fast-paced world. We then strategize using smart tools and global resources to understand the implications of every decision, closing the gap between internal capability and external market success.

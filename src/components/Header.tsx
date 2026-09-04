@@ -136,7 +136,7 @@ const worksDropdown = {
             <path d="M16 10a4 4 0 0 1-8 0" />
           </svg>
         ),
-        title: "Norrbrook Apparel Co.",
+        title: "Leading Apparel Brand",
         desc: "eCommerce · MuleSoft · AI Demand & Shipping",
         href: "/case-studies/norrbrook-apparel-ecommerce",
       },

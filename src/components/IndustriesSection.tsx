@@ -15,7 +15,7 @@ const industries = [
   },
   {
     id: "logistics",
-    title: "3PL & 4PL Logistics",
+    title: "Supply Chain & Logistics Tech (3PL/4PL)",
     tagline: "Real-Time Fleet Tracking & Warehouse Management",
     description: "Automating end-to-end supply chain visibility with IoT tracking sensors, route optimization algorithms, and automated warehouse management system (WMS) integrations.",
     icon: "🚛",
@@ -28,30 +28,6 @@ const industries = [
     description: "Developing secure EHR/EMR integrations, telemedicine SPA platforms, and predictive patient analytics engines adhering to strict HIPAA and HL7/FHIR data compliance.",
     icon: "🏥",
     metrics: "100% HIPAA Compliant",
-  },
-  {
-    id: "construction",
-    title: "Construction Tech (ConTech)",
-    tagline: "Custom Enterprise Software & Field Operations Platforms",
-    description: "Building custom cloud applications, mobile field-reporting tools, sub-contractor ERP workflows, and real-time project telemetry dashboards for construction and field engineering firms.",
-    icon: "💻",
-    metrics: "60% Faster Field Reporting",
-  },
-  {
-    id: "manufacturing",
-    title: "Smart Manufacturing & Industry 4.0",
-    tagline: "Predictive Maintenance & Factory Automation",
-    description: "Integrating Industrial IoT sensors with edge data processing to predict machine component failures before downtime impacts assembly line throughput.",
-    icon: "🏭",
-    metrics: "99.8% Line Availability",
-  },
-  {
-    id: "realestate",
-    title: "Real Estate & PropTech",
-    tagline: "Property Portfolio Analytics & Tenant Portals",
-    description: "Custom PropTech software for asset managers, lease abstraction AI, automated maintenance ticketing, and immersive virtual property walkthroughs.",
-    icon: "🏢",
-    metrics: "85% Lease Ops Efficiency",
   },
 ];
 
@@ -76,11 +52,11 @@ export default function IndustriesSection() {
               Tailored Engineering for High-Stakes Industries
             </h2>
             <p className={styles.subheading}>
-              We bring deep domain expertise across 6 core sectors, transforming complex operational requirements into scalable digital advantages.
+              We bring deep domain expertise across our core industry practices, transforming complex operational requirements into scalable digital advantages.
             </p>
           </div>
 
-          {/* 6-Card Grid */}
+          {/* 3-Card Grid */}
           <div className={styles.grid}>
             {industries.map((ind, i) => (
               <motion.div

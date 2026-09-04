@@ -76,12 +76,12 @@ const caseStudies: Record<string, CaseStudyData> = {
       {
         src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?fm=jpg&q=80&w=1400&auto=format&fit=crop",
         alt: "Digital provider portal dashboard showing case management and analytics",
-        caption: "FIG. 01 — PROVIDER PORTAL, POST-LAUNCH",
+        caption: "FIG. 01: PROVIDER PORTAL, POST-LAUNCH",
       },
       {
         src: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?fm=jpg&q=80&w=1400&auto=format&fit=crop",
         alt: "Digital case intake journey on tablet and laptop interface",
-        caption: "FIG. 02 — DIGITAL CASE INTAKE, CUSTOMER JOURNEY",
+        caption: "FIG. 02: DIGITAL CASE INTAKE, CUSTOMER JOURNEY",
       },
     ],
     ctaHeading: "Modernizing legal services delivery?",
@@ -155,7 +155,7 @@ const caseStudies: Record<string, CaseStudyData> = {
       cite: "Strategy, Architecture and Delivery by StratVals",
     },
     prevSlug: "norrbrook-apparel-ecommerce",
-    prevTitle: "Norrbrook Apparel Co.",
+    prevTitle: "Leading Apparel Brand",
     nextSlug: "robotic-automation-food-manufacturing",
     nextTitle: "Robotic Automation for Food Manufacturing",
   },
@@ -188,12 +188,12 @@ const caseStudies: Record<string, CaseStudyData> = {
       {
         src: "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?fm=jpg&q=80&w=1400&auto=format&fit=crop",
         alt: "Industrial robotic arm operating on automated food manufacturing assembly line",
-        caption: "FIG. 01 — AUTOMATED CELL, PRE-DEPLOYMENT TEST",
+        caption: "FIG. 01: AUTOMATED CELL, PRE-DEPLOYMENT TEST",
       },
       {
         src: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?fm=jpg&q=80&w=1400&auto=format&fit=crop",
         alt: "High-precision industrial robotic arm operating on automated food manufacturing production line",
-        caption: "FIG. 02 — ROBOTIC MVP, POST-MANUFACTURING HANDOFF",
+        caption: "FIG. 02: ROBOTIC MVP, POST-MANUFACTURING HANDOFF",
       },
     ],
     ctaHeading: "Turning an automation idea into an engineered reality?",
@@ -274,7 +274,7 @@ const caseStudies: Record<string, CaseStudyData> = {
     prevSlug: "legal-services-marketplace",
     prevTitle: "Legal Services Marketplace",
     nextSlug: "norrbrook-apparel-ecommerce",
-    nextTitle: "Norrbrook Apparel Co.",
+    nextTitle: "Leading Apparel Brand",
   },
 
   "norrbrook-apparel-ecommerce": {
@@ -291,11 +291,11 @@ const caseStudies: Record<string, CaseStudyData> = {
     tagline:
       "Three systems that barely spoke to each other. One rebuilt commerce layer: wired together on MuleSoft, sharpened by AI demand planning and shipping optimization, and tested through the hardest week of the retail year.",
     clientNarrative:
-      "Norrbrook Apparel Co. is a mid-sized apparel brand selling performance and everyday wear through a direct-to-consumer storefront, two fashion marketplaces, and a regional wholesale channel. Like most SME apparel sellers, its catalog carries deep size and colour variance across every style, and its order volume swings hard around two annual peaks: a winter holiday surge and an End-of-Season Sale. Before the engagement, the DTC site ran on a templated storefront with limited control over the product detail experience, while inventory truth lived in three disconnected places: the ERP, the warehouse management system operated by a third-party logistics partner, and a set of shared spreadsheets used to reconcile the two.",
+      "A leading apparel brand selling performance and everyday wear through a direct-to-consumer storefront, two fashion marketplaces, and a regional wholesale channel. Like most SME apparel sellers, its catalog carries deep size and colour variance across every style, and its order volume swings hard around two annual peaks: a winter holiday surge and an End-of-Season Sale. Before the engagement, the DTC site ran on a templated storefront with limited control over the product detail experience, while inventory truth lived in three disconnected places: the ERP, the warehouse management system operated by a third-party logistics partner, and a set of shared spreadsheets used to reconcile the two.",
     overview:
-      "Norrbrook Apparel Co. ran its DTC storefront, wholesale ledger and warehouse off three systems that barely communicated. StratVals rebuilt the commerce layer, wired the ERP and warehouse together on MuleSoft Anypoint, and layered in AI-driven demand planning and shipping optimization: turning End-of-Season Sale week from a fire drill into a routine.",
+      "This leading apparel brand ran its DTC storefront, wholesale ledger and warehouse off three systems that barely communicated. StratVals rebuilt the commerce layer, wired the ERP and warehouse together on MuleSoft Anypoint, and layered in AI-driven demand planning and shipping optimization: turning End-of-Season Sale week from a fire drill into a routine.",
     manifest: [
-      { num: "96.4%", lbl: "DIFOT (delivered in full, on time) — up from 81.3%" },
+      { num: "96.4%", lbl: "DIFOT (delivered in full, on time) - up from 81.3%" },
       { num: "−42%",  lbl: "Stockout rate across core SKUs during peak windows" },
       { num: "3.1×",  lbl: "Peak order throughput handled without added headcount" },
       { num: "68%",   lbl: "Forecast accuracy at SKU-week level, from a 31% baseline" },
@@ -305,12 +305,12 @@ const caseStudies: Record<string, CaseStudyData> = {
       {
         src: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?fm=jpg&q=80&w=1400&auto=format&fit=crop",
         alt: "Rows of high-bay warehouse racking in modern fulfillment center",
-        caption: "FIG. 01 — DISTRIBUTION NODE, POST-CUTOVER",
+        caption: "FIG. 01: DISTRIBUTION NODE, POST-CUTOVER",
       },
       {
         src: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?fm=jpg&q=80&w=1400&auto=format&fit=crop",
         alt: "Shipping container terminal and freight logistics node",
-        caption: "FIG. 02 — INBOUND FREIGHT, PEAK REPLENISHMENT CYCLE",
+        caption: "FIG. 02: INBOUND FREIGHT, PEAK REPLENISHMENT CYCLE",
       },
     ],
     ctaHeading: "Planning your next peak season?",
@@ -390,7 +390,7 @@ const caseStudies: Record<string, CaseStudyData> = {
     ],
     quote: {
       text: "We used to plan peak season around what the warehouse spreadsheet told us on a Tuesday. Now the storefront, the ERP and the floor agree in real time, and the shipping engine handles the cost-versus-promise trade-off on its own.",
-      cite: "Supply Chain & Operations Lead, Norrbrook Apparel Co.",
+      cite: "Supply Chain & Operations Lead, Leading Apparel Brand",
     },
     prevSlug: "robotic-automation-food-manufacturing",
     prevTitle: "Robotic Automation for Food Manufacturing",
@@ -501,7 +501,7 @@ export default async function CaseStudyDetailPage({
               />
             </div>
 
-            {/* Impact Manifest — shown when manifest data is present */}
+            {/* Impact Manifest: shown when manifest data is present */}
             {study.manifest && (
               <div style={{
                 border: `1px solid var(--border)`,
@@ -570,7 +570,7 @@ export default async function CaseStudyDetailPage({
               </p>
             </div>
 
-            {/* Client Snapshot — shown when clientNarrative is present */}
+            {/* Client Snapshot: shown when clientNarrative is present */}
             {study.clientNarrative && (
               <div className={styles.sectionBlock}>
                 <SectionHead index="00 // CLIENT SNAPSHOT" title="The Client" accent={accent} />
@@ -678,7 +678,7 @@ export default async function CaseStudyDetailPage({
                     width="100%"
                     xmlns="http://www.w3.org/2000/svg"
                     role="img"
-                    aria-label="Norrbrook Apparel MuleSoft Architecture Flow Diagram"
+                    aria-label="Leading Apparel Brand MuleSoft Architecture Flow Diagram"
                     className={styles.diagramSvg}
                   >
                     <path
@@ -772,7 +772,7 @@ export default async function CaseStudyDetailPage({
               </div>
             </div>
 
-            {/* Photo Gallery — shown when photos data is present */}
+            {/* Photo Gallery: shown when photos data is present */}
             {study.photos && (
               <div className={styles.sectionBlock}>
                 <div
@@ -832,7 +832,7 @@ export default async function CaseStudyDetailPage({
               <p className={styles.quoteCite}>{study.quote.cite}</p>
             </div>
 
-            {/* CTA callout — shown when ctaHeading is present */}
+            {/* CTA callout: shown when ctaHeading is present */}
             {study.ctaHeading && (
               <div style={{
                 textAlign: "center",

@@ -112,26 +112,26 @@ const newsContent: Record<
     ],
   },
   "stratvals-expands-executive-advisory-practice": {
-    title: "Strategic Value Solutions Expands Executive Advisory Practice to Serve Healthcare and Manufacturing Sectors",
+    title: "Strategic Value Solutions Expands Executive Advisory Practice to Serve Healthcare and Supply Chain Sectors",
     date: "January 15, 2024",
     image: "/images/casestudy-schools.jpg",
     paragraphs: [
       {
         type: "p",
         content:
-          "Strategic Value Solutions has formally announced the expansion of its executive technology advisory practice to provide specialized strategic consulting and technology modernization services for the Healthcare and Manufacturing sectors.",
+          "Strategic Value Solutions has formally announced the expansion of its executive technology advisory practice to provide specialized strategic consulting and technology modernization services for the Healthcare and Supply Chain & Logistics sectors.",
       },
       {
         type: "p",
         content:
-          "Following successful transformation programs across e-Commerce, Logistics, and EdTech, this practice expansion responds to accelerating demand from C-suite leaders navigating regulatory compliance, Industrial IoT integration, ERP modernization, and cloud infrastructure transitions.",
+          "Following successful transformation programs across e-Commerce, Logistics, and EdTech, this practice expansion responds to accelerating demand from C-suite leaders navigating regulatory compliance, IoT tracking integration, ERP modernization, and cloud infrastructure transitions.",
       },
       { type: "h3", content: "Practice Expansion Highlights:" },
       {
         type: "ul",
         content: [
           "Dedicated Healthcare Advisory: HIPAA-compliant digital health architecture, EHR integrations, and patient portal security.",
-          "Smart Manufacturing Practice: Industry 4.0 IoT telemetry, predictive maintenance data pipelines, and ERP modernization.",
+          "Supply Chain & Logistics Practice: Real-time IoT fleet telemetry, predictive warehouse data pipelines, and ERP modernization.",
           "C-Suite Program Governance: Establishing steering committees, RAID risk tracking, and milestone-driven ROI measurement.",
           "Global Delivery Scale: Integrating onshore advisory leadership with high-capacity engineering execution squads.",
         ],

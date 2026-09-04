@@ -27,7 +27,7 @@ const blogs = [
     readTime: "6 Min Read",
     category: "Digital Modernization",
     author: "Stratvals Team",
-    image: "/images/dashboard.webp",
+    image: "/images/svs-overview.jpg",
     link: "/blog/from-legacy-systems-to-digital-excellence-the-tech-transformation-journey",
   },
   {

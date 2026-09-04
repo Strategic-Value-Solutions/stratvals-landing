@@ -71,21 +71,21 @@ const servicesData = [
     title: "Product Road Mapping & Engineering",
     description: "Need help with packaging the next big technology idea or transforming the traditional software development processes. We at Strategy Value Solutions can help with creating a product roadmap for strategic growth and industry positioning, cloud migration or the introduction of the latest SecDevOps or CI/CD processes.",
     list: [],
-    image: "/images/dashboard.webp",
+    image: "/images/svs-overview.jpg",
     link: "/service/product-road-mapping-engineering"
   },
   {
     title: "Strategic Program Management",
     description: "We examine what organizations are doing to stay relevant and competitive in this fast-paced world, and which ones are doing it best. We then strategize using smart tools and global resources in order to understand the implications of every choice our clients can make. Get in touch to learn more about how this service can help you.",
     list: [],
-    image: "/images/dashboard.webp",
+    image: "/images/svs-overview.jpg",
     link: "/service/strategic-program-management"
   },
   {
     title: "Technology Transformation",
     description: "Looking for digital transformation for your business but not sure where to turn? Need help in technology selection or cloud migration? Let us guide you. Any organization can move forward with small incremental changes, but building for the future in today’s rapidly evolving environment means taking bold chances and making insightful decisions. Looking for digital transformation for your business but not sure where to turn? Need help in technology selection or cloud migration? Let us guide you. Any organization can move forward with small incremental changes.",
     list: [],
-    image: "/images/dashboard.webp",
+    image: "/images/svs-overview.jpg",
     link: "/service/technology-transformation"
   }
 ];

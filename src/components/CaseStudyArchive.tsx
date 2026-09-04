@@ -40,7 +40,7 @@ const caseStudies = [
     num: "03",
     code: "STRATVALS-2026-03",
     number: "CS-2026-03",
-    title: "Norrbrook Apparel Co.",
+    title: "Leading Apparel Brand",
     subtitle: "COMMERCE · MULESOFT · AI DEMAND & SHIPPING",
     category: "commerce-ai",
     badge: "Commerce · AI",

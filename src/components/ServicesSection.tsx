@@ -80,7 +80,7 @@ export default function ServicesSection() {
               Strategic Value Solutions Services
             </p>
             <h2 className={styles.statement}>
-              Your #1 business-specific software development experts across e-Commerce, Logistics, Healthcare, Construction Technology (ConTech), Smart Manufacturing, and Real Estate.
+              Your #1 business-specific software development experts across e-Commerce, Logistics (3PL/4PL), and Healthcare.
             </h2>
           </div>
 

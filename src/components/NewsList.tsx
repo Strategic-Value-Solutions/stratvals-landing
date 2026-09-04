@@ -39,9 +39,9 @@ const newsItems = [
     id: "4",
     date: "Jan 15, 2024",
     category: "Corporate Milestone",
-    title: "Strategic Value Solutions Expands Executive Advisory Practice to Serve Healthcare and Manufacturing Sectors",
+    title: "Strategic Value Solutions Expands Executive Advisory Practice to Serve Healthcare and Supply Chain Sectors",
     excerpt:
-      "Following a series of successful engagements in logistics and e-Commerce, Strategic Value Solutions is formally expanding its executive advisory practice to serve clients in the Healthcare and Manufacturing sectors. The expansion reflects growing demand for technology strategy advisory from executives navigating regulatory compliance, ERP modernization, and digital supply chain transformation.",
+      "Following a series of successful engagements in logistics and e-Commerce, Strategic Value Solutions is formally expanding its executive advisory practice to serve clients in the Healthcare and Supply Chain & Logistics sectors. The expansion reflects growing demand for technology strategy advisory from executives navigating regulatory compliance, ERP modernization, and digital supply chain transformation.",
     image: "/images/casestudy-schools.jpg",
     link: "/news-events/stratvals-expands-executive-advisory-practice",
   },

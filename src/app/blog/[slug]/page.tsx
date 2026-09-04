@@ -34,7 +34,7 @@ const blogContent: Record<
       {
         type: "p",
         content:
-          "As organizations across e-Commerce, Logistics, Healthcare, Smart Manufacturing, Construction Technology, and Real Estate accelerate their modernization journeys, executive leadership teams face a dual challenge: maintaining the operational stability of current core systems while systematically building agile, cloud-native capabilities that unlock future revenue streams. This strategic briefing provides a comprehensive engineering and governance blueprint for enterprise application modernization.",
+          "As organizations across e-Commerce, Logistics, and Healthcare accelerate their modernization journeys, executive leadership teams face a dual challenge: maintaining the operational stability of current core systems while systematically building agile, cloud-native capabilities that unlock future revenue streams. This strategic briefing provides a comprehensive engineering and governance blueprint for enterprise application modernization.",
       },
       { type: "h3", content: "1. The Defining Characteristics of Modern Enterprise Platforms" },
       {
@@ -127,7 +127,7 @@ const blogContent: Record<
     title: "From Legacy Systems to Digital Excellence: The Tech Transformation Journey",
     date: "Oct 14, 2023",
     readTime: "11 Min Read",
-    image: "/images/dashboard.webp",
+    image: "/images/svs-overview.jpg",
     blocks: [
       {
         type: "callout",
@@ -218,7 +218,7 @@ const blogContent: Record<
     title: "Maximizing ROI with Agile Program Governance & Executive Advisory",
     date: "Nov 08, 2023",
     readTime: "12 Min Read",
-    image: "/images/blog3.webp",
+    image: "/images/casestudy-dms.jpg",
     blocks: [
       {
         type: "callout",
@@ -475,7 +475,7 @@ const blogContent: Record<
       {
         type: "p",
         content:
-          "Building enterprise software products in regulated industries (such as Healthcare, Financial Services, Telecommunications, Government, Construction Technology, and Energy) requires a fundamentally different product management philosophy than standard commercial SaaS. In consumer tech, teams operate under the mantra of moving fast and breaking things. In regulated domains, breaking things leads to catastrophic regulatory fines, operational shutdowns, civil liability, and permanent brand damage.",
+          "Building enterprise software products in regulated industries (such as Healthcare, Financial Services, Telecommunications, Government, and Energy) requires a fundamentally different product management philosophy than standard commercial SaaS. In consumer tech, teams operate under the mantra of moving fast and breaking things. In regulated domains, breaking things leads to catastrophic regulatory fines, operational shutdowns, civil liability, and permanent brand damage.",
       },
       {
         type: "p",

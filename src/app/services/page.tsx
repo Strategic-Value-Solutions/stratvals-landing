@@ -5,7 +5,7 @@ import ContactFormSection from "../../components/ContactFormSection";
 export const metadata = {
   title: "Services | Strategic Value Solutions",
   description:
-    "An executives' consulting and professional services firm with experience in e-Commerce, Logistics, Healthcare, Construction Technology (ConTech), Smart Manufacturing, and Real Estate.",
+    "An executives' consulting and professional services firm with experience in e-Commerce, Logistics (3PL/4PL), and Healthcare.",
 };
 
 const techCategories = [
@@ -87,45 +87,43 @@ export default function ServicesPage() {
                     color: "var(--foreground-muted)",
                   }}
                 >
-                  We are an executives&apos; consulting and professional services firm with experience in e-Commerce, Logistics (3PL/4PL), Healthcare, Construction Technology (ConTech), Smart Manufacturing, and Real Estate. We support executives in achieving strategic objectives and driving business outcomes.
+                  We are an executives&apos; consulting and professional services firm with experience in e-Commerce, Logistics (3PL/4PL), and Healthcare. We support executives in achieving strategic objectives and driving business outcomes.
                 </p>
               </div>
 
               <div
                 style={{
                   display: "grid",
-                  gridTemplateColumns: "1fr 1fr",
+                  gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
                   gap: "16px",
                 }}
               >
                 {[
-                  { sector: "e-Commerce", detail: "Platform migrations, Shopify Plus, headless commerce" },
-                  { sector: "Logistics (3PL/4PL)", detail: "Supply chain visibility, warehouse management systems" },
-                  { sector: "Healthcare", detail: "HIPAA-compliant platforms, patient portal, data systems" },
-                  { sector: "Construction Tech", detail: "Field workforce apps, cloud ERP integration, mobile project tracking" },
-                  { sector: "Manufacturing", detail: "IoT dashboards, ERP modernization, quality control" },
-                  { sector: "Real Estate", detail: "Property platforms, CRM integrations, digital workflows" },
+                  { sector: "e-Commerce", icon: "🛒", detail: "Platform migrations, Shopify Plus, headless commerce" },
+                  { sector: "Logistics (3PL/4PL)", icon: "🚛", detail: "Supply chain visibility, warehouse management systems" },
+                  { sector: "Healthcare", icon: "🏥", detail: "HIPAA-compliant platforms, patient portal, data systems" },
                 ].map((item, i) => (
                   <div
                     key={i}
                     style={{
                       background: "var(--surface)",
                       border: "1px solid var(--border)",
-                      borderRadius: "12px",
-                      padding: "16px 14px",
+                      borderRadius: "14px",
+                      padding: "18px 16px",
                     }}
                   >
+                    <div style={{ fontSize: "1.25rem", marginBottom: "8px" }}>{item.icon}</div>
                     <div
                       style={{
                         fontWeight: 600,
-                        fontSize: "0.9rem",
+                        fontSize: "0.92rem",
                         color: "var(--foreground)",
                         marginBottom: "4px",
                       }}
                     >
                       {item.sector}
                     </div>
-                    <div style={{ fontSize: "0.8rem", color: "var(--foreground-muted)", lineHeight: 1.5 }}>
+                    <div style={{ fontSize: "0.82rem", color: "var(--foreground-muted)", lineHeight: 1.5 }}>
                       {item.detail}
                     </div>
                   </div>
