@@ -25,15 +25,5 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Setup .env file
-        env:
-          ENV_FILE: ${{ secrets.ENV }}
-        run: |
-          if [ -n "$ENV_FILE" ]; then
-            echo "$ENV_FILE" > .env
-          else
-            cp .env.example .env
-          fi
-
       - name: Build Next.js application
         run: npm run build
