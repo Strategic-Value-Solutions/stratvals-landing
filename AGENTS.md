@@ -1,6 +1,6 @@
 # Strategic Value Solutions - Agent Guidelines
 
-This repository hosts the official landing page and web platform for Strategic Value Solutions (SmartEditor Landing).
+This repository hosts the official landing page and web platform for Strategic Value Solutions (Stratvals).
 
 ## Architecture & Tech Stack
 - **Framework**: Next.js 16 (App Router, Turbopack)

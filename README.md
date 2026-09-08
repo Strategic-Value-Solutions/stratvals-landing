@@ -1,4 +1,4 @@
-# Strategic Value Solutions (SmartEditor Landing)
+# Strategic Value Solutions - Landing Platform
 
 The official web platform and landing page for **Strategic Value Solutions (SVS)**, delivering enterprise architecture, technology transformation, cloud security, DevOps, and product engineering.
 
@@ -45,8 +45,8 @@ The official web platform and landing page for **Strategic Value Solutions (SVS)
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Strategic-Value-Solutions/SmartEditor-Landing.git
-   cd SmartEditor-Landing
+   git clone https://github.com/Strategic-Value-Solutions/stratvals-landing.git
+   cd stratvals-landing
    ```
 
 2. Install dependencies:
@@ -122,7 +122,7 @@ Because the project includes an active Node.js API route (`/api/contact`), it ca
 3. **Clone and setup the project**:
    ```bash
    cd /var/www
-   git clone https://github.com/Strategic-Value-Solutions/SmartEditor-Landing.git stratvals
+   git clone https://github.com/Strategic-Value-Solutions/stratvals-landing.git stratvals
    cd stratvals
    npm install
    ```
