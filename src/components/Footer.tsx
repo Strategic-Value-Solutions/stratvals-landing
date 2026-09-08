@@ -160,7 +160,7 @@ export default function Footer() {
           </div>
 
           <div className={styles.copyrightText}>
-            &copy; 2024 StratVals LLC &bull;{" "}
+            &copy; 2026 StratVals LLC &bull;{" "}
             <Link href="/contact-us" className={styles.privacyLink}>
               Privacy Policy
             </Link>
