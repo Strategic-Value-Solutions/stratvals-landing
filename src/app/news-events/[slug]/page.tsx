@@ -79,38 +79,6 @@ const newsContent: Record<
       },
     ],
   },
-  "stratvals-completes-successful-launch-of-enft-marketplace": {
-    title: "Stratvals Completes Successful Launch of eNFT Marketplace Platform on Ethereum Mainnet",
-    date: "November 10, 2023",
-    image: "/images/casestudy-nft.jpg",
-    paragraphs: [
-      {
-        type: "p",
-        content:
-          "Strategic Value Solutions is proud to announce the successful production launch of the eNFT marketplace platform on Ethereum mainnet, delivering a next-generation digital asset experience for global creators and enterprise brands.",
-      },
-      {
-        type: "p",
-        content:
-          "The platform was engineered from the ground up to solve the most significant barrier to mainstream Web3 adoption: complex onboarding. By introducing email-based custodial wallet provisioning and gasless lazy minting, new users can purchase digital collectibles in under two minutes without requiring crypto knowledge.",
-      },
-      { type: "h3", content: "Key Launch Milestones:" },
-      {
-        type: "ul",
-        content: [
-          "Over 1,000 NFTs minted within the first 48 hours of public availability.",
-          "Sub-2-minute onboarding flow cutting drop-off rates by over 70% compared to industry benchmarks.",
-          "Enterprise smart contracts audited and verified for security and ERC-721 / ERC-2981 royalty compliance.",
-          "High-throughput indexing layer syncing blockchain state in real time via WebSockets.",
-        ],
-      },
-      {
-        type: "p",
-        content:
-          "This deployment demonstrates our capability to deliver secure, scalable, and user-friendly Web3 platforms for enterprise clients navigating the digital asset frontier.",
-      },
-    ],
-  },
   "stratvals-expands-executive-advisory-practice": {
     title: "Strategic Value Solutions Expands Executive Advisory Practice to Serve Healthcare and Supply Chain Sectors",
     date: "January 15, 2024",

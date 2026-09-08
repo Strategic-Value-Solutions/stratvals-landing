@@ -16,6 +16,8 @@ const companyLinks = [
 
 const serviceLinks = [
   { label: "Product Road Mapping", href: "/service/product-road-mapping-engineering" },
+  { label: "Enterprise Architecture", href: "/service/enterprise-architecture" },
+  { label: "Cloud & SecDevOps", href: "/service/cloud-secdevops" },
   { label: "Strategic Program Management", href: "/service/strategic-program-management" },
   { label: "Technology Transformation", href: "/service/technology-transformation" },
 ];

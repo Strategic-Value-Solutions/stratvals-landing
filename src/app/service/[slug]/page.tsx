@@ -236,7 +236,154 @@ const services: Record<string, ServiceData> = {
       link: "/case-studies/norrbrook-apparel-ecommerce",
     },
   },
+
+  "enterprise-architecture": {
+    title: "Enterprise Architecture & Systems Design",
+    subtitle: "Scalable Cloud Microservices, API Ecosystems, and Distributed Systems",
+    category: "Core Engineering & Systems Architecture",
+    intro:
+      "Modern enterprise software requires resilient, decoupled architecture that can scale seamlessly with transaction volume and business growth. At Strategic Value Solutions, our enterprise architects partner with engineering and product leaders to design cloud-native microservices, event-driven backends, and robust integration patterns. We eliminate monolithic bottlenecks, optimize data flows, and ensure your core platforms handle mission-critical workloads across e-Commerce, Logistics (3PL/4PL), and Healthcare with sub-second performance and high availability.",
+    stats: [
+      { label: "High Availability", value: "99.99% Uptime Reliability" },
+      { label: "Throughput", value: "100k+ Transactions/Sec" },
+      { label: "Architecture", value: "Event-Driven & Microservices" },
+      { label: "Data Integrity", value: "ACID & Distributed Consensus" },
+    ],
+    whatWeProvide: [
+      {
+        title: "Distributed Systems Design",
+        desc: "Architecting fault-tolerant distributed systems using event-driven architectures (Kafka, RabbitMQ, AWS EventBridge) to decouple critical business services.",
+      },
+      {
+        title: "Microservices & Domain-Driven Design (DDD)",
+        desc: "Decomposing complex business domains into autonomous microservices with well-defined APIs and independent database schemas.",
+      },
+      {
+        title: "API Management & Gateway Strategy",
+        desc: "Establishing unified API gateways, rate limiting, authentication (OAuth2/OIDC), and contract-first API design (OpenAPI/GraphQL).",
+      },
+      {
+        title: "Cloud Infrastructure Blueprinting",
+        desc: "Multi-region, multi-zone cloud topology design on AWS and Azure with automated failover, load balancing, and edge caching.",
+      },
+      {
+        title: "Legacy Monolith Deconstruction",
+        desc: "Applying the Strangler Fig pattern to systematically migrate high-risk legacy systems to modern cloud services without operational downtime.",
+      },
+      {
+        title: "Data Architecture & Event Streaming",
+        desc: "Designing high-throughput data pipelines and event streaming backbones that synchronize ERPs, WMSs, and commerce engines in real time.",
+      },
+    ],
+    approach: [
+      {
+        num: "01",
+        title: "Domain Discovery",
+        desc: "Analyze enterprise workflows, data models, integration touchpoints, and architectural bottlenecks.",
+      },
+      {
+        num: "02",
+        title: "Target Blueprint",
+        desc: "Design future-state architecture, API contracts, microservice boundaries, and non-functional requirements.",
+      },
+      {
+        num: "03",
+        title: "Phased Implementation",
+        desc: "Execute modular refactoring in two-week agile sprints with automated regression suites and zero-downtime deployments.",
+      },
+      {
+        num: "04",
+        title: "Operational Governance",
+        desc: "Deliver architectural runbooks, monitoring dashboards, latency benchmarks, and engineering team training.",
+      },
+    ],
+    industries: [
+      { sector: "e-Commerce & Retail", detail: "High-volume checkout engines, headless catalogs, and distributed inventory management." },
+      { sector: "Logistics & Supply Chain (3PL/4PL)", detail: "Multi-tenant freight dispatch, real-time shipment telemetry, and warehouse system federation." },
+      { sector: "Healthcare & Life Sciences", detail: "HIPAA-compliant microservices, federated health records, and secure FHIR/HL7 data pipelines." },
+    ],
+    caseHighlight: {
+      label: "Flagship Case Study",
+      title: "Legal Services Marketplace: Digital Transformation",
+      link: "/case-studies/legal-services-marketplace",
+    },
+  },
+
+  "cloud-secdevops": {
+    title: "Cloud & SecDevOps Engineering",
+    subtitle: "Automated CI/CD, Multi-Cloud Reliability, and Bank-Grade Infrastructure Security",
+    category: "Cloud Infrastructure & SecDevOps",
+    intro:
+      "Accelerating release cycles without compromising security or uptime requires continuous integration, automated testing, and infrastructure as code. Strategic Value Solutions builds modern SecDevOps environments on AWS, Azure, and GCP. We embed security scanning, container orchestration, and automated deployment pipelines directly into developer workflows, enabling engineering teams to ship high-velocity releases with zero-downtime cutovers, SOC 2 compliance, and 24/7 observability.",
+    stats: [
+      { label: "Deployment Frequency", value: "Daily Automated Releases" },
+      { label: "Security Scanning", value: "Static & Dynamic AST Built-In" },
+      { label: "Infrastructure", value: "100% Declarative IaC (Terraform)" },
+      { label: "MTTR", value: "<15 Min Mean Recovery Time" },
+    ],
+    whatWeProvide: [
+      {
+        title: "Automated CI/CD Pipelines",
+        desc: "Designing and deploying production CI/CD workflows using GitHub Actions, GitLab CI, and ArgoCD with automated rollback safety.",
+      },
+      {
+        title: "Infrastructure as Code (IaC)",
+        desc: "Codifying multi-cloud infrastructure via Terraform and Pulumi for reproducible, auditable, and immutable environments.",
+      },
+      {
+        title: "SecDevOps & Vulnerability Scanning",
+        desc: "Embedding SAST, DAST, container image vulnerability scanning, and secret management (HashiCorp Vault, AWS Secrets Manager).",
+      },
+      {
+        title: "Kubernetes & Container Orchestration",
+        desc: "Production Kubernetes (EKS, AKS, GKE) cluster architecture with automated horizontal pod autoscaling and service mesh (Istio).",
+      },
+      {
+        title: "Observability & Site Reliability Engineering (SRE)",
+        desc: "End-to-end distributed tracing, APM, and real-time alerting using Datadog, Prometheus, Grafana, and AWS CloudWatch.",
+      },
+      {
+        title: "Compliance & Cloud Security Hardening",
+        desc: "Ensuring environments satisfy SOC 2 Type II, HIPAA, and ISO 27001 standards through automated compliance guardrails and policy-as-code.",
+      },
+    ],
+    approach: [
+      {
+        num: "01",
+        title: "Infrastructure Audit",
+        desc: "Assess existing CI/CD pipelines, cloud expenditure, security vulnerabilities, and deployment bottlenecks.",
+      },
+      {
+        num: "02",
+        title: "IaC & Pipeline Blueprint",
+        desc: "Design declarative Terraform architectures, pipeline security gates, and Kubernetes deployment strategies.",
+      },
+      {
+        num: "03",
+        title: "Automated Rollout",
+        desc: "Provision immutable infrastructure, establish automated testing pipelines, and configure continuous delivery.",
+      },
+      {
+        num: "04",
+        title: "24/7 Observability & SRE",
+        desc: "Deploy distributed telemetry, establish SLA/SLO dashboards, and run disaster recovery drills.",
+      },
+    ],
+    industries: [
+      { sector: "e-Commerce & Retail", detail: "Auto-scaling infrastructure handling Black Friday traffic spikes and sub-100ms CDN edge caching." },
+      { sector: "Logistics & Supply Chain (3PL/4PL)", detail: "High-uptime message queues and real-time GPS tracking ingestion with zero data drop." },
+      { sector: "Healthcare & Life Sciences", detail: "Encrypted-at-rest HIPAA-compliant cloud VPCs and immutable audit logging." },
+    ],
+    caseHighlight: {
+      label: "Flagship Case Study",
+      title: "Leading Apparel Brand: Rebuilding the Commerce Stack on MuleSoft & AI",
+      link: "/case-studies/norrbrook-apparel-ecommerce",
+    },
+  },
 };
+
+// Route alias for URLs with 'and'
+services["cloud-and-secdevops"] = services["cloud-secdevops"];
 
 function getGenericService(slug: string): ServiceData {
   const formattedTitle = slug
@@ -300,8 +447,21 @@ function getGenericService(slug: string): ServiceData {
   };
 }
 
-export function generateMetadata() {
-  return { title: "Services | Strategic Value Solutions" };
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const data = services[slug] || getGenericService(slug);
+  return {
+    title: `${data.title} | Strategic Value Solutions`,
+    description: data.subtitle,
+  };
+}
+
+export function generateStaticParams() {
+  return Object.keys(services).map((slug) => ({ slug }));
 }
 
 export default async function GenericServiceDetailPage({

@@ -43,7 +43,7 @@ const servicesDropdown = {
         ),
         title: "Enterprise Architecture",
         desc: "Cloud microservices & systems",
-        href: "/service/product-road-mapping-engineering",
+        href: "/service/enterprise-architecture",
       },
       {
         icon: (
@@ -53,7 +53,7 @@ const servicesDropdown = {
         ),
         title: "Cloud & SecDevOps",
         desc: "AWS, Azure & CI/CD automation",
-        href: "/service/product-road-mapping-engineering",
+        href: "/service/cloud-secdevops",
       },
     ],
   },
@@ -351,9 +351,9 @@ export default function Header() {
             {theme === "light" ? "🌙" : "☀️"}
           </motion.button>
 
-          {/* Let's chat pill button */}
+          {/* Let's Connect pill button */}
           <Link href="/contact-us" className={styles.ctaBtn} onClick={() => setActiveDropdown(null)}>
-            <span>Let&apos;s chat</span>
+            <span>Let&apos;s Connect</span>
             <span className={styles.emoji}>👋</span>
           </Link>
 
@@ -518,7 +518,7 @@ export default function Header() {
                 className={styles.mobileCta}
                 onClick={() => setMenuOpen(false)}
               >
-                <span>Let&apos;s chat</span>
+                <span>Let&apos;s Connect</span>
                 <span style={{ fontSize: "0.9rem" }}>👋</span>
               </Link>
             </motion.div>

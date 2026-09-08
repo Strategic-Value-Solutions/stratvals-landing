@@ -27,8 +27,7 @@
 .leftCol {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  min-height: 480px;
+  justify-content: flex-start;
 }
 
 .pillBadge {
@@ -51,42 +50,6 @@
   letter-spacing: -0.04em;
   color: var(--foreground);
   margin-top: 28px;
-}
-
-/* Testimonials indicator at bottom left */
-.testimonialsBlock {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  padding-top: 24px;
-}
-
-.testimonialsLabel {
-  font-family: var(--font-heading);
-  font-size: 0.88rem;
-  font-weight: 600;
-  color: var(--foreground);
-}
-
-.clientIcons {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.iconCircle {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 1px solid var(--border);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-heading);
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--foreground);
-  background: var(--surface);
 }
 
 /* ---- Right Column Form ---- */

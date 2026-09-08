@@ -112,7 +112,7 @@ export default function HeroBanner() {
             transition={{ type: "spring", stiffness: 400, damping: 25 }}
           >
             <Link href="/contact-us" className={styles.ctaBtn}>
-              <span>Book strategy call</span>
+              <span>Let&apos;s Connect</span>
               <span className={styles.handWave}>👋</span>
             </Link>
           </motion.div>

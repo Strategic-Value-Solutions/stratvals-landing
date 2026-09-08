@@ -68,16 +68,6 @@ export default function ContactFormSection() {
                   <a href="tel:+12157201710" style={{ color: "var(--foreground)", fontWeight: 600 }}>+1 (215) 720-1710</a>
                 </p>
               </div>
-
-              {/* Bottom Testimonials Indicator */}
-              <div className={styles.testimonialsBlock}>
-                <span className={styles.testimonialsLabel}>Our Testimonials:</span>
-                <div className={styles.clientIcons}>
-                  <div className={styles.iconCircle} title="Husqvarna">H</div>
-                  <div className={styles.iconCircle} title="Fancode">F</div>
-                  <div className={styles.iconCircle} title="Penn State">P</div>
-                </div>
-              </div>
             </div>
 
             {/* Right Side - Interactive Form */}

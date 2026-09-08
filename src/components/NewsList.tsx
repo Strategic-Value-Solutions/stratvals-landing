@@ -27,16 +27,6 @@ const newsItems = [
   },
   {
     id: "3",
-    date: "Nov 10, 2023",
-    category: "Platform Launch",
-    title: "Stratvals Completes Successful Launch of eNFT Marketplace Platform on Ethereum Mainnet",
-    excerpt:
-      "Strategic Value Solutions has successfully delivered and launched the eNFT marketplace platform on Ethereum mainnet. The platform features gasless lazy minting, email-based custodial onboarding, and a high-speed blockchain indexing backend. Over 1,000 NFTs were minted within the first 48 hours of public availability, validating the team's approach to reducing crypto onboarding friction.",
-    image: "/images/casestudy-nft.jpg",
-    link: "/news-events/stratvals-completes-successful-launch-of-enft-marketplace",
-  },
-  {
-    id: "4",
     date: "Jan 15, 2024",
     category: "Corporate Milestone",
     title: "Strategic Value Solutions Expands Executive Advisory Practice to Serve Healthcare and Supply Chain Sectors",

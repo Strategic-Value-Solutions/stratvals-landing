@@ -175,8 +175,13 @@
   transition: filter 0.25s;
 }
 
-.clientLogo:hover {
-  filter: grayscale(0%) opacity(1);
+[data-theme="dark"] .clientLogo {
+  filter: grayscale(100%) invert(0.85) opacity(0.7);
+}
+
+.clientLogo:hover,
+[data-theme="dark"] .clientLogo:hover {
+  filter: grayscale(0%) invert(0) opacity(1);
 }
 
 .clientText {

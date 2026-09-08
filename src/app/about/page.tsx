@@ -1,6 +1,5 @@
 import PageHeader from "../../components/PageHeader";
 import AboutSection from "../../components/AboutSection";
-import ClientsSection from "../../components/ClientsSection";
 import ContactFormSection from "../../components/ContactFormSection";
 
 export const metadata = {
@@ -243,7 +242,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <ClientsSection />
       <ContactFormSection />
     </>
   );
