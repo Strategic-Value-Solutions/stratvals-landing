@@ -26,7 +26,9 @@ export default function ContactFormSection() {
     phone: "",
     message: "",
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
   const toggleService = (service: string) => {
     setSelectedServices((prev) =>
@@ -36,10 +38,44 @@ export default function ContactFormSection() {
     );
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 4000);
+    setIsSubmitting(true);
+    setErrorMessage(null);
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          ...formData,
+          services: selectedServices,
+          budget: selectedBudget,
+        }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok || !data.success) {
+        throw new Error(data.error || "Failed to send message.");
+      }
+
+      setSubmitted(true);
+      setFormData({
+        name: "",
+        company: "",
+        email: "",
+        phone: "",
+        message: "",
+      });
+      setTimeout(() => setSubmitted(false), 6000);
+    } catch (err: unknown) {
+      console.error("Form submission error:", err);
+      const message = err instanceof Error ? err.message : "Failed to send your inquiry. Please email contact@stratvals.com directly.";
+      setErrorMessage(message);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -190,9 +226,27 @@ export default function ContactFormSection() {
 
                 {/* Submit Button */}
                 <div className={styles.submitRow}>
-                  <button type="submit" className={styles.submitBtn}>
-                    {submitted ? "Message Sent! ✓" : "Submit"}
+                  <button
+                    type="submit"
+                    className={styles.submitBtn}
+                    disabled={isSubmitting || submitted}
+                    style={{
+                      opacity: isSubmitting ? 0.7 : 1,
+                      cursor: isSubmitting ? "not-allowed" : "pointer",
+                    }}
+                  >
+                    {isSubmitting ? "Sending..." : submitted ? "Message Sent! ✓" : "Submit"}
                   </button>
+                  {errorMessage && (
+                    <p style={{ color: "#ef4444", fontSize: "0.85rem", marginTop: "10px", width: "100%" }}>
+                      {errorMessage}
+                    </p>
+                  )}
+                  {submitted && (
+                    <p style={{ color: "#10b981", fontSize: "0.85rem", marginTop: "10px", width: "100%" }}>
+                      Thank you! Your inquiry has been sent to contact@stratvals.com.
+                    </p>
+                  )}
                 </div>
               </form>
             </div>
