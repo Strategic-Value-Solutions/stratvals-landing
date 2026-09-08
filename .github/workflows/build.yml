@@ -9,21 +9,18 @@ on:
 
 jobs:
   build:
-    name: Build & Validate
-    runs-on: ubuntu-latest
+    name: Build & Deploy on VM
+    runs-on: self-hosted
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-
-      - name: Setup Node.js 20
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: "npm"
 
       - name: Install dependencies
         run: npm ci
 
       - name: Build Next.js application
         run: npm run build
+
+      - name: Restart systemd service
+        run: sudo systemctl restart stratvals-landing || true
