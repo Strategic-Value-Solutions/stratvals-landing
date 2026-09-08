@@ -25,12 +25,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Setup .env file
+        env:
+          ENV_FILE: ${{ secrets.ENV }}
+        run: |
+          if [ -n "$ENV_FILE" ]; then
+            echo "$ENV_FILE" > .env
+          else
+            cp .env.example .env
+          fi
+
       - name: Build Next.js application
         run: npm run build
-        env:
-          SMTP_HOST: ${{ secrets.SMTP_HOST || 'smtppro.zoho.com' }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT || '587' }}
-          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME || 'suresh.a@stratvals.com' }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD || 'test-build-password' }}
-          EMAIL_FROM: ${{ secrets.EMAIL_FROM || 'suresh.a@stratvals.com' }}
-          CONTACT_EMAIL_TO: ${{ secrets.CONTACT_EMAIL_TO || 'contact@stratvals.com' }}

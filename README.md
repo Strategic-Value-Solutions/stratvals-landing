@@ -57,9 +57,9 @@ The official web platform and landing page for **Strategic Value Solutions (SVS)
 3. Configure environment variables:
    Copy the example environment file:
    ```bash
-   cp .env.example .env.local
+   cp .env.example .env
    ```
-   Open `.env.local` and add your Zoho SMTP credentials:
+   Open `.env` and add your Zoho SMTP credentials:
    ```env
    SMTP_HOST=smtppro.zoho.com
    SMTP_PORT=587
@@ -129,7 +129,7 @@ Because the project includes an active Node.js API route (`/api/contact`), it ca
 
 4. **Create the environment file**:
    ```bash
-   nano .env.local
+   nano .env
    ```
    Paste your production SMTP credentials, save, and exit (`CTRL + O`, `ENTER`, `CTRL + X`).
 
