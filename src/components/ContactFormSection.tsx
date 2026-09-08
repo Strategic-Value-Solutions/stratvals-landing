@@ -224,6 +224,39 @@ export default function ContactFormSection() {
                   />
                 </div>
 
+                {/* Status Feedback Above Submit */}
+                {errorMessage && (
+                  <div
+                    style={{
+                      color: "#ef4444",
+                      fontSize: "0.875rem",
+                      padding: "10px 14px",
+                      borderRadius: "8px",
+                      backgroundColor: "rgba(239, 68, 68, 0.1)",
+                      border: "1px solid rgba(239, 68, 68, 0.2)",
+                      marginBottom: "12px",
+                    }}
+                  >
+                    {errorMessage}
+                  </div>
+                )}
+                {submitted && (
+                  <div
+                    style={{
+                      color: "#10b981",
+                      fontSize: "0.875rem",
+                      fontWeight: 500,
+                      padding: "10px 14px",
+                      borderRadius: "8px",
+                      backgroundColor: "rgba(16, 185, 129, 0.1)",
+                      border: "1px solid rgba(16, 185, 129, 0.2)",
+                      marginBottom: "12px",
+                    }}
+                  >
+                    Thank you! Your inquiry has been sent to contact@stratvals.com.
+                  </div>
+                )}
+
                 {/* Submit Button */}
                 <div className={styles.submitRow}>
                   <button
@@ -237,16 +270,6 @@ export default function ContactFormSection() {
                   >
                     {isSubmitting ? "Sending..." : submitted ? "Message Sent! ✓" : "Submit"}
                   </button>
-                  {errorMessage && (
-                    <p style={{ color: "#ef4444", fontSize: "0.85rem", marginTop: "10px", width: "100%" }}>
-                      {errorMessage}
-                    </p>
-                  )}
-                  {submitted && (
-                    <p style={{ color: "#10b981", fontSize: "0.85rem", marginTop: "10px", width: "100%" }}>
-                      Thank you! Your inquiry has been sent to contact@stratvals.com.
-                    </p>
-                  )}
                 </div>
               </form>
             </div>
