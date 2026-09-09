@@ -75,7 +75,7 @@
 
 .eyebrow {
   font-family: var(--font-body);
-  font-size: 0.75rem;
+  font-size: var(--font-caption);
   font-weight: 700;
   letter-spacing: 0.22em;
   text-transform: uppercase;
@@ -83,7 +83,7 @@
 }
 
 .card.compact .eyebrow {
-  font-size: 0.68rem;
+  font-size: var(--font-caption);
   letter-spacing: 0.18em;
 }
 
@@ -124,7 +124,7 @@
 
 .subtitle {
   font-family: var(--font-body);
-  font-size: 0.82rem;
+  font-size: var(--font-body-sm);
   font-weight: 600;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -132,7 +132,7 @@
 }
 
 .card.compact .subtitle {
-  font-size: 0.72rem;
+  font-size: var(--font-caption);
   letter-spacing: 0.1em;
 }
 
@@ -147,7 +147,7 @@
   background: rgba(255, 255, 255, 0.03);
   backdrop-filter: blur(4px);
   font-family: var(--font-body);
-  font-size: 0.75rem;
+  font-size: var(--font-caption);
   font-weight: 600;
   letter-spacing: 0.12em;
   color: #c4b5fd;
@@ -157,7 +157,7 @@
 
 .card.compact .bottomChip {
   padding: 6px 12px;
-  font-size: 0.68rem;
+  font-size: var(--font-caption);
 }
 
 /* Right Diagram Area */

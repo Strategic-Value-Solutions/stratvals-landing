@@ -17,12 +17,13 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: 0.83rem;
+  font-size: var(--font-caption);
   font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-caps);
   color: var(--foreground-muted);
   margin-bottom: 32px;
   font-family: var(--font-body);
-  letter-spacing: 0.02em;
 }
 
 .dot {
@@ -104,10 +105,10 @@
 
 .heading {
   font-family: var(--font-heading);
-  font-size: clamp(1.6rem, 2.8vw, 2.2rem);
+  font-size: var(--font-display-section);
   font-weight: 600;
-  line-height: 1.18;
-  letter-spacing: -0.035em;
+  line-height: var(--lh-snug);
+  letter-spacing: var(--tracking-tight);
   color: var(--foreground);
   margin-bottom: 20px;
 }
@@ -119,8 +120,8 @@
 
 .body {
   font-family: var(--font-body);
-  font-size: 0.92rem;
-  line-height: 1.75;
+  font-size: var(--font-body);
+  line-height: var(--lh-loose);
   color: var(--foreground-muted);
   margin-bottom: 16px;
 }
@@ -144,7 +145,7 @@
 
 .pillarTitle {
   font-family: var(--font-heading);
-  font-size: 0.95rem;
+  font-size: var(--font-heading-md);
   font-weight: 600;
   color: var(--foreground);
   margin-bottom: 6px;
@@ -152,8 +153,8 @@
 
 .pillarDesc {
   font-family: var(--font-body);
-  font-size: 0.81rem;
-  line-height: 1.55;
+  font-size: var(--font-body-sm);
+  line-height: var(--lh-normal);
   color: var(--foreground-muted);
 }
 
@@ -161,16 +162,16 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 12px 26px;
+  padding: 14px 30px;
   background: var(--foreground);
   color: var(--card-bg);
   border-radius: var(--radius-pill);
-  font-size: 0.875rem;
+  font-size: var(--font-body-sm);
   font-weight: 600;
   font-family: var(--font-body);
   transition: all 0.25s ease;
   width: fit-content;
-  letter-spacing: -0.01em;
+  letter-spacing: var(--tracking-normal);
   text-decoration: none;
 }
 

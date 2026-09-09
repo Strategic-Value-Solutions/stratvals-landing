@@ -25,8 +25,10 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: 0.83rem;
+  font-size: var(--font-caption);
   font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-caps);
   color: var(--foreground-muted);
   font-family: var(--font-body);
   padding-top: 6px;
@@ -42,10 +44,10 @@
 
 .statement {
   font-family: var(--font-heading);
-  font-size: clamp(1.5rem, 2.6vw, 2.2rem);
+  font-size: var(--font-display-section);
   font-weight: 600;
-  line-height: 1.18;
-  letter-spacing: -0.038em;
+  line-height: var(--lh-snug);
+  letter-spacing: var(--tracking-tight);
   color: var(--foreground);
 }
 
@@ -74,27 +76,27 @@
 
 .itemNumber {
   font-family: var(--font-heading);
-  font-size: 0.85rem;
+  font-size: var(--font-caption);
   font-weight: 600;
   color: var(--foreground-subtle);
-  letter-spacing: 0.04em;
+  letter-spacing: var(--tracking-caps);
   margin-bottom: 16px;
 }
 
 .serviceTitle {
   font-family: var(--font-heading);
-  font-size: 1.25rem;
+  font-size: var(--font-heading-lg);
   font-weight: 600;
-  letter-spacing: -0.03em;
-  line-height: 1.25;
+  letter-spacing: var(--tracking-tight);
+  line-height: var(--lh-snug);
   color: var(--foreground);
   margin-bottom: 14px;
 }
 
 .serviceDesc {
   font-family: var(--font-body);
-  font-size: 0.86rem;
-  line-height: 1.68;
+  font-size: var(--font-body-sm);
+  line-height: var(--lh-relaxed);
   color: var(--foreground-muted);
   margin-bottom: 24px;
 }
@@ -114,7 +116,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 0.81rem;
+  font-size: var(--font-body-sm);
   font-weight: 500;
   color: var(--foreground-muted);
   font-family: var(--font-body);
@@ -133,7 +135,7 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: 0.85rem;
+  font-size: var(--font-body-sm);
   font-weight: 600;
   color: var(--foreground);
   font-family: var(--font-body);

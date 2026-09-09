@@ -81,13 +81,13 @@
 /* Eyebrow Subtitle */
 .eyebrow {
   font-family: var(--font-body);
-  font-size: clamp(0.9rem, 1.3vw, 1.05rem);
-  font-weight: 600;
+  font-size: var(--font-body-lead);
+  font-weight: 500;
   color: var(--foreground);
-  line-height: 1.5;
+  line-height: var(--lh-normal);
   margin-bottom: 20px;
-  max-width: 640px;
-  letter-spacing: -0.01em;
+  max-width: 720px;
+  letter-spacing: var(--tracking-normal);
   text-shadow: 0 1px 12px rgba(255, 255, 255, 0.9), 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
@@ -99,13 +99,13 @@
 /* Main Heading */
 .heading {
   font-family: var(--font-heading);
-  font-size: clamp(2rem, 4.1vw, 3.4rem);
+  font-size: var(--font-display-hero);
   font-weight: 700;
-  line-height: 1.14;
-  letter-spacing: -0.032em;
+  line-height: var(--lh-tight);
+  letter-spacing: var(--tracking-tighter);
   color: var(--foreground);
   margin-bottom: 28px;
-  max-width: 880px;
+  max-width: 960px;
   text-shadow: 0 1px 20px rgba(255, 255, 255, 0.95), 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
@@ -131,14 +131,14 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 15px 32px;
+  padding: 16px 36px;
   border-radius: var(--radius-pill);
   background: var(--foreground);
   color: var(--card-bg);
   font-family: var(--font-heading);
-  font-size: 0.95rem;
+  font-size: var(--font-body);
   font-weight: 600;
-  letter-spacing: -0.01em;
+  letter-spacing: var(--tracking-normal);
   transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
   box-shadow: var(--shadow-sm);
   text-decoration: none;
@@ -203,7 +203,7 @@
   display: inline-flex;
   align-items: center;
   font-family: var(--font-heading);
-  font-size: 0.84rem;
+  font-size: var(--font-body-sm);
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;

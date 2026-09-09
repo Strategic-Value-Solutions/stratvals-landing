@@ -20,7 +20,7 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: 0.83rem;
+  font-size: var(--font-body-sm);
   font-weight: 600;
   color: var(--foreground-muted);
   margin-bottom: 16px;
@@ -36,18 +36,18 @@
 
 .heading {
   font-family: var(--font-heading);
-  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-size: var(--font-display-section);
   font-weight: 600;
-  line-height: 1.16;
-  letter-spacing: -0.035em;
+  line-height: var(--lh-tight);
+  letter-spacing: var(--tracking-tight);
   color: var(--foreground);
   margin-bottom: 14px;
 }
 
 .subheading {
   font-family: var(--font-body);
-  font-size: 0.95rem;
-  line-height: 1.65;
+  font-size: var(--font-body-lead);
+  line-height: var(--lh-relaxed);
   color: var(--foreground-muted);
 }
 
@@ -85,7 +85,7 @@
 
 .metricBadge {
   font-family: var(--font-heading);
-  font-size: 0.76rem;
+  font-size: var(--font-caption);
   font-weight: 600;
   color: #0284c7;
   background: #e0f2fe;
@@ -101,7 +101,7 @@
 
 .cardTitle {
   font-family: var(--font-heading);
-  font-size: 1.15rem;
+  font-size: var(--font-heading-md);
   font-weight: 600;
   color: var(--foreground);
   margin-bottom: 6px;
@@ -110,7 +110,7 @@
 
 .tagline {
   font-family: var(--font-body);
-  font-size: 0.83rem;
+  font-size: var(--font-body-sm);
   font-weight: 600;
   color: var(--foreground-subtle);
   margin-bottom: 14px;
@@ -118,8 +118,8 @@
 
 .description {
   font-family: var(--font-body);
-  font-size: 0.88rem;
-  line-height: 1.65;
+  font-size: var(--font-body);
+  line-height: var(--lh-relaxed);
   color: var(--foreground-muted);
 }
 

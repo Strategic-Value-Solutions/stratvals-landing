@@ -23,7 +23,7 @@
   align-items: center;
   gap: 8px;
   font-family: var(--font-body);
-  font-size: 0.83rem;
+  font-size: var(--font-body-sm);
   font-weight: 600;
   color: var(--foreground-muted);
   margin-bottom: 16px;
@@ -39,18 +39,18 @@
 
 .title {
   font-family: var(--font-heading);
-  font-size: clamp(2.2rem, 4.5vw, 3.6rem);
+  font-size: var(--font-display-hero);
   font-weight: 600;
-  line-height: 1.12;
-  letter-spacing: -0.038em;
+  line-height: var(--lh-tight);
+  letter-spacing: var(--tracking-tighter);
   color: var(--foreground);
   margin-bottom: 16px;
 }
 
 .subtitle {
   font-family: var(--font-body);
-  font-size: 1rem;
-  line-height: 1.65;
+  font-size: var(--font-body-lead);
+  line-height: var(--lh-relaxed);
   color: var(--foreground-muted);
   max-width: 640px;
 }
@@ -59,7 +59,7 @@
   display: inline-block;
   margin-top: 16px;
   font-family: var(--font-heading);
-  font-size: 1.1rem;
+  font-size: var(--font-body-lead);
   font-weight: 600;
   color: #2563eb;
   text-decoration: underline;

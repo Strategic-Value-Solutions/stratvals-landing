@@ -44,10 +44,10 @@
 
 .logoText {
   font-family: var(--font-heading);
-  font-size: 0.95rem;
+  font-size: var(--font-body);
   font-weight: 600;
   color: var(--foreground);
-  letter-spacing: -0.02em;
+  letter-spacing: var(--tracking-tight);
   white-space: nowrap;
 }
 
@@ -74,11 +74,11 @@
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  font-size: 0.88rem;
+  font-size: var(--font-body-sm);
   font-weight: 500;
   color: var(--foreground);
   font-family: var(--font-body);
-  letter-spacing: -0.01em;
+  letter-spacing: var(--tracking-normal);
   transition: opacity 0.2s ease;
   padding: 4px 0;
   cursor: pointer;
@@ -90,7 +90,7 @@
 }
 
 .arrow {
-  font-size: 0.74rem;
+  font-size: 0.8rem;
   color: var(--foreground-muted);
   line-height: 1;
   transform: translateY(1px);
@@ -167,12 +167,12 @@
   background: transparent;
   border: 1px solid var(--border);
   border-radius: var(--radius-pill);
-  font-size: 0.88rem;
+  font-size: var(--font-body-sm);
   font-weight: 600;
   color: var(--foreground);
   font-family: var(--font-body);
   transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-  letter-spacing: -0.01em;
+  letter-spacing: var(--tracking-normal);
   text-decoration: none;
   cursor: pointer;
 }
@@ -188,7 +188,7 @@
   }
 }
 
-/* "Let's Connect 👋" Pill Button */
+/* "Let's Connect" Pill Button */
 .ctaBtn {
   display: inline-flex;
   align-items: center;
@@ -197,12 +197,12 @@
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-pill);
-  font-size: 0.88rem;
+  font-size: var(--font-body-sm);
   font-weight: 600;
   color: var(--foreground);
   font-family: var(--font-body);
   transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-  letter-spacing: -0.01em;
+  letter-spacing: var(--tracking-normal);
 }
 
 .ctaBtn:hover {
@@ -262,7 +262,7 @@
   justify-content: space-between;
   padding: 10px 14px;
   border-radius: 10px;
-  font-size: 0.82rem;
+  font-size: var(--font-body-sm);
   font-weight: 600;
   font-family: var(--font-heading);
   letter-spacing: -0.01em;
@@ -315,7 +315,7 @@
 
 .itemTitle {
   font-family: var(--font-heading);
-  fontSize: 0.84rem;
+  font-size: var(--font-body);
   font-weight: 600;
   color: var(--foreground);
   margin-bottom: 1px;
@@ -324,7 +324,7 @@
 
 .itemDesc {
   font-family: var(--font-body);
-  font-size: 0.72rem;
+  font-size: var(--font-caption);
   color: var(--foreground-muted);
   line-height: 1.25;
 }
@@ -371,7 +371,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 9px 12px;
-  font-size: 0.9rem;
+  font-size: var(--font-body);
   font-weight: 500;
   color: var(--foreground);
   border-radius: 10px;
@@ -386,7 +386,7 @@
 }
 
 .mobileMenuArrow {
-  font-size: 0.78rem;
+  font-size: var(--font-caption);
   color: var(--foreground-muted);
   transition: transform 0.2s ease;
 }
@@ -410,7 +410,7 @@
   padding: 10px 14px;
   background: var(--foreground);
   color: var(--page-bg) !important;
-  font-size: 0.88rem;
+  font-size: var(--font-body);
   font-weight: 600;
   border-radius: var(--radius-pill);
   text-decoration: none;
@@ -431,7 +431,7 @@
   padding: 9px 12px;
   background: transparent;
   border: none;
-  font-size: 0.9rem;
+  font-size: var(--font-body);
   font-weight: 500;
   color: var(--foreground);
   border-radius: 10px;
@@ -445,7 +445,7 @@
 }
 
 .mobileThemeBadge {
-  font-size: 0.78rem;
+  font-size: var(--font-caption);
   font-weight: 600;
   padding: 4px 10px;
   border-radius: var(--radius-pill);
