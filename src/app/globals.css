@@ -28,25 +28,25 @@
   --font-heading: var(--font-jakarta), system-ui, sans-serif;
   --font-body: var(--font-inter), system-ui, sans-serif;
 
-  /* Universal Semantic Typography Tokens (Fluid CSS Locks) */
-  --font-display-hero: clamp(2.4rem, 1.8rem + 2.8vw, 4.2rem);
-  --font-display-section: clamp(1.75rem, 1.45rem + 1.25vw, 2.5rem);
-  --font-heading-lg: clamp(1.35rem, 1.2rem + 0.6vw, 1.75rem);
-  --font-heading-md: clamp(1.125rem, 1.05rem + 0.35vw, 1.35rem);
-  --font-body-lead: clamp(1.05rem, 0.98rem + 0.3vw, 1.22rem);
-  --font-body: clamp(1rem, 0.96rem + 0.2vw, 1.08rem);
-  --font-body-sm: clamp(0.92rem, 0.88rem + 0.18vw, 1rem);
-  --font-caption: clamp(0.82rem, 0.79rem + 0.12vw, 0.88rem);
+  /* Universal Semantic Typography Tokens (Calibrated to Sleek Original Proportions) */
+  --font-display-hero: clamp(2rem, 3.8vw, 3.2rem);
+  --font-display-section: clamp(1.4rem, 2.2vw, 1.95rem);
+  --font-heading-lg: clamp(1.25rem, 1.6vw, 1.55rem);
+  --font-heading-md: clamp(1.05rem, 1.2vw, 1.18rem);
+  --font-body-lead: clamp(0.98rem, 1.1vw, 1.05rem);
+  --font-body: 0.94rem;
+  --font-body-sm: 0.88rem;
+  --font-caption: 0.75rem;
 
   /* Optical Rhythm Tokens */
-  --lh-tight: 1.14;
-  --lh-snug: 1.28;
+  --lh-tight: 1.15;
+  --lh-snug: 1.25;
   --lh-normal: 1.5;
-  --lh-relaxed: 1.68;
-  --lh-loose: 1.78;
+  --lh-relaxed: 1.65;
+  --lh-loose: 1.75;
 
-  --tracking-tighter: -0.04em;
-  --tracking-tight: -0.025em;
+  --tracking-tighter: -0.035em;
+  --tracking-tight: -0.02em;
   --tracking-normal: -0.01em;
   --tracking-caps: 0.04em;
 }
@@ -94,18 +94,6 @@ img {
 html {
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
-}
-
-@media (min-width: 1440px) {
-  html {
-    font-size: 17px;
-  }
-}
-
-@media (min-width: 1920px) {
-  html {
-    font-size: 18px;
-  }
 }
 
 body {

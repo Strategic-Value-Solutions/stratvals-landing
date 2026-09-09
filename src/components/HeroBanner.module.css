@@ -81,13 +81,13 @@
 /* Eyebrow Subtitle */
 .eyebrow {
   font-family: var(--font-body);
-  font-size: var(--font-body-lead);
+  font-size: clamp(0.9rem, 1.25vw, 1.05rem);
   font-weight: 500;
   color: var(--foreground);
-  line-height: var(--lh-normal);
+  line-height: 1.5;
   margin-bottom: 20px;
-  max-width: 720px;
-  letter-spacing: var(--tracking-normal);
+  max-width: 680px;
+  letter-spacing: -0.01em;
   text-shadow: 0 1px 12px rgba(255, 255, 255, 0.9), 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
@@ -131,14 +131,14 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 16px 36px;
+  padding: 14px 32px;
   border-radius: var(--radius-pill);
   background: var(--foreground);
   color: var(--card-bg);
   font-family: var(--font-heading);
-  font-size: var(--font-body);
+  font-size: 0.95rem;
   font-weight: 600;
-  letter-spacing: var(--tracking-normal);
+  letter-spacing: -0.01em;
   transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
   box-shadow: var(--shadow-sm);
   text-decoration: none;

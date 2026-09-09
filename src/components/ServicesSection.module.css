@@ -85,7 +85,7 @@
 
 .serviceTitle {
   font-family: var(--font-heading);
-  font-size: var(--font-heading-lg);
+  font-size: var(--font-heading-md);
   font-weight: 600;
   letter-spacing: var(--tracking-tight);
   line-height: var(--lh-snug);
