@@ -21,10 +21,8 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: var(--font-caption);
+  font-size: 0.83rem;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: var(--tracking-caps);
   color: var(--foreground-muted);
   font-family: var(--font-body);
   padding-top: 6px;
@@ -40,10 +38,10 @@
 
 .sectionHeading {
   font-family: var(--font-heading);
-  font-size: var(--font-display-section);
+  font-size: clamp(1.6rem, 2.8vw, 2.4rem);
   font-weight: 600;
-  line-height: var(--lh-snug);
-  letter-spacing: var(--tracking-tight);
+  line-height: 1.15;
+  letter-spacing: -0.038em;
   color: var(--foreground);
 }
 
@@ -56,12 +54,11 @@
 }
 
 .tabBtn {
-  padding: 10px 20px;
+  padding: 8px 18px;
   border-radius: var(--radius-pill);
-  font-size: var(--font-caption);
-  font-weight: 600;
+  font-size: 0.83rem;
+  font-weight: 500;
   font-family: var(--font-body);
-  letter-spacing: var(--tracking-normal);
   background: var(--surface);
   color: var(--foreground-muted);
   border: 1px solid var(--border);
@@ -141,11 +138,11 @@
 }
 
 .badge {
-  font-size: var(--font-caption);
+  font-size: 0.72rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: var(--tracking-caps);
-  padding: 4px 12px;
+  letter-spacing: 0.06em;
+  padding: 4px 10px;
   border-radius: var(--radius-pill);
   background: var(--surface);
   color: var(--foreground-muted);
@@ -154,18 +151,18 @@
 
 .cardTitle {
   font-family: var(--font-heading);
-  font-size: var(--font-heading-lg);
+  font-size: clamp(1.5rem, 2.5vw, 2.2rem);
   font-weight: 600;
-  letter-spacing: var(--tracking-tight);
-  line-height: var(--lh-snug);
+  letter-spacing: -0.038em;
+  line-height: 1.12;
   color: var(--foreground);
   margin-bottom: 14px;
 }
 
 .cardDesc {
   font-family: var(--font-body);
-  font-size: var(--font-body-sm);
-  line-height: var(--lh-relaxed);
+  font-size: 0.88rem;
+  line-height: 1.7;
   color: var(--foreground-muted);
   margin-bottom: 24px;
 }
@@ -196,9 +193,9 @@
 
 .metricLabel {
   font-family: var(--font-body);
-  font-size: var(--font-caption);
+  font-size: 0.67rem;
   font-weight: 600;
-  letter-spacing: var(--tracking-caps);
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--foreground-subtle);
 }
@@ -208,7 +205,7 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: var(--font-body-sm);
+  font-size: 0.875rem;
   font-weight: 600;
   color: var(--foreground);
   font-family: var(--font-body);

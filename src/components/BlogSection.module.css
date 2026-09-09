@@ -25,7 +25,7 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: var(--font-body-sm);
+  font-size: 0.83rem;
   font-weight: 600;
   color: var(--foreground-muted);
   font-family: var(--font-body);
@@ -42,10 +42,10 @@
 
 .statement {
   font-family: var(--font-heading);
-  font-size: var(--font-heading-lg);
+  font-size: clamp(1.4rem, 2.5vw, 2.05rem);
   font-weight: 600;
-  line-height: var(--lh-tight);
-  letter-spacing: var(--tracking-tight);
+  line-height: 1.22;
+  letter-spacing: -0.038em;
   color: var(--foreground);
 }
 
@@ -96,7 +96,7 @@
   position: absolute;
   top: 12px;
   left: 12px;
-  font-size: var(--font-caption);
+  font-size: 0.7rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -115,7 +115,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: var(--font-caption);
+  font-size: 0.8rem;
   color: var(--foreground-subtle);
   margin-bottom: 12px;
 }
@@ -126,10 +126,10 @@
 
 .title {
   font-family: var(--font-heading);
-  font-size: var(--font-heading-md);
+  font-size: clamp(1.3rem, 2vw, 1.7rem);
   font-weight: 600;
-  letter-spacing: var(--tracking-tight);
-  line-height: var(--lh-snug);
+  letter-spacing: -0.03em;
+  line-height: 1.25;
   color: var(--foreground);
   margin-bottom: 12px;
   transition: color 0.2s;
@@ -141,8 +141,8 @@
 
 .excerpt {
   font-family: var(--font-body);
-  font-size: var(--font-body);
-  line-height: var(--lh-relaxed);
+  font-size: 0.88rem;
+  line-height: 1.68;
   color: var(--foreground-muted);
   margin-bottom: 20px;
 }
@@ -151,7 +151,7 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: var(--font-body-sm);
+  font-size: 0.85rem;
   font-weight: 600;
   color: var(--foreground);
   transition: gap 0.2s ease;

@@ -27,7 +27,7 @@
 }
 
 .factLabel {
-  font-size: var(--font-caption);
+  font-size: 0.7rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -35,7 +35,7 @@
 }
 
 .factValue {
-  font-size: var(--font-body);
+  font-size: 0.95rem;
   font-weight: 600;
   color: var(--foreground);
 }
@@ -77,8 +77,8 @@
 }
 
 .challengeIntro {
-  font-size: var(--font-body);
-  line-height: var(--lh-relaxed);
+  font-size: 0.97rem;
+  line-height: 1.8;
   color: var(--foreground-muted);
   margin: 0;
 }
@@ -141,16 +141,16 @@
 
 .pillarHeading {
   font-family: var(--font-heading);
-  font-size: var(--font-heading-md);
+  font-size: 1.2rem;
   font-weight: 600;
-  letter-spacing: var(--tracking-tight);
+  letter-spacing: -0.01em;
   margin: 10px 0 10px;
   color: var(--foreground);
 }
 
 .pillarBody {
-  font-size: var(--font-body);
-  line-height: var(--lh-relaxed);
+  font-size: 0.9rem;
+  line-height: 1.7;
   color: var(--foreground-muted);
   margin: 0;
 }
@@ -217,8 +217,8 @@
 }
 
 .layerDesc {
-  font-size: var(--font-body);
-  line-height: var(--lh-relaxed);
+  font-size: 0.9rem;
+  line-height: 1.55;
   color: var(--foreground-muted);
 }
 
@@ -244,7 +244,7 @@
 
 .outcomeBefore {
   font-family: var(--font-body);
-  font-size: var(--font-caption);
+  font-size: 0.76rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   color: var(--foreground-subtle);
@@ -255,10 +255,10 @@
 
 .outcomeAfter {
   font-family: var(--font-heading);
-  font-size: var(--font-heading-lg);
+  font-size: clamp(1.25rem, 1.55vw, 1.75rem);
   font-weight: 700;
-  line-height: var(--lh-tight);
-  letter-spacing: var(--tracking-tight);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -270,7 +270,7 @@
 }
 
 .outcomeLabel {
-  font-size: var(--font-caption);
+  font-size: 0.7rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.07em;
@@ -303,7 +303,7 @@
 
 .timelineTitle {
   font-family: var(--font-heading);
-  font-size: var(--font-body);
+  font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -312,8 +312,8 @@
 }
 
 .timelineDesc {
-  font-size: var(--font-body);
-  line-height: var(--lh-relaxed);
+  font-size: 0.88rem;
+  line-height: 1.65;
   color: var(--foreground-muted);
   margin: 0;
 }
@@ -326,10 +326,10 @@
 
 .quoteText {
   font-family: var(--font-heading);
-  font-size: var(--font-heading-md);
-  line-height: var(--lh-snug);
+  font-size: 1.35rem;
+  line-height: 1.5;
   font-weight: 500;
-  letter-spacing: var(--tracking-tight);
+  letter-spacing: -0.01em;
   color: var(--foreground);
   margin: 0;
 }
@@ -337,7 +337,7 @@
 .quoteCite {
   margin-top: 16px;
   font-family: var(--font-body);
-  font-size: var(--font-caption);
+  font-size: 12px;
   color: var(--foreground-muted);
 }
 
@@ -366,7 +366,7 @@
 }
 
 .navMeta {
-  font-size: var(--font-caption);
+  font-size: 0.72rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -376,7 +376,7 @@
 .navTitle {
   font-weight: 600;
   color: var(--foreground);
-  font-size: var(--font-body);
+  font-size: 0.97rem;
 }
 
 /* ============================================

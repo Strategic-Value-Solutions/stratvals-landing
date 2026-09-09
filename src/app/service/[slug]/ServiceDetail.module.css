@@ -16,7 +16,7 @@
   align-items: center;
   gap: 8px;
   font-family: var(--font-body);
-  font-size: var(--font-caption);
+  font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -41,8 +41,8 @@
 }
 
 .introText {
-  font-size: var(--font-body-lead);
-  line-height: var(--lh-relaxed);
+  font-size: 1.05rem;
+  line-height: 1.8;
   color: var(--foreground);
   font-weight: 500;
   margin: 0;
@@ -67,7 +67,7 @@
 }
 
 .statLabel {
-  font-size: var(--font-caption);
+  font-size: 0.72rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -76,7 +76,7 @@
 
 .statValue {
   font-family: var(--font-heading);
-  font-size: var(--font-heading-md);
+  font-size: 1.15rem;
   font-weight: 600;
   color: var(--foreground);
 }
@@ -88,11 +88,11 @@
 
 .sectionTitle {
   font-family: var(--font-heading);
-  font-size: var(--font-heading-lg);
+  font-size: 1.6rem;
   font-weight: 600;
   color: var(--foreground);
   margin-bottom: 28px;
-  letter-spacing: var(--tracking-tight);
+  letter-spacing: -0.02em;
 }
 
 .capabilitiesGrid {
@@ -112,7 +112,7 @@
 
 .capNum {
   font-family: var(--font-body);
-  font-size: var(--font-caption);
+  font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   color: #3b82f6;
@@ -121,15 +121,15 @@
 
 .capTitle {
   font-family: var(--font-heading);
-  font-size: var(--font-heading-md);
+  font-size: 1.12rem;
   font-weight: 600;
   color: var(--foreground);
   margin: 0 0 10px;
 }
 
 .capDesc {
-  font-size: var(--font-body);
-  line-height: var(--lh-relaxed);
+  font-size: 0.88rem;
+  line-height: 1.65;
   color: var(--foreground-muted);
   margin: 0;
 }
@@ -159,15 +159,15 @@
 
 .stepTitle {
   font-family: var(--font-heading);
-  font-size: var(--font-body-lead);
+  font-size: 1.05rem;
   font-weight: 600;
   color: var(--foreground);
   margin-bottom: 8px;
 }
 
 .stepDesc {
-  font-size: var(--font-body-sm);
-  line-height: var(--lh-relaxed);
+  font-size: 0.85rem;
+  line-height: 1.6;
   color: var(--foreground-muted);
   margin: 0;
 }
@@ -188,15 +188,15 @@
 
 .indTitle {
   font-weight: 600;
-  font-size: var(--font-body-lead);
+  font-size: 0.95rem;
   color: var(--foreground);
   margin-bottom: 6px;
 }
 
 .indDesc {
-  font-size: var(--font-body-sm);
+  font-size: 0.82rem;
   color: var(--foreground-muted);
-  line-height: var(--lh-relaxed);
+  line-height: 1.5;
   margin: 0;
 }
 
@@ -222,7 +222,7 @@
 }
 
 .highlightLabel {
-  font-size: var(--font-caption);
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -231,7 +231,7 @@
 
 .highlightTitle {
   font-family: var(--font-heading);
-  font-size: var(--font-heading-md);
+  font-size: 1.15rem;
   font-weight: 600;
   color: var(--foreground);
 }
@@ -246,7 +246,7 @@
   color: var(--card-bg);
   text-decoration: none;
   font-weight: 600;
-  font-size: var(--font-body-sm);
+  font-size: 0.85rem;
   transition: transform 0.2s ease;
 }
 

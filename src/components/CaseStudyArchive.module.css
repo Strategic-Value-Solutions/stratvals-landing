@@ -29,7 +29,7 @@
   border: 1px solid var(--border);
   background: var(--surface);
   font-family: var(--font-body);
-  font-size: var(--font-body-sm);
+  font-size: 0.85rem;
   font-weight: 500;
   color: var(--foreground);
   cursor: pointer;
@@ -94,7 +94,7 @@
   position: absolute;
   top: 12px;
   left: 12px;
-  font-size: var(--font-caption);
+  font-size: 0.72rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -111,7 +111,7 @@
   top: 12px;
   right: 12px;
   font-family: var(--font-body);
-  font-size: var(--font-caption);
+  font-size: 0.66rem;
   font-weight: 600;
   letter-spacing: 0.08em;
   padding: 4px 10px;
@@ -133,18 +133,18 @@
 
 .title {
   font-family: var(--font-heading);
-  font-size: var(--font-heading-md);
+  font-size: 1.15rem;
   font-weight: 600;
-  line-height: var(--lh-snug);
+  line-height: 1.25;
   color: var(--foreground);
   margin-bottom: 8px;
-  letter-spacing: var(--tracking-tight);
+  letter-spacing: -0.02em;
 }
 
 .desc {
   font-family: var(--font-body);
-  font-size: var(--font-body);
-  line-height: var(--lh-relaxed);
+  font-size: 0.85rem;
+  line-height: 1.6;
   color: var(--foreground-muted);
   margin-bottom: 20px;
 }
@@ -153,7 +153,7 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: var(--font-body-sm);
+  font-size: 0.85rem;
   font-weight: 600;
   color: var(--foreground);
   transition: color 0.2s;
