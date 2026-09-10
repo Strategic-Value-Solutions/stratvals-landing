@@ -1,5 +1,4 @@
 import PageHeader from "../../components/PageHeader";
-import ClientsSection from "../../components/ClientsSection";
 import ContactFormSection from "../../components/ContactFormSection";
 
 export const metadata = {
@@ -199,7 +198,6 @@ export default function PartnersPage() {
         </div>
       </section>
 
-      <ClientsSection />
       <ContactFormSection />
     </>
   );

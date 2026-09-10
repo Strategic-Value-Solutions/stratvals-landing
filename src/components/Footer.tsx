@@ -9,7 +9,6 @@ const companyLinks = [
   { label: "About Us", href: "/about" },
   { label: "Services", href: "/services" },
   { label: "Case Studies", href: "/case-studies" },
-  { label: "Client Testimonials", href: "/client-and-testimonials" },
   { label: "Partners", href: "/our-partners" },
   { label: "Contact Us", href: "/contact-us" },
 ];
